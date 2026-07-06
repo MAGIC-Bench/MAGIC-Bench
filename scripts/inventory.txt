@@ -1,0 +1,53 @@
+=== root entry points ===
+  166 orchestrate.py
+   90 run_dataset.py
+   26 run_repo.py
+   85 run_candidate.py
+   56 chuti.py
+=== engine/ ===
+   39 engine/_smoke.py
+  187 engine/classify.py
+  147 engine/cli_gen.py
+  142 engine/cli_loop.py
+   69 engine/config.py
+   72 engine/coverage.py
+  117 engine/deps.py
+   67 engine/dockermirror.py
+   87 engine/gates.py
+  230 engine/genloop.py
+   66 engine/gocover.py
+   67 engine/grade.py
+   36 engine/harness.py
+  219 engine/pytest_emit.py
+   58 engine/record_replay.py
+  215 engine/replay.py
+  166 engine/runner.py
+=== stages/ ===
+  120 stages/stage0_ingest.py
+  143 stages/stage5_loop.py
+   83 stages/stage7_verify.py
+  111 stages/stage8_package.py
+=== agent/ ===
+  77 agent/agent_stages.py
+  61 agent/candidate.py
+  75 agent/client.py
+=== TOTAL framework .py lines ===
+3077
+=== prompts/ (markdown instructions, not code) ===
+candidate.md
+stage0_build.md
+stage1_comprehension.md
+stage2_contract.md
+stage3_modules.md
+stage4_nfr.md
+stage5_gen.md
+stage6_adversarial.md
+=== schemas/ (json) ===
+modules.schema.json
+repo-model.schema.json
+testcase.schema.json
+=== docker/ (reference Dockerfile templates) ===
+ref.Dockerfile.go-cli
+ref.Dockerfile.node-cli
+ref.Dockerfile.py-cli
+ref.Dockerfile.rust-cli

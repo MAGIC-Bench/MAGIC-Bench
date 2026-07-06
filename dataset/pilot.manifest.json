@@ -1,0 +1,264 @@
+{
+  "dataset": "codegen-bench-pilot",
+  "defaults": {
+    "quota": 20,
+    "runtime_mode": "docker"
+  },
+  "repos": [
+    {
+      "id": "achno-gowall",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Achno/gowall.git",
+        "ref": null
+      },
+      "_repo": "Achno/gowall",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地图像处理命令行输入图片出文件",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "alexhallam-tv",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexhallam/tv.git",
+        "ref": null
+      },
+      "_repo": "alexhallam/tv",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "CSV 美化打印到 stdout，退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "alexpovel-srgn",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexpovel/srgn.git",
+        "ref": null
+      },
+      "_repo": "alexpovel/srgn",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "语法感知grep/sed标准流处理",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "afnanenayet-diffsitter",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/afnanenayet/diffsitter.git",
+        "ref": null
+      },
+      "_repo": "afnanenayet/diffsitter",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "基于语法树的 diff，输出退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "benhoyt-goawk",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/benhoyt/goawk.git",
+        "ref": null
+      },
+      "_repo": "benhoyt/goawk",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "AWK 实现，stdin→stdout，退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "homeport-dyff",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/homeport/dyff.git",
+        "ref": null
+      },
+      "_repo": "homeport/dyff",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "YAML/JSON 差异比较 CLI，输出退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "graphql-hive-graphql-inspector",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/graphql-hive/graphql-inspector.git",
+        "ref": null
+      },
+      "_repo": "graphql-hive/graphql-inspector",
+      "_all_scenarios": "web_api",
+      "_type_label": "CLI",
+      "_reason": "CLI 比对 GraphQL schema 文件，退出",
+      "_gh_language": "TypeScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "afuh-rick-and-morty-api",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/afuh/rick-and-morty-api.git",
+        "ref": null
+      },
+      "_repo": "afuh/rick-and-morty-api",
+      "_all_scenarios": "web_api",
+      "_type_label": "Service",
+      "_reason": "纯REST/GraphQL后端配通用DB",
+      "_gh_language": "JavaScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "anvilco-spectaql",
+      "scenario": "web_api",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/anvilco/spectaql.git",
+        "ref": null
+      },
+      "_repo": "anvilco/spectaql",
+      "_all_scenarios": "web_api",
+      "_type_label": "Pipeline",
+      "_reason": "schema转静态HTML文档后退出",
+      "_gh_language": "JavaScript",
+      "_default_branch": "main"
+    },
+    {
+      "id": "neilotoole-sq",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/neilotoole/sq.git",
+        "ref": null
+      },
+      "_repo": "neilotoole/sq",
+      "_all_scenarios": "database_storage、serialization_format",
+      "_type_label": "CLI",
+      "_reason": "jq 式数据查询 CLI，调用即退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "eralchemy-eralchemy",
+      "scenario": "database_storage",
+      "scenario_type": "pipeline",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eralchemy/eralchemy.git",
+        "ref": null
+      },
+      "_repo": "eralchemy/eralchemy",
+      "_all_scenarios": "database_storage",
+      "_type_label": "Pipeline",
+      "_reason": "由DB/标记生成ER图文件即退出",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "supabase-postgres-meta",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/supabase/postgres-meta.git",
+        "ref": null
+      },
+      "_repo": "supabase/postgres-meta",
+      "_all_scenarios": "database_storage",
+      "_type_label": "Service",
+      "_reason": "管理Postgres的REST API",
+      "_gh_language": "TypeScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "activecm-rita-legacy",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/activecm/rita-legacy.git",
+        "ref": null
+      },
+      "_repo": "activecm/rita-legacy",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "批量日志分析命令行出报告",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "bee-san-name-that-hash",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bee-san/Name-That-Hash.git",
+        "ref": null
+      },
+      "_repo": "bee-san/Name-That-Hash",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "识别哈希类型，输入输出退出",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "betterleaks-betterleaks",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/betterleaks/betterleaks.git",
+        "ref": null
+      },
+      "_repo": "betterleaks/betterleaks",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "扫描目录stdin输出后退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    }
+  ]
+}

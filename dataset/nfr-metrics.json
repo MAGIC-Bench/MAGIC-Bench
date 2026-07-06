@@ -1,0 +1,47 @@
+{
+  "_doc": "Machine-readable NFR metrics (canonical, from docs/nfr-metrics-table.md). Every metric scores 0/1.",
+  "_scoring": {
+    "binary": "0 or 1 directly (the metric's own 0-condition).",
+    "ratio100": "ratio of correctly-handled cases / total; 1 ONLY if 100%, else 0."
+  },
+  "_kinds": {
+    "static": "scored by codex reading the CANDIDATE source per the metric's rule.",
+    "runtime": "scored by running the CANDIDATE (probe / behavioral test)."
+  },
+  "metrics": [
+    {"id": "SEC1", "dimension": "SEC", "name": "未授权读阻断", "kind": "runtime", "scoring": "ratio100", "desc": "未授权读操作的安全测试用例全部被正确阻断才得 1。"},
+    {"id": "SEC2", "dimension": "SEC", "name": "无敏感信息硬编码", "kind": "static", "scoring": "binary", "desc": "代码中是否暴露 token/密钥等敏感信息；出现即 0。"},
+    {"id": "SEC3", "dimension": "SEC", "name": "敏感字段加密存储", "kind": "static", "scoring": "binary", "desc": "数据库敏感字段是否加密存储；出现明文即 0。"},
+    {"id": "SEC4", "dimension": "SEC", "name": "未授权写阻断", "kind": "runtime", "scoring": "ratio100", "desc": "未授权写操作的安全测试用例全部被正确阻断才得 1。"},
+    {"id": "SEC5", "dimension": "SEC", "name": "SQL注入防护", "kind": "runtime", "scoring": "ratio100", "desc": "SQL注入/恶意输入用例全部被安全处理才得 1。"},
+    {"id": "SEC6", "dimension": "SEC", "name": "审计日志完备", "kind": "static", "scoring": "binary", "desc": "需要审计日志的项目有无按要求生成日志；无日志系统即 0。"},
+
+    {"id": "CMP1", "dimension": "CMP", "name": "共享环境可启动", "kind": "static", "scoring": "binary", "desc": "是否硬编码端口/绝对路径写入；出现即 0。"},
+    {"id": "CMP2", "dimension": "CMP", "name": "接口契约合规", "kind": "runtime", "scoring": "binary", "desc": "schema validator 检查接口结构；不符合即 0。"},
+
+    {"id": "RLY1", "dimension": "RLY", "name": "长时执行无故障", "kind": "runtime", "scoring": "binary", "desc": "重复执行标准命令；异常 oracle 或状态异常即 0。"},
+    {"id": "RLY2", "dimension": "RLY", "name": "脏状态重启可用", "kind": "runtime", "scoring": "binary", "desc": "不完全清理状态下重启 3 次，每次重启后须通过冒烟测试，否则 0。"},
+    {"id": "RLY3", "dimension": "RLY", "name": "数据库断连容错", "kind": "runtime", "scoring": "binary", "desc": "需 DB 的项目外部断连后须返回明确错误且主进程不崩溃，否则 0。"},
+    {"id": "RLY4", "dimension": "RLY", "name": "资源压力容错", "kind": "runtime", "scoring": "binary", "desc": "限制内存/CPU，进程崩溃或未返回可解释错误即 0。"},
+    {"id": "RLY5", "dimension": "RLY", "name": "并发执行无故障", "kind": "runtime", "scoring": "binary", "desc": "并发请求/进程；死锁/崩溃/超时即 0。"},
+    {"id": "RLY6", "dimension": "RLY", "name": "强制终止后可恢复", "kind": "runtime", "scoring": "binary", "desc": "被强制终止后能否重启并通过冒烟测试，否则 0。"},
+
+    {"id": "MTN1", "dimension": "MTN", "name": "无超大单文件", "kind": "static", "scoring": "binary", "desc": "是否存在过大单文件（阈值 1000 LOC）；出现即 0。"},
+    {"id": "MTN2", "dimension": "MTN", "name": "无跨层反向依赖", "kind": "static", "scoring": "binary", "desc": "可识别层次时检查反向依赖；出现即 0。"},
+    {"id": "MTN3", "dimension": "MTN", "name": "无循环依赖", "kind": "static", "scoring": "binary", "desc": "依赖图强连通分量；出现即 0。"},
+    {"id": "MTN4", "dimension": "MTN", "name": "认知复杂度合规", "kind": "static", "scoring": "binary", "desc": "认知复杂度超阈值即 0。"},
+    {"id": "MTN5", "dimension": "MTN", "name": "README文档完整", "kind": "static", "scoring": "binary", "desc": "codex 判 README 是否含功能简介/构建命令/运行命令；太简洁即 0。"},
+
+    {"id": "PERF1", "dimension": "PERF", "name": "运行无崩溃OOM超时", "kind": "runtime", "scoring": "binary", "desc": "跑用例时失败用例/总用例高过阈值（OOM/超时/崩溃/断连）即 0。"},
+    {"id": "PERF2", "dimension": "PERF", "name": "尾部延迟稳定", "kind": "runtime", "scoring": "binary", "desc": "尾部放大率 TAR=L99/max(L50,0.001) 高于阈值即 0。"},
+    {"id": "PERF3", "dimension": "PERF", "name": "内存峰值合规", "kind": "runtime", "scoring": "binary", "desc": "运行最大内存超阈值即 0。"},
+    {"id": "PERF4", "dimension": "PERF", "name": "限时正确通过", "kind": "runtime", "scoring": "binary", "desc": "600s 内正确通过≥70% 用例且无运行失败 → 1，否则 0（= 功能正确性的 0/1 化）。"},
+
+    {"id": "PTB1", "dimension": "PTB", "name": "标准构建通过", "kind": "runtime", "scoring": "binary", "desc": "构建时缺清单/依赖不在白名单/版本不匹配即 0。"},
+    {"id": "PTB2", "dimension": "PTB", "name": "无硬编码路径", "kind": "static", "scoring": "binary", "desc": "硬编码绝对路径或硬写 / \\ 即 0。"},
+    {"id": "PTB3", "dimension": "PTB", "name": "日志不写源码目录", "kind": "static", "scoring": "binary", "desc": "日志/缓存写进 src/ 即 0。"},
+    {"id": "PTB4", "dimension": "PTB", "name": "显式编码声明", "kind": "static", "scoring": "binary", "desc": "读文件/网络流/字节转换未显式指定编码即 0。"},
+    {"id": "PTB5", "dimension": "PTB", "name": "无环境变量强依赖", "kind": "static", "scoring": "binary", "desc": "强依赖 DATABASE_URL/API_KEY/HOME/PATH 等且无默认值/配置/.env.example/清晰错误提示即 0。"},
+    {"id": "PTB6", "dimension": "PTB", "name": "无平台强绑定", "kind": "static", "scoring": "binary", "desc": "无保护使用平台专属 API 且无条件编译/平台分支/fallback 即 0。平台不明确时可测。"}
+  ]
+}

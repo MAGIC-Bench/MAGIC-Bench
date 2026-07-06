@@ -1,0 +1,3228 @@
+{
+  "scope": "main_agents_build_ok_only",
+  "agents": [
+    "claude",
+    "codex",
+    "cursor",
+    "kimi"
+  ],
+  "top10_metrics": [
+    {
+      "metric": "PTB.PTB2",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "无硬编码路径",
+      "failed": 226,
+      "applicable": 229,
+      "passed": 3,
+      "failure_rate": 0.9868995633187773,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 0,
+          "failed": 61
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 2,
+          "failed": 57
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 1,
+          "failed": 56
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 0,
+          "failed": 52
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "CMP.CMP1",
+      "dimension": "CMP",
+      "dimension_name": "兼容性",
+      "name": "共享环境可启动",
+      "failed": 219,
+      "applicable": 229,
+      "passed": 10,
+      "failure_rate": 0.9563318777292577,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 2,
+          "failed": 59
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 3,
+          "failed": 56
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 4,
+          "failed": 53
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 1,
+          "failed": 51
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "MTN.MTN4",
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "name": "认知复杂度合规",
+      "failed": 170,
+      "applicable": 229,
+      "passed": 59,
+      "failure_rate": 0.74235807860262,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 15,
+          "failed": 46
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 14,
+          "failed": 45
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 16,
+          "failed": 41
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 14,
+          "failed": 38
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "RLY.RLY1",
+      "dimension": "RLY",
+      "dimension_name": "可靠性",
+      "name": "长时/重复执行无故障",
+      "failed": 170,
+      "applicable": 234,
+      "passed": 64,
+      "failure_rate": 0.7264957264957265,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 14,
+          "failed": 47
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 11,
+          "failed": 48
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 20,
+          "failed": 37
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 19,
+          "failed": 38
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\claude\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB4",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "显式编码声明",
+      "failed": 168,
+      "applicable": 229,
+      "passed": 61,
+      "failure_rate": 0.7336244541484717,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 15,
+          "failed": 46
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 24,
+          "failed": 35
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 9,
+          "failed": 48
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 13,
+          "failed": 39
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "CMP.CLI",
+      "dimension": "CMP",
+      "dimension_name": "兼容性",
+      "name": "CLI 接口契约完全符合",
+      "failed": 161,
+      "applicable": 234,
+      "passed": 73,
+      "failure_rate": 0.688034188034188,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 20,
+          "failed": 41
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 23,
+          "failed": 36
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 14,
+          "failed": 43
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 16,
+          "failed": 41
+        }
+      },
+      "examples": [
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "diagnostic": {
+            "rid": "23andme-yamale",
+            "agent": "kimi",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/23andme-yamale/candidate/02_cli-contract.json",
+            "probe_total": 21,
+            "probe_passed": 1,
+            "interface_compliance": 0.047619047619047616,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 37,
+            "interface_compliance": 0.925,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "6over3-bebop",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/6over3-bebop/candidate/02_cli-contract.json",
+            "probe_total": 32,
+            "probe_passed": 20,
+            "interface_compliance": 0.625,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "kimi",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 38,
+            "interface_compliance": 0.95,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "codex",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 38,
+            "interface_compliance": 0.95,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "diagnostic": {
+            "rid": "6over3-bebop",
+            "agent": "codex",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/6over3-bebop/candidate/02_cli-contract.json",
+            "probe_total": 32,
+            "probe_passed": 18,
+            "interface_compliance": 0.5625,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "cursor",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 38,
+            "interface_compliance": 0.95,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 12,
+            "interface_compliance": 0.1348314606741573,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "codex",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 17,
+            "interface_compliance": 0.19101123595505617,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "kimi",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "kimi",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 14,
+            "interface_compliance": 0.15730337078651685,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "cursor",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 12,
+            "interface_compliance": 0.1348314606741573,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "afnanenayet-diffsitter",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/afnanenayet-diffsitter/candidate/02_cli-contract.json",
+            "probe_total": 25,
+            "probe_passed": 24,
+            "interface_compliance": 0.96,
+            "fully_compliant": false
+          }
+        }
+      ]
+    },
+    {
+      "metric": "MTN.MTN1",
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "name": "无超大单文件",
+      "failed": 132,
+      "applicable": 229,
+      "passed": 97,
+      "failure_rate": 0.5764192139737991,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 31,
+          "failed": 30
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 32,
+          "failed": 27
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 15,
+          "failed": 42
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 19,
+          "failed": 33
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PERF.PERF4",
+      "dimension": "PERF",
+      "dimension_name": "性能效率",
+      "name": "限时正确通过",
+      "failed": 124,
+      "applicable": 234,
+      "passed": 110,
+      "failure_rate": 0.5299145299145299,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 27,
+          "failed": 34
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 21,
+          "failed": 38
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 33,
+          "failed": 24
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 29,
+          "failed": 28
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\claude\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\kimi\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB6",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "无平台强绑定",
+      "failed": 100,
+      "applicable": 229,
+      "passed": 129,
+      "failure_rate": 0.4366812227074236,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 34,
+          "failed": 27
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 41,
+          "failed": 18
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 26,
+          "failed": 31
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 28,
+          "failed": 24
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\kimi\\score.json"
+        },
+        {
+          "repo": "alexpovel-srgn",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexpovel-srgn\\codex\\score.json"
+        },
+        {
+          "repo": "anvilco-spectaql",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\anvilco-spectaql\\claude\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB3",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "日志不写源码目录",
+      "failed": 65,
+      "applicable": 229,
+      "passed": 164,
+      "failure_rate": 0.2838427947598253,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 36,
+          "failed": 25
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 44,
+          "failed": 15
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 47,
+          "failed": 10
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 37,
+          "failed": 15
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "alexhallam-tv",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexhallam-tv\\claude\\score.json"
+        },
+        {
+          "repo": "alexhallam-tv",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexhallam-tv\\codex\\score.json"
+        },
+        {
+          "repo": "alexhallam-tv",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexhallam-tv\\cursor\\score.json"
+        },
+        {
+          "repo": "alexpovel-srgn",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexpovel-srgn\\claude\\score.json"
+        },
+        {
+          "repo": "anvilco-spectaql",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\anvilco-spectaql\\claude\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        }
+      ]
+    }
+  ],
+  "all_metrics": [
+    {
+      "metric": "PTB.PTB2",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "无硬编码路径",
+      "failed": 226,
+      "applicable": 229,
+      "passed": 3,
+      "failure_rate": 0.9868995633187773,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 0,
+          "failed": 61
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 2,
+          "failed": 57
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 1,
+          "failed": 56
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 0,
+          "failed": 52
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "CMP.CMP1",
+      "dimension": "CMP",
+      "dimension_name": "兼容性",
+      "name": "共享环境可启动",
+      "failed": 219,
+      "applicable": 229,
+      "passed": 10,
+      "failure_rate": 0.9563318777292577,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 2,
+          "failed": 59
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 3,
+          "failed": 56
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 4,
+          "failed": 53
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 1,
+          "failed": 51
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "MTN.MTN4",
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "name": "认知复杂度合规",
+      "failed": 170,
+      "applicable": 229,
+      "passed": 59,
+      "failure_rate": 0.74235807860262,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 15,
+          "failed": 46
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 14,
+          "failed": 45
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 16,
+          "failed": 41
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 14,
+          "failed": 38
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "RLY.RLY1",
+      "dimension": "RLY",
+      "dimension_name": "可靠性",
+      "name": "长时/重复执行无故障",
+      "failed": 170,
+      "applicable": 234,
+      "passed": 64,
+      "failure_rate": 0.7264957264957265,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 14,
+          "failed": 47
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 11,
+          "failed": 48
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 20,
+          "failed": 37
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 19,
+          "failed": 38
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\claude\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB4",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "显式编码声明",
+      "failed": 168,
+      "applicable": 229,
+      "passed": 61,
+      "failure_rate": 0.7336244541484717,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 15,
+          "failed": 46
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 24,
+          "failed": 35
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 9,
+          "failed": 48
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 13,
+          "failed": 39
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "CMP.CLI",
+      "dimension": "CMP",
+      "dimension_name": "兼容性",
+      "name": "CLI 接口契约完全符合",
+      "failed": 161,
+      "applicable": 234,
+      "passed": 73,
+      "failure_rate": 0.688034188034188,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 20,
+          "failed": 41
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 23,
+          "failed": 36
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 14,
+          "failed": 43
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 16,
+          "failed": 41
+        }
+      },
+      "examples": [
+        {
+          "repo": "23andme-yamale",
+          "agent": "kimi",
+          "diagnostic": {
+            "rid": "23andme-yamale",
+            "agent": "kimi",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/23andme-yamale/candidate/02_cli-contract.json",
+            "probe_total": 21,
+            "probe_passed": 1,
+            "interface_compliance": 0.047619047619047616,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 37,
+            "interface_compliance": 0.925,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "6over3-bebop",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/6over3-bebop/candidate/02_cli-contract.json",
+            "probe_total": 32,
+            "probe_passed": 20,
+            "interface_compliance": 0.625,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "kimi",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 38,
+            "interface_compliance": 0.95,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "codex",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 38,
+            "interface_compliance": 0.95,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "diagnostic": {
+            "rid": "6over3-bebop",
+            "agent": "codex",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/6over3-bebop/candidate/02_cli-contract.json",
+            "probe_total": 32,
+            "probe_passed": 18,
+            "interface_compliance": 0.5625,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "diagnostic": {
+            "rid": "1password-typeshare",
+            "agent": "cursor",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/1password-typeshare/candidate/02_cli-contract.json",
+            "probe_total": 40,
+            "probe_passed": 38,
+            "interface_compliance": 0.95,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 12,
+            "interface_compliance": 0.1348314606741573,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "codex",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 17,
+            "interface_compliance": 0.19101123595505617,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "kimi",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "kimi",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 14,
+            "interface_compliance": 0.15730337078651685,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "diagnostic": {
+            "rid": "achno-gowall",
+            "agent": "cursor",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/achno-gowall/candidate/02_cli-contract.json",
+            "probe_total": 89,
+            "probe_passed": 12,
+            "interface_compliance": 0.1348314606741573,
+            "fully_compliant": false
+          }
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "diagnostic": {
+            "rid": "afnanenayet-diffsitter",
+            "agent": "claude",
+            "build_ok": true,
+            "contract_path": "/mnt/yangh559/chuti-run/exams/afnanenayet-diffsitter/candidate/02_cli-contract.json",
+            "probe_total": 25,
+            "probe_passed": 24,
+            "interface_compliance": 0.96,
+            "fully_compliant": false
+          }
+        }
+      ]
+    },
+    {
+      "metric": "MTN.MTN1",
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "name": "无超大单文件",
+      "failed": 132,
+      "applicable": 229,
+      "passed": 97,
+      "failure_rate": 0.5764192139737991,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 31,
+          "failed": 30
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 32,
+          "failed": 27
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 15,
+          "failed": 42
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 19,
+          "failed": 33
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PERF.PERF4",
+      "dimension": "PERF",
+      "dimension_name": "性能效率",
+      "name": "限时正确通过",
+      "failed": 124,
+      "applicable": 234,
+      "passed": 110,
+      "failure_rate": 0.5299145299145299,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 27,
+          "failed": 34
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 21,
+          "failed": 38
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 33,
+          "failed": 24
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 29,
+          "failed": 28
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\kimi\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\claude\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\kimi\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB6",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "无平台强绑定",
+      "failed": 100,
+      "applicable": 229,
+      "passed": 129,
+      "failure_rate": 0.4366812227074236,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 34,
+          "failed": 27
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 41,
+          "failed": 18
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 26,
+          "failed": 31
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 28,
+          "failed": 24
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\kimi\\score.json"
+        },
+        {
+          "repo": "alexpovel-srgn",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexpovel-srgn\\codex\\score.json"
+        },
+        {
+          "repo": "anvilco-spectaql",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\anvilco-spectaql\\claude\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB3",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "日志不写源码目录",
+      "failed": 65,
+      "applicable": 229,
+      "passed": 164,
+      "failure_rate": 0.2838427947598253,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 36,
+          "failed": 25
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 44,
+          "failed": 15
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 47,
+          "failed": 10
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 37,
+          "failed": 15
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "23andme-yamale",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\23andme-yamale\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "alexhallam-tv",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexhallam-tv\\claude\\score.json"
+        },
+        {
+          "repo": "alexhallam-tv",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexhallam-tv\\codex\\score.json"
+        },
+        {
+          "repo": "alexhallam-tv",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexhallam-tv\\cursor\\score.json"
+        },
+        {
+          "repo": "alexpovel-srgn",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexpovel-srgn\\claude\\score.json"
+        },
+        {
+          "repo": "anvilco-spectaql",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\anvilco-spectaql\\claude\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "MTN.MTN5",
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "name": "README 文档完整",
+      "failed": 34,
+      "applicable": 229,
+      "passed": 195,
+      "failure_rate": 0.14847161572052403,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 46,
+          "failed": 15
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 55,
+          "failed": 4
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 47,
+          "failed": 10
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 47,
+          "failed": 5
+        }
+      },
+      "examples": [
+        {
+          "repo": "achno-gowall",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\codex\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        },
+        {
+          "repo": "cocogitto-cocogitto",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\cocogitto-cocogitto\\claude\\score.json"
+        },
+        {
+          "repo": "graphql-hive-graphql-inspector",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\graphql-hive-graphql-inspector\\claude\\score.json"
+        },
+        {
+          "repo": "graphql-hive-graphql-inspector",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\graphql-hive-graphql-inspector\\cursor\\score.json"
+        },
+        {
+          "repo": "iwe-org-iwe",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\iwe-org-iwe\\kimi\\score.json"
+        },
+        {
+          "repo": "jarulraj-sqlcheck",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\jarulraj-sqlcheck\\claude\\score.json"
+        },
+        {
+          "repo": "josephburnett-jd",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\josephburnett-jd\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\codex\\score.json"
+        },
+        {
+          "repo": "msoos-cryptominisat",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\msoos-cryptominisat\\claude\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PERF.PERF2",
+      "dimension": "PERF",
+      "dimension_name": "性能效率",
+      "name": "尾部延迟稳定",
+      "failed": 31,
+      "applicable": 233,
+      "passed": 202,
+      "failure_rate": 0.13304721030042918,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 53,
+          "failed": 8
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 51,
+          "failed": 8
+        },
+        "cursor": {
+          "applicable": 56,
+          "passed": 46,
+          "failed": 10
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 52,
+          "failed": 5
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\claude\\score.json"
+        },
+        {
+          "repo": "1password-typeshare",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\codex\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "achno-gowall",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\kimi\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\cursor\\score.json"
+        },
+        {
+          "repo": "alexhallam-tv",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexhallam-tv\\kimi\\score.json"
+        },
+        {
+          "repo": "alexpovel-srgn",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\alexpovel-srgn\\cursor\\score.json"
+        },
+        {
+          "repo": "anvilco-spectaql",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\anvilco-spectaql\\claude\\score.json"
+        },
+        {
+          "repo": "blst-security-cherrybomb",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\blst-security-cherrybomb\\kimi\\score.json"
+        },
+        {
+          "repo": "carthage-software-mago",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\carthage-software-mago\\claude\\score.json"
+        },
+        {
+          "repo": "cocogitto-cocogitto",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\cocogitto-cocogitto\\cursor\\score.json"
+        },
+        {
+          "repo": "hauntsaninja-pyp",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\hauntsaninja-pyp\\claude\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "MTN.MTN3",
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "name": "无循环依赖",
+      "failed": 20,
+      "applicable": 229,
+      "passed": 209,
+      "failure_rate": 0.08733624454148471,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 54,
+          "failed": 7
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 54,
+          "failed": 5
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 55,
+          "failed": 2
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 46,
+          "failed": 6
+        }
+      },
+      "examples": [
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        },
+        {
+          "repo": "dominikwilkowski-cfonts",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\dominikwilkowski-cfonts\\kimi\\score.json"
+        },
+        {
+          "repo": "gammons-ultralist",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\gammons-ultralist\\kimi\\score.json"
+        },
+        {
+          "repo": "jarulraj-sqlcheck",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\jarulraj-sqlcheck\\claude\\score.json"
+        },
+        {
+          "repo": "jarulraj-sqlcheck",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\jarulraj-sqlcheck\\codex\\score.json"
+        },
+        {
+          "repo": "josephburnett-jd",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\josephburnett-jd\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\codex\\score.json"
+        },
+        {
+          "repo": "msoos-cryptominisat",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\msoos-cryptominisat\\cursor\\score.json"
+        },
+        {
+          "repo": "quick-lint-quick-lint-js",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\quick-lint-quick-lint-js\\claude\\score.json"
+        },
+        {
+          "repo": "rslint-rslint",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\rslint-rslint\\claude\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB5",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "无环境变量强依赖",
+      "failed": 19,
+      "applicable": 229,
+      "passed": 210,
+      "failure_rate": 0.08296943231441048,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 53,
+          "failed": 8
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 56,
+          "failed": 3
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 53,
+          "failed": 4
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 48,
+          "failed": 4
+        }
+      },
+      "examples": [
+        {
+          "repo": "1password-typeshare",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\1password-typeshare\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\kimi\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        },
+        {
+          "repo": "chaqchase-lla",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\chaqchase-lla\\kimi\\score.json"
+        },
+        {
+          "repo": "dvidelabs-flatcc",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\dvidelabs-flatcc\\cursor\\score.json"
+        },
+        {
+          "repo": "jarulraj-sqlcheck",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\jarulraj-sqlcheck\\claude\\score.json"
+        },
+        {
+          "repo": "josephburnett-jd",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\josephburnett-jd\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\codex\\score.json"
+        },
+        {
+          "repo": "mna-pigeon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\mna-pigeon\\cursor\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "SEC.SEC2",
+      "dimension": "SEC",
+      "dimension_name": "安全性",
+      "name": "无敏感信息硬编码",
+      "failed": 19,
+      "applicable": 229,
+      "passed": 210,
+      "failure_rate": 0.08296943231441048,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 53,
+          "failed": 8
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 55,
+          "failed": 4
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 53,
+          "failed": 4
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 49,
+          "failed": 3
+        }
+      },
+      "examples": [
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\claude\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\claude\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\codex\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\cursor\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\kimi\\score.json"
+        },
+        {
+          "repo": "jarulraj-sqlcheck",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\jarulraj-sqlcheck\\claude\\score.json"
+        },
+        {
+          "repo": "josephburnett-jd",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\josephburnett-jd\\claude\\score.json"
+        },
+        {
+          "repo": "mike-engel-jwt-cli",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\mike-engel-jwt-cli\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "MTN.MTN2",
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "name": "无跨层反向依赖",
+      "failed": 18,
+      "applicable": 229,
+      "passed": 211,
+      "failure_rate": 0.07860262008733625,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 55,
+          "failed": 6
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 54,
+          "failed": 5
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 55,
+          "failed": 2
+        },
+        "kimi": {
+          "applicable": 52,
+          "passed": 47,
+          "failed": 5
+        }
+      },
+      "examples": [
+        {
+          "repo": "achno-gowall",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\achno-gowall\\cursor\\score.json"
+        },
+        {
+          "repo": "afnanenayet-diffsitter",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\afnanenayet-diffsitter\\codex\\score.json"
+        },
+        {
+          "repo": "arthursonzogni-diagon",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\arthursonzogni-diagon\\cursor\\score.json"
+        },
+        {
+          "repo": "dominikwilkowski-cfonts",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\dominikwilkowski-cfonts\\kimi\\score.json"
+        },
+        {
+          "repo": "jarulraj-sqlcheck",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\jarulraj-sqlcheck\\claude\\score.json"
+        },
+        {
+          "repo": "jarulraj-sqlcheck",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\jarulraj-sqlcheck\\codex\\score.json"
+        },
+        {
+          "repo": "josephburnett-jd",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\josephburnett-jd\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\codex\\score.json"
+        },
+        {
+          "repo": "rslint-rslint",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\rslint-rslint\\claude\\score.json"
+        },
+        {
+          "repo": "rslint-rslint",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\rslint-rslint\\kimi\\score.json"
+        },
+        {
+          "repo": "solidiquis-erdtree",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\solidiquis-erdtree\\claude\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "SEC.SEC5",
+      "dimension": "SEC",
+      "dimension_name": "安全性",
+      "name": "SQL 注入防护",
+      "failed": 17,
+      "applicable": 22,
+      "passed": 5,
+      "failure_rate": 0.7727272727272727,
+      "by_agent": {
+        "claude": {
+          "applicable": 6,
+          "passed": 2,
+          "failed": 4
+        },
+        "codex": {
+          "applicable": 5,
+          "passed": 2,
+          "failed": 3
+        },
+        "cursor": {
+          "applicable": 5,
+          "passed": 0,
+          "failed": 5
+        },
+        "kimi": {
+          "applicable": 6,
+          "passed": 1,
+          "failed": 5
+        }
+      },
+      "examples": [
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\codex\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\cursor\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\kimi\\score.json"
+        },
+        {
+          "repo": "neilotoole-sq",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\neilotoole-sq\\cursor\\score.json"
+        },
+        {
+          "repo": "schemacrawler-schemacrawler",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\schemacrawler-schemacrawler\\claude\\score.json"
+        },
+        {
+          "repo": "schemacrawler-schemacrawler",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\schemacrawler-schemacrawler\\kimi\\score.json"
+        },
+        {
+          "repo": "shuttle-hq-synth",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\shuttle-hq-synth\\claude\\score.json"
+        },
+        {
+          "repo": "shuttle-hq-synth",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\shuttle-hq-synth\\codex\\score.json"
+        },
+        {
+          "repo": "shuttle-hq-synth",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\shuttle-hq-synth\\cursor\\score.json"
+        },
+        {
+          "repo": "shuttle-hq-synth",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\shuttle-hq-synth\\kimi\\score.json"
+        },
+        {
+          "repo": "simonw-sqlite-utils",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\simonw-sqlite-utils\\claude\\score.json"
+        },
+        {
+          "repo": "simonw-sqlite-utils",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\simonw-sqlite-utils\\cursor\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "SEC.SEC4",
+      "dimension": "SEC",
+      "dimension_name": "安全性",
+      "name": "未授权写阻断",
+      "failed": 14,
+      "applicable": 29,
+      "passed": 15,
+      "failure_rate": 0.4827586206896552,
+      "by_agent": {
+        "claude": {
+          "applicable": 7,
+          "passed": 4,
+          "failed": 3
+        },
+        "codex": {
+          "applicable": 7,
+          "passed": 4,
+          "failed": 3
+        },
+        "cursor": {
+          "applicable": 8,
+          "passed": 4,
+          "failed": 4
+        },
+        "kimi": {
+          "applicable": 7,
+          "passed": 3,
+          "failed": 4
+        }
+      },
+      "examples": [
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\codex\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\cursor\\score.json"
+        },
+        {
+          "repo": "6over3-bebop",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\kimi\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\codex\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\cursor\\score.json"
+        },
+        {
+          "repo": "cornucopia-rs-cornucopia",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\cornucopia-rs-cornucopia\\kimi\\score.json"
+        },
+        {
+          "repo": "gammons-ultralist",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\gammons-ultralist\\kimi\\score.json"
+        },
+        {
+          "repo": "neilotoole-sq",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\neilotoole-sq\\cursor\\score.json"
+        },
+        {
+          "repo": "revanced-revanced-cli",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\revanced-revanced-cli\\claude\\score.json"
+        },
+        {
+          "repo": "zk-org-zk",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\zk-org-zk\\claude\\score.json"
+        },
+        {
+          "repo": "zk-org-zk",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\zk-org-zk\\codex\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "SEC.SEC1",
+      "dimension": "SEC",
+      "dimension_name": "安全性",
+      "name": "未授权读阻断",
+      "failed": 11,
+      "applicable": 20,
+      "passed": 9,
+      "failure_rate": 0.55,
+      "by_agent": {
+        "claude": {
+          "applicable": 5,
+          "passed": 1,
+          "failed": 4
+        },
+        "codex": {
+          "applicable": 4,
+          "passed": 2,
+          "failed": 2
+        },
+        "cursor": {
+          "applicable": 6,
+          "passed": 4,
+          "failed": 2
+        },
+        "kimi": {
+          "applicable": 5,
+          "passed": 2,
+          "failed": 3
+        }
+      },
+      "examples": [
+        {
+          "repo": "6over3-bebop",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\6over3-bebop\\claude\\score.json"
+        },
+        {
+          "repo": "carthage-software-mago",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\carthage-software-mago\\claude\\score.json"
+        },
+        {
+          "repo": "carthage-software-mago",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\carthage-software-mago\\cursor\\score.json"
+        },
+        {
+          "repo": "gammons-ultralist",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\gammons-ultralist\\kimi\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\claude\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\codex\\score.json"
+        },
+        {
+          "repo": "mitmproxy-pdoc",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\mitmproxy-pdoc\\kimi\\score.json"
+        },
+        {
+          "repo": "zk-org-zk",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\zk-org-zk\\claude\\score.json"
+        },
+        {
+          "repo": "zk-org-zk",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\zk-org-zk\\codex\\score.json"
+        },
+        {
+          "repo": "zk-org-zk",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\zk-org-zk\\cursor\\score.json"
+        },
+        {
+          "repo": "zk-org-zk",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\zk-org-zk\\kimi\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "SEC.SEC3",
+      "dimension": "SEC",
+      "dimension_name": "安全性",
+      "name": "敏感字段加密存储",
+      "failed": 6,
+      "applicable": 13,
+      "passed": 7,
+      "failure_rate": 0.46153846153846156,
+      "by_agent": {
+        "claude": {
+          "applicable": 3,
+          "passed": 2,
+          "failed": 1
+        },
+        "codex": {
+          "applicable": 3,
+          "passed": 1,
+          "failed": 2
+        },
+        "cursor": {
+          "applicable": 4,
+          "passed": 2,
+          "failed": 2
+        },
+        "kimi": {
+          "applicable": 3,
+          "passed": 2,
+          "failed": 1
+        }
+      },
+      "examples": [
+        {
+          "repo": "cyphar-paperback",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\cyphar-paperback\\codex\\score.json"
+        },
+        {
+          "repo": "gammons-ultralist",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\gammons-ultralist\\claude\\score.json"
+        },
+        {
+          "repo": "gammons-ultralist",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\gammons-ultralist\\codex\\score.json"
+        },
+        {
+          "repo": "gammons-ultralist",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\gammons-ultralist\\cursor\\score.json"
+        },
+        {
+          "repo": "gammons-ultralist",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\gammons-ultralist\\kimi\\score.json"
+        },
+        {
+          "repo": "neilotoole-sq",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\neilotoole-sq\\cursor\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "RLY.RLY4",
+      "dimension": "RLY",
+      "dimension_name": "可靠性",
+      "name": "资源压力容错",
+      "failed": 5,
+      "applicable": 223,
+      "passed": 218,
+      "failure_rate": 0.02242152466367713,
+      "by_agent": {
+        "claude": {
+          "applicable": 58,
+          "passed": 56,
+          "failed": 2
+        },
+        "codex": {
+          "applicable": 56,
+          "passed": 55,
+          "failed": 1
+        },
+        "cursor": {
+          "applicable": 55,
+          "passed": 54,
+          "failed": 1
+        },
+        "kimi": {
+          "applicable": 54,
+          "passed": 53,
+          "failed": 1
+        }
+      },
+      "examples": [
+        {
+          "repo": "hauntsaninja-pyp",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\hauntsaninja-pyp\\claude\\score.json"
+        },
+        {
+          "repo": "hauntsaninja-pyp",
+          "agent": "codex",
+          "score_path": "backup_clean\\chuti-run\\grades\\hauntsaninja-pyp\\codex\\score.json"
+        },
+        {
+          "repo": "hauntsaninja-pyp",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\hauntsaninja-pyp\\cursor\\score.json"
+        },
+        {
+          "repo": "hauntsaninja-pyp",
+          "agent": "kimi",
+          "score_path": "backup_clean\\chuti-run\\grades\\hauntsaninja-pyp\\kimi\\score.json"
+        },
+        {
+          "repo": "peggyjs-peggy",
+          "agent": "claude",
+          "score_path": "backup_clean\\chuti-run\\grades\\peggyjs-peggy\\claude\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PERF.PERF1",
+      "dimension": "PERF",
+      "dimension_name": "性能效率",
+      "name": "运行无崩溃/OOM/超时",
+      "failed": 1,
+      "applicable": 234,
+      "passed": 233,
+      "failure_rate": 0.004273504273504274,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 61,
+          "failed": 0
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 59,
+          "failed": 0
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 56,
+          "failed": 1
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 57,
+          "failed": 0
+        }
+      },
+      "examples": [
+        {
+          "repo": "zk-org-zk",
+          "agent": "cursor",
+          "score_path": "backup_clean\\chuti-run\\grades\\zk-org-zk\\cursor\\score.json"
+        }
+      ]
+    },
+    {
+      "metric": "PTB.PTB1",
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "name": "标准构建通过",
+      "failed": 0,
+      "applicable": 234,
+      "passed": 234,
+      "failure_rate": 0.0,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 61,
+          "failed": 0
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 59,
+          "failed": 0
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 57,
+          "failed": 0
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 57,
+          "failed": 0
+        }
+      },
+      "examples": []
+    },
+    {
+      "metric": "RLY.RLY5",
+      "dimension": "RLY",
+      "dimension_name": "可靠性",
+      "name": "并发执行无故障",
+      "failed": 0,
+      "applicable": 234,
+      "passed": 234,
+      "failure_rate": 0.0,
+      "by_agent": {
+        "claude": {
+          "applicable": 61,
+          "passed": 61,
+          "failed": 0
+        },
+        "codex": {
+          "applicable": 59,
+          "passed": 59,
+          "failed": 0
+        },
+        "cursor": {
+          "applicable": 57,
+          "passed": 57,
+          "failed": 0
+        },
+        "kimi": {
+          "applicable": 57,
+          "passed": 57,
+          "failed": 0
+        }
+      },
+      "examples": []
+    }
+  ],
+  "dimensions": [
+    {
+      "dimension": "CMP",
+      "dimension_name": "兼容性",
+      "applicable": 463,
+      "passed": 83,
+      "failed": 380,
+      "failure_rate": 0.8207343412526998
+    },
+    {
+      "dimension": "PTB",
+      "dimension_name": "可移植/构建",
+      "applicable": 1379,
+      "passed": 801,
+      "failed": 578,
+      "failure_rate": 0.4191443074691806
+    },
+    {
+      "dimension": "MTN",
+      "dimension_name": "可维护性",
+      "applicable": 1145,
+      "passed": 771,
+      "failed": 374,
+      "failure_rate": 0.3266375545851528
+    },
+    {
+      "dimension": "RLY",
+      "dimension_name": "可靠性",
+      "applicable": 691,
+      "passed": 516,
+      "failed": 175,
+      "failure_rate": 0.2532561505065123
+    },
+    {
+      "dimension": "PERF",
+      "dimension_name": "性能效率",
+      "applicable": 701,
+      "passed": 545,
+      "failed": 156,
+      "failure_rate": 0.2225392296718973
+    },
+    {
+      "dimension": "SEC",
+      "dimension_name": "安全性",
+      "applicable": 313,
+      "passed": 246,
+      "failed": 67,
+      "failure_rate": 0.21405750798722045
+    }
+  ]
+}

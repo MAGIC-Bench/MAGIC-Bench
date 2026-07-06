@@ -1,0 +1,36 @@
+[
+  {
+    "id": "M1-example-stdin",
+    "modules": ["M1"],
+    "kind": "incident",
+    "note": "stdin input; expected values are NOT written here - they are frozen from the original",
+    "input": { "argv": ["-m"], "stdin": "{\"hello\":\"world\"}" },
+    "assert_spec": [
+      {"field": "exit", "class": "exact"},
+      {"field": "stdout", "class": "normalized", "rule": "crlf_lf"}
+    ]
+  },
+  {
+    "id": "M7-example-file",
+    "modules": ["M7"],
+    "kind": "incident",
+    "note": "input from a file placed in the working dir; argv references it by name",
+    "input": { "argv": ["-m", "in.json"], "files": {"in.json": {"text": "[1,2,3]"}} },
+    "assert_spec": [
+      {"field": "exit", "class": "exact"},
+      {"field": "stdout", "class": "normalized", "rule": "crlf_lf"}
+    ]
+  },
+  {
+    "id": "M8-example-error",
+    "modules": ["M8"],
+    "kind": "incident",
+    "note": "error path; freeze the real exit code, assert stderr is nonempty but ignore its wording",
+    "input": { "argv": ["-m"], "stdin": "{not json" },
+    "assert_spec": [
+      {"field": "exit", "class": "exact"},
+      {"field": "stderr", "class": "invariant", "rule": "nonempty"},
+      {"field": "stderr", "class": "ignored"}
+    ]
+  }
+]

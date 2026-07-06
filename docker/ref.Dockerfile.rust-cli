@@ -1,0 +1,17 @@
+# ref-image for a Rust CLI/pipeline repo. Two-phase network: BUILD on, RUN off.
+FROM rust:1.82@sha256:REPLACE_WITH_DIGEST AS build
+# China crates mirror (optional):
+# RUN mkdir -p ~/.cargo && printf '[source.crates-io]\nreplace-with="ustc"\n[source.ustc]\nregistry="sparse+https://mirrors.ustc.edu.cn/crates.io-index/"\n' > ~/.cargo/config.toml
+WORKDIR /src
+COPY . .
+RUN cargo build --release
+# coverage (lcov): build instrumented with cargo-llvm-cov and emit /cover/lcov.info at run.
+#   RUN cargo install cargo-llvm-cov && cargo llvm-cov --no-report build
+#   ENV LLVM_PROFILE_FILE=/cover/%p.profraw   (then `cargo llvm-cov report --lcov -o /cover/lcov.info`)
+
+FROM debian:bookworm-slim@sha256:REPLACE_WITH_DIGEST
+COPY --from=build /src/target/release/app /app
+ENV TZ=UTC NO_COLOR=1
+ENTRYPOINT ["/app"]
+
+# grade (hermetic): docker run --rm --network none -v <cov>:/cover ref-image  <argv>

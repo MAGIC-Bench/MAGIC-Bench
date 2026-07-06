@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+export PATH="$HOME/.local/bin:$PATH:/usr/local/go/bin:$HOME/go/bin:$HOME/.local/go/bin"
+echo "go: $(command -v go || echo NONE)"
+go version 2>/dev/null || echo "  (no go)"
+echo "GOPROXY: $(go env GOPROXY 2>/dev/null || echo n/a)"
+echo "python3: $(python3 --version 2>&1)"
+echo "codex: $(command -v codex || echo NONE)"
+echo "codex auth: $(codex login status 2>&1 | head -1)"
+echo "docker: $(docker info --format '{{.ServerVersion}}' 2>/dev/null || echo DOWN)"
+echo "net openai: $(curl -sS -o /dev/null -w '%{http_code}' --max-time 12 https://api.openai.com/v1/models 2>&1)"

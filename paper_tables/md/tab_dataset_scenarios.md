@@ -1,0 +1,7 @@
+| Category | Count | Rate |
+| --- | --- | --- |
+| CLI tools | 35 | 43.21% |
+| Serialization / format | 25 | 30.86% |
+| Security / crypto | 10 | 12.35% |
+| Database / storage | 6 | 7.41% |
+| Web API | 5 | 6.17% |

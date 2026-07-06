@@ -1,0 +1,8 @@
+=== explicit comma-separated lists of the tiers ===
+      1 low, medium, high
+=== 'possible values' lines mentioning effort tiers ===
+=== clap value-enum style [minimal|low|medium|high|xhigh] ===
+      2 low|medium|high
+=== standalone 'xhigh' and 'minimal' as bare tokens ===
+0
+0

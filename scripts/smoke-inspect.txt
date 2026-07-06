@@ -1,0 +1,52 @@
+=== ls /tmp/tmp.6ImZqLT3W2 ===
+total 8
+drwx------  2 kiwi kiwi   80 Jun 21 11:21 .
+drwxrwxrwt 10 root root  200 Jun 21 11:21 ..
+-rw-r--r--  1 kiwi kiwi 1535 Jun 21 11:21 _stdout.txt
+-rw-r--r--  1 kiwi kiwi   31 Jun 21 11:21 hello.json
+=== hello.json ===
+{"ok": true, "agent": "codex"}
+  <<< CREATED >>>
+=== codex _stdout.txt (tail 40) ===
+echo "codex exec exit=$?"
+echo "--- workspace files ---"
+ls -la "$SMK"
+echo "--- hello.json ---"
+cat "$SMK/hello.json" 2>/dev/null && echo "  <<< FILE CREATED OK >>>" || echo "  hello.json NOT created"
+echo "--- codex stdout (tail 12) ---"
+tail -12 "$SMK/_stdout.txt"
+</stdin>
+apply patch
+patch: completed
+/tmp/tmp.6ImZqLT3W2/hello.json
+diff --git a/hello.json b/hello.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..446fafd71f00f735aac5f74e0c154ceff9ee19d8
+--- /dev/null
++++ b/hello.json
+@@ -0,0 +1 @@
++{"ok": true, "agent": "codex"}
+
+diff --git a/hello.json b/hello.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..446fafd71f00f735aac5f74e0c154ceff9ee19d8
+--- /dev/null
++++ b/hello.json
+@@ -0,0 +1 @@
++{"ok": true, "agent": "codex"}
+
+codex
+
+diff --git a/hello.json b/hello.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..446fafd71f00f735aac5f74e0c154ceff9ee19d8
+--- /dev/null
++++ b/hello.json
+@@ -0,0 +1 @@
++{"ok": true, "agent": "codex"}
+
+tokens used
+11,549
+
+=== lingering codex procs ===
+none

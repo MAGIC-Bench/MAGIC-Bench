@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "testcase",
+  "type": "object",
+  "required": ["id", "modules", "scenario_type", "assertions"],
+  "properties": {
+    "id": { "type": "string" },
+    "modules": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "scenario_type": { "enum": ["cli", "service", "pipeline"] },
+    "kind": { "enum": ["intent", "incident", "smoke"] },
+    "security_metric": { "type": "string", "description": "NFR metric_id this case validates (req 2.7); absent for non-security cases" },
+    "smoke": { "type": "boolean", "description": "true => part of the must-pass smoke suite (req 2.8)" },
+    "input": { "type": "object" },
+    "assertions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["field", "class"],
+        "properties": { "class": { "enum": ["exact", "normalized", "invariant", "ignored"] } }
+      }
+    }
+  }
+}

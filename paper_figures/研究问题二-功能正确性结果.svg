@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="470" viewBox="0 0 1030 470">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="76" y1="388.0" x2="992" y2="388.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="392.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">0</text>
+<line x1="76" y1="303.0" x2="992" y2="303.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="307.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">20</text>
+<line x1="76" y1="218.0" x2="992" y2="218.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="222.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">40</text>
+<line x1="76" y1="133.0" x2="992" y2="133.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="137.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">60</text>
+<line x1="76" y1="48.0" x2="992" y2="48.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="52.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">80</text>
+<text x="24.0" y="86.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#333333">%</text>
+<rect x="126.5" y="253.1" width="38.0" height="134.9" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="145.5" y="250.1" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">31.7%</text>
+<rect x="171.5" y="111.2" width="38.0" height="276.8" rx="0" fill="#8E8E8E" stroke="#8E8E8E" stroke-width="1"/>
+<text x="190.5" y="108.2" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">65.1%</text>
+<rect x="216.5" y="353.2" width="38.0" height="34.8" rx="0" fill="#B0B0B0" stroke="#B0B0B0" stroke-width="1"/>
+<text x="235.5" y="350.2" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">8.2%</text>
+<text x="190.5" y="418.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">Claude Code</text>
+<text x="190.5" y="437.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#555555">5/61 full</text>
+<rect x="355.5" y="286.2" width="38.0" height="101.8" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="374.5" y="283.2" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">23.9%</text>
+<rect x="400.5" y="146.2" width="38.0" height="241.8" rx="0" fill="#8E8E8E" stroke="#8E8E8E" stroke-width="1"/>
+<text x="419.5" y="143.2" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">56.9%</text>
+<rect x="445.5" y="366.4" width="38.0" height="21.6" rx="0" fill="#B0B0B0" stroke="#B0B0B0" stroke-width="1"/>
+<text x="464.5" y="363.4" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">5.1%</text>
+<text x="419.5" y="418.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">Codex</text>
+<text x="419.5" y="437.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#555555">3/59 full</text>
+<rect x="584.5" y="224.9" width="38.0" height="163.1" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="603.5" y="221.9" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">38.4%</text>
+<rect x="629.5" y="99.9" width="38.0" height="288.1" rx="0" fill="#8E8E8E" stroke="#8E8E8E" stroke-width="1"/>
+<text x="648.5" y="96.9" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">67.8%</text>
+<rect x="674.5" y="313.4" width="38.0" height="74.6" rx="0" fill="#B0B0B0" stroke="#B0B0B0" stroke-width="1"/>
+<text x="693.5" y="310.4" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">17.5%</text>
+<text x="648.5" y="418.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">Cursor</text>
+<text x="648.5" y="437.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#555555">10/57 full</text>
+<rect x="813.5" y="256.0" width="38.0" height="132.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="832.5" y="253.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">31.1%</text>
+<rect x="858.5" y="125.3" width="38.0" height="262.7" rx="0" fill="#8E8E8E" stroke="#8E8E8E" stroke-width="1"/>
+<text x="877.5" y="122.3" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">61.8%</text>
+<rect x="903.5" y="343.3" width="38.0" height="44.7" rx="0" fill="#B0B0B0" stroke="#B0B0B0" stroke-width="1"/>
+<text x="922.5" y="340.3" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222222">10.5%</text>
+<text x="877.5" y="418.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">Kimi</text>
+<text x="877.5" y="437.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#555555">6/57 full</text>
+<rect x="720.0" y="26.0" width="14.0" height="14.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="742.0" y="38.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222222">Requirement coverage</text>
+<rect x="720.0" y="46.0" width="14.0" height="14.0" rx="0" fill="#8E8E8E" stroke="#8E8E8E" stroke-width="1"/>
+<text x="742.0" y="58.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222222">Test pass</text>
+<rect x="720.0" y="66.0" width="14.0" height="14.0" rx="0" fill="#B0B0B0" stroke="#B0B0B0" stroke-width="1"/>
+<text x="742.0" y="78.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222222">Full-FR</text>
+</svg>

@@ -1,0 +1,6 @@
+kind,label,count,rate
+target_language,Go,46,0.5679012345679012
+target_language,Rust,22,0.2716049382716049
+target_language,Python,11,0.13580246913580246
+target_language,TypeScript,1,0.012345679012345678
+target_language,Node,1,0.012345679012345678

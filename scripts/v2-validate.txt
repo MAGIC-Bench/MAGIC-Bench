@@ -1,0 +1,8 @@
+codegen-bench-v2: 216 repos OK
+  forms={'cli': 174, 'pipeline': 32, 'service': 10}
+  langs={'go': 62, 'rust': 48, 'python': 40, 'node': 21, 'c': 14, 'cpp': 10, 'java': 7, 'ruby': 6, 'kotlin': 3, 'php': 2, 'csharp': 2, 'shell': 1}
+  sample normalized: id=facebook-zstd type=cli lang=c image=ref-facebook-zstd:latest src=D:\code-bench\repos\facebook-zstd
+pilot-v2: 15 repos OK
+  forms={'cli': 14, 'pipeline': 1}
+  langs={'python': 5, 'go': 5, 'rust': 3, 'java': 2}
+  sample normalized: id=adrienverge-yamllint type=cli lang=python image=ref-adrienverge-yamllint:latest src=D:\code-bench\repos\adrienverge-yamllint

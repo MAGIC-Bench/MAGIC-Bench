@@ -1,0 +1,20 @@
+=== codex login status ===
+Logged in using ChatGPT
+=== doctor (status lines) ===
+  ✓ system       C
+  ✓ runtime      npm (package /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl, bin /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin, resources /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources, path /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path)
+  ✓ install      consistent
+  ✓ search       file exists (bundled, `/home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path/rg`)
+  ✓ git          git version 2.53.0
+  ✓ terminal     unknown · TERM=xterm-256color
+  ✓ title        default · project c
+  ✓ state        state paths and databases are inspectable
+  ✓ threads      no rollout/state DB inventory to compare
+  ✓ config       loaded
+  ✓ auth         auth is configured
+      auth storage mode        File
+      auth file                ~/.codex/auth.json
+      stored auth mode         chatgpt
+
+=== SMOKE: codex exec writes a file (the core --agent codex mechanism) ===
+workspace: /tmp/tmp.6ImZqLT3W2

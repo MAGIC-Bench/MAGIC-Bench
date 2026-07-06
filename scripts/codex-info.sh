@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+export PATH="$HOME/.local/bin:$PATH"
+echo "which codex: $(command -v codex || echo NOTFOUND)"
+echo "--- ls ~/.local/bin (codex) ---"
+ls -la "$HOME/.local/bin/" | grep -i codex || echo "no codex symlink in ~/.local/bin"
+echo "--- node_modules ---"
+ls "$HOME/.local/lib/node_modules/@openai/" 2>/dev/null || echo "no @openai dir"
+echo "=== codex --version ==="
+codex --version 2>&1 || echo "version FAILED"
+echo "=== codex --help (top 30) ==="
+codex --help 2>&1 | head -30 || echo "help FAILED"
+echo "=== codex exec --help ==="
+codex exec --help 2>&1 | head -90 || echo "exec help FAILED"

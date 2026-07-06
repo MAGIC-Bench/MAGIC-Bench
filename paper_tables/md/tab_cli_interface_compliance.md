@@ -1,0 +1,7 @@
+| Agent | Build-ok projects | Fully compliant projects | Project-level full compliance | Probe pass rate | Avg. project probe pass |
+| --- | --- | --- | --- | --- | --- |
+| Claude Code | 61 | 20/61 | 32.79% | 1592/2777 (57.33%) | 63.94% |
+| Codex | 59 | 23/59 | 38.98% | 1612/2577 (62.55%) | 71.39% |
+| Cursor | 57 | 14/57 | 24.56% | 1449/2724 (53.19%) | 65.54% |
+| Kimi | 57 | 16/57 | 28.07% | 1437/2577 (55.76%) | 63.07% |
+| Main total | 234 | 73/234 | 31.20% | 6090/10655 (57.16%) | -- |

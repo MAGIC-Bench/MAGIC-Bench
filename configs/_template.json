@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy to configs/<your-repo>.json and fill in. 'launch' is the command that runs the SUT; everything in a draft's argv is appended to it.",
+  "repo_id": "myrepo",
+  "launch": ["D:/code-bench/bin/myrepo.exe"],
+  "_launch_examples": {
+    "go-binary": ["D:/code-bench/bin/myrepo_cov.exe"],
+    "python-cli": ["python", "-m", "mytool"],
+    "node-cli": ["node", "D:/path/cli.js"],
+    "any-exe": ["D:/path/to/binary"]
+  },
+  "drafts": "D:/code-bench/out/myrepo/drafts.json",
+  "out_dir": "D:/code-bench/out/myrepo",
+  "coverage": "none",
+  "_coverage_note": "'go' = built with `go build -cover`, gives the coverage-climb signal. 'none' = any binary/language; you still get golden testcases via the differential oracle, just no coverage-driven iteration (ask me to add a coverage adapter for Python/Rust/etc.)."
+}

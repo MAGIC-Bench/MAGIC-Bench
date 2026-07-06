@@ -1,0 +1,23 @@
+{
+  "agents": {
+    "agy": {
+      "projects": 45,
+      "avg_requirement_coverage": 0.0,
+      "module_weighted_requirement_coverage": 0.0,
+      "covered_modules": 0,
+      "total_modules": 381,
+      "test_passed": 44,
+      "test_total": 3696,
+      "test_pass_rate": 0.011904761904761904,
+      "perfect_projects": 0,
+      "rerun_gate_failed_after_original_ok": 1
+    }
+  },
+  "overall": {
+    "projects": 45,
+    "test_passed": 44,
+    "test_total": 3696,
+    "test_pass_rate": 0.011904761904761904,
+    "perfect_projects": 0
+  }
+}

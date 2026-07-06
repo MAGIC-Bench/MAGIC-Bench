@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "codegen-bench dataset manifest",
+  "description": "Describes the benchmark dataset (5 scenarios x 100 repos). The framework is repo-agnostic: all per-repo specifics live here; all per-repo creativity (comprehension/contract/modules/stories/draft inputs) is produced by the out-题 agent at run time. No repo logic is hardcoded.",
+  "type": "object",
+  "required": ["dataset", "repos"],
+  "properties": {
+    "dataset": { "type": "string" },
+    "defaults": {
+      "type": "object",
+      "properties": {
+        "quota": { "type": "integer", "default": 20 },
+        "runtime_mode": { "enum": ["docker", "local"], "default": "docker" }
+      }
+    },
+    "repos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "scenario", "scenario_type", "language", "source"],
+        "properties": {
+          "id": { "type": "string" },
+          "scenario": { "type": "string", "description": "one of your 5 scenario labels (domain)" },
+          "scenario_type": { "enum": ["cli", "service", "pipeline"], "description": "harness type" },
+          "language": { "type": "string", "description": "go|python|rust|node|java|... (selects build/coverage preset)" },
+          "source": {
+            "type": "object",
+            "required": ["kind"],
+            "properties": {
+              "kind": { "enum": ["git", "path"] },
+              "url": { "type": "string" },
+              "ref": { "type": "string", "description": "pinned commit/tag" },
+              "path": { "type": "string" }
+            }
+          },
+          "runtime": {
+            "type": "object",
+            "description": "how Stage 0 builds the ref-image / binary. Omitted fields fall back to the language preset (engine/config.py).",
+            "properties": {
+              "mode": { "enum": ["docker", "local"] },
+              "dockerfile": { "type": "string" },
+              "image": { "type": "string" },
+              "build_cmd": { "type": "array" },
+              "test_cmd": { "type": "array" },
+              "cover": {
+                "type": "object",
+                "properties": {
+                  "mode": { "enum": ["go", "lcov", "coveragepy", "none"] },
+                  "build_cmd": { "type": "array" },
+                  "collect": { "type": "string", "description": "path the instrumented run writes coverage to" }
+                }
+              }
+            }
+          },
+          "launch": { "type": "array", "description": "cli: how to invoke the SUT (local mode)" },
+          "service": {
+            "type": "object",
+            "description": "service scenario: how to start + reach the SUT",
+            "properties": {
+              "port": { "type": "integer" }, "health": { "type": "string" },
+              "base_path": { "type": "string" }, "env": { "type": "object" },
+              "fixtures": { "type": "string" }, "start_timeout_s": { "type": "number" }
+            }
+          },
+          "pipeline": {
+            "type": "object",
+            "description": "pipeline scenario: input/output contract",
+            "properties": {
+              "in": { "type": "string" }, "out": { "type": "string" },
+              "cmd": { "type": "array" }, "compare": { "enum": ["bytes", "json_records", "lines"] }
+            }
+          },
+          "dependencies": {
+            "type": "array",
+            "description": "runtime DB/cache sidecars (NOT needed at build time). Started once on a shared docker network; the SUT connects via the named env var; state is RESET before EVERY test case (same policy at exam + grading time).",
+            "items": {
+              "type": "object",
+              "required": ["kind", "env"],
+              "properties": {
+                "kind": { "enum": ["postgres", "mysql", "mongodb", "redis", "memcached"] },
+                "env": { "type": "string", "description": "SUT env var that receives the connection URL" },
+                "image": { "type": "string" },
+                "db_name": { "type": "string" }
+              }
+            }
+          },
+          "quota": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

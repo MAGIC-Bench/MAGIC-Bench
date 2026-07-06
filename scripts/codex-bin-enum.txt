@@ -1,0 +1,4 @@
+binary: /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path/rg
+=== lines listing the effort variants together (help / enum) ===
+=== does an 'xhigh' tier exist? ===
+=== does a 'none' effort exist near reasoning? ===

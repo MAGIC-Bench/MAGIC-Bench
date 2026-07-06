@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "nfr-labels",
+  "type": "object",
+  "required": ["labels"],
+  "properties": {
+    "labels": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["metric_id", "applies"],
+        "properties": {
+          "metric_id": { "type": "string", "minLength": 1 },
+          "applies": { "type": "boolean" },
+          "kind": { "enum": ["static", "runtime"] },
+          "dimension": { "type": "string" },
+          "scoring": { "enum": ["binary", "ratio100"] },
+          "justification": { "type": "string" },
+          "probe_hint": { "type": "string" }
+        }
+      }
+    },
+    "applicable": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,14 @@
+=== distinct values seen as "effort": "X" ===
+      6 "effort": "high"
+      6 "effort": "low"
+      6 "effort": "medium"
+      6 "effort": "xhigh"
+=== distinct values seen as reasoning_effort=... / 'reasoning effort ... X' ===
+      1 reasoning_effort = "low
+      4 reasoning_effort = excluded
+      1 reasoning_effort TEXT
+      1 reasoning_effort must
+=== context around 'Supported reasoning efforts' ===
+ Reasoning efforts: 
+ `. Supported reasoning efforts: 
+=== is 'none' a reasoning effort? (vs just the word none) ===

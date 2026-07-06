@@ -1,0 +1,1765 @@
+[
+ {
+  "scenario": "CLI Tool · 命令行",
+  "count_label": "101 个 · CLI 92 · Pipeline 9",
+  "n": 101,
+  "repos": [
+   {
+    "name": "facebook/zstd",
+    "url": "https://github.com/facebook/zstd",
+    "form": "cli",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "google/zopfli",
+    "url": "https://github.com/google/zopfli",
+    "form": "cli",
+    "lang": "C",
+    "build": "cmake",
+    "src": "新CLI池"
+   },
+   {
+    "name": "libarchive/libarchive",
+    "url": "https://github.com/libarchive/libarchive",
+    "form": "cli",
+    "lang": "C",
+    "build": "cmake",
+    "src": "新CLI池"
+   },
+   {
+    "name": "libjpeg-turbo/libjpeg-turbo",
+    "url": "https://github.com/libjpeg-turbo/libjpeg-turbo",
+    "form": "cli",
+    "lang": "C",
+    "build": "cmake",
+    "src": "新CLI池"
+   },
+   {
+    "name": "lz4/lz4",
+    "url": "https://github.com/lz4/lz4",
+    "form": "cli",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "quickjs-ng/quickjs",
+    "url": "https://github.com/quickjs-ng/quickjs",
+    "form": "cli",
+    "lang": "C",
+    "build": "cmake",
+    "src": "新CLI池"
+   },
+   {
+    "name": "tavianator/bfs",
+    "url": "https://github.com/tavianator/bfs",
+    "form": "cli",
+    "lang": "C",
+    "build": "make",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "xiph/flac",
+    "url": "https://github.com/xiph/flac",
+    "form": "cli",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "GothenburgBitFactory/timewarrior",
+    "url": "https://github.com/GothenburgBitFactory/timewarrior",
+    "form": "cli",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "jarulraj/sqlcheck",
+    "url": "https://github.com/jarulraj/sqlcheck",
+    "form": "cli",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "qpdf/qpdf",
+    "url": "https://github.com/qpdf/qpdf",
+    "form": "cli",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "新CLI池"
+   },
+   {
+    "name": "carapace-sh/carapace-bin",
+    "url": "https://github.com/carapace-sh/carapace-bin",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "client9/misspell",
+    "url": "https://github.com/client9/misspell",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "dominikh/go-tools",
+    "url": "https://github.com/dominikh/go-tools",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "ericchiang/pup",
+    "url": "https://github.com/ericchiang/pup",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "errata-ai/vale",
+    "url": "https://github.com/errata-ai/vale",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "evanw/esbuild",
+    "url": "https://github.com/evanw/esbuild",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "gammons/ultralist",
+    "url": "https://github.com/gammons/ultralist",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "go-task/task",
+    "url": "https://github.com/go-task/task",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "hhatto/gocloc",
+    "url": "https://github.com/hhatto/gocloc",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "homeport/termshot",
+    "url": "https://github.com/homeport/termshot",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "muesli/duf",
+    "url": "https://github.com/muesli/duf",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "mvdan/gofumpt",
+    "url": "https://github.com/mvdan/gofumpt",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "mvdan/sh",
+    "url": "https://github.com/mvdan/sh",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "mvdan/xurls",
+    "url": "https://github.com/mvdan/xurls",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "rhysd/actionlint",
+    "url": "https://github.com/rhysd/actionlint",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sibprogrammer/xq",
+    "url": "https://github.com/sibprogrammer/xq",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "square/certigo",
+    "url": "https://github.com/square/certigo",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "tdewolff/minify",
+    "url": "https://github.com/tdewolff/minify",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "tomnomnom/anew",
+    "url": "https://github.com/tomnomnom/anew",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "tomnomnom/unfurl",
+    "url": "https://github.com/tomnomnom/unfurl",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "Yakitrak/notesmd-cli",
+    "url": "https://github.com/Yakitrak/notesmd-cli",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "google/google-java-format",
+    "url": "https://github.com/google/google-java-format",
+    "form": "cli",
+    "lang": "Java",
+    "build": "maven",
+    "src": "新CLI池"
+   },
+   {
+    "name": "eslint/eslint",
+    "url": "https://github.com/eslint/eslint",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "igorshubovych/markdownlint-cli",
+    "url": "https://github.com/igorshubovych/markdownlint-cli",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "jshint/jshint",
+    "url": "https://github.com/jshint/jshint",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "prettier/prettier",
+    "url": "https://github.com/prettier/prettier",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "stylelint/stylelint",
+    "url": "https://github.com/stylelint/stylelint",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "terser/terser",
+    "url": "https://github.com/terser/terser",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "facebook/ktfmt",
+    "url": "https://github.com/facebook/ktfmt",
+    "form": "cli",
+    "lang": "Kotlin",
+    "build": "maven",
+    "src": "新CLI池"
+   },
+   {
+    "name": "pinterest/ktlint",
+    "url": "https://github.com/pinterest/ktlint",
+    "form": "cli",
+    "lang": "Kotlin",
+    "build": "gradle",
+    "src": "新CLI池"
+   },
+   {
+    "name": "ReVanced/revanced-cli",
+    "url": "https://github.com/ReVanced/revanced-cli",
+    "form": "cli",
+    "lang": "Kotlin",
+    "build": "gradle",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "PHPCSStandards/PHP_CodeSniffer",
+    "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer",
+    "form": "cli",
+    "lang": "PHP",
+    "build": "composer",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "adrienverge/yamllint",
+    "url": "https://github.com/adrienverge/yamllint",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "asottile/pyupgrade",
+    "url": "https://github.com/asottile/pyupgrade",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "asottile/reorder-python-imports",
+    "url": "https://github.com/asottile/reorder-python-imports",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "codespell-project/codespell",
+    "url": "https://github.com/codespell-project/codespell",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "deadc0de6/dotdrop",
+    "url": "https://github.com/deadc0de6/dotdrop",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "dosisod/refurb",
+    "url": "https://github.com/dosisod/refurb",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "google/pytype",
+    "url": "https://github.com/google/pytype",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "google/yapf",
+    "url": "https://github.com/google/yapf",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "hauntsaninja/pyp",
+    "url": "https://github.com/hauntsaninja/pyp",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "hhatto/autopep8",
+    "url": "https://github.com/hhatto/autopep8",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "jendrikseipp/vulture",
+    "url": "https://github.com/jendrikseipp/vulture",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "nedbat/coveragepy",
+    "url": "https://github.com/nedbat/coveragepy",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "psf/black",
+    "url": "https://github.com/psf/black",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "PyCQA/isort",
+    "url": "https://github.com/PyCQA/isort",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "PyCQA/pycodestyle",
+    "url": "https://github.com/PyCQA/pycodestyle",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "PyCQA/pyflakes",
+    "url": "https://github.com/PyCQA/pyflakes",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "pydoit/doit",
+    "url": "https://github.com/pydoit/doit",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "pylint-dev/pylint",
+    "url": "https://github.com/pylint-dev/pylint",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "python/mypy",
+    "url": "https://github.com/python/mypy",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "rubik/radon",
+    "url": "https://github.com/rubik/radon",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "JacobEvelyn/friends",
+    "url": "https://github.com/JacobEvelyn/friends",
+    "form": "cli",
+    "lang": "Ruby",
+    "build": "bundler",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "alexhallam/tv",
+    "url": "https://github.com/alexhallam/tv",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "alexpovel/srgn",
+    "url": "https://github.com/alexpovel/srgn",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "astral-sh/ruff",
+    "url": "https://github.com/astral-sh/ruff",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "biomejs/biome",
+    "url": "https://github.com/biomejs/biome",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "bootandy/dust",
+    "url": "https://github.com/bootandy/dust",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "BurntSushi/critcmp",
+    "url": "https://github.com/BurntSushi/critcmp",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "BurntSushi/ripgrep",
+    "url": "https://github.com/BurntSushi/ripgrep",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "casey/just",
+    "url": "https://github.com/casey/just",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "chmln/sd",
+    "url": "https://github.com/chmln/sd",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "dalance/procs",
+    "url": "https://github.com/dalance/procs",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "dominikwilkowski/cfonts",
+    "url": "https://github.com/dominikwilkowski/cfonts",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "eza-community/eza",
+    "url": "https://github.com/eza-community/eza",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "lsd-rs/lsd",
+    "url": "https://github.com/lsd-rs/lsd",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "rust-lang/rustfmt",
+    "url": "https://github.com/rust-lang/rustfmt",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "samwho/spacer",
+    "url": "https://github.com/samwho/spacer",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "sharkdp/bat",
+    "url": "https://github.com/sharkdp/bat",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sharkdp/diskus",
+    "url": "https://github.com/sharkdp/diskus",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sharkdp/fd",
+    "url": "https://github.com/sharkdp/fd",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sharkdp/hexyl",
+    "url": "https://github.com/sharkdp/hexyl",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sharkdp/hyperfine",
+    "url": "https://github.com/sharkdp/hyperfine",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sharkdp/pastel",
+    "url": "https://github.com/sharkdp/pastel",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "solidiquis/erdtree",
+    "url": "https://github.com/solidiquis/erdtree",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "tach-org/tach",
+    "url": "https://github.com/tach-org/tach",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "tombi-toml/tombi",
+    "url": "https://github.com/tombi-toml/tombi",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "tuna-f1sh/cyme",
+    "url": "https://github.com/tuna-f1sh/cyme",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "uutils/coreutils",
+    "url": "https://github.com/uutils/coreutils",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "XAMPPRocky/tokei",
+    "url": "https://github.com/XAMPPRocky/tokei",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "microsoft/pyright",
+    "url": "https://github.com/microsoft/pyright",
+    "form": "cli",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "kornelski/pngquant",
+    "url": "https://github.com/kornelski/pngquant",
+    "form": "pipe",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "xiph/opus-tools",
+    "url": "https://github.com/xiph/opus-tools",
+    "form": "pipe",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "google/guetzli",
+    "url": "https://github.com/google/guetzli",
+    "form": "pipe",
+    "lang": "C++",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "Achno/gowall",
+    "url": "https://github.com/Achno/gowall",
+    "form": "pipe",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "dyatko/arkit",
+    "url": "https://github.com/dyatko/arkit",
+    "form": "pipe",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "rollup/rollup",
+    "url": "https://github.com/rollup/rollup",
+    "form": "pipe",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "shssoichiro/oxipng",
+    "url": "https://github.com/shssoichiro/oxipng",
+    "form": "pipe",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "playcanvas/splat-transform",
+    "url": "https://github.com/playcanvas/splat-transform",
+    "form": "pipe",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "simonhaenisch/md-to-pdf",
+    "url": "https://github.com/simonhaenisch/md-to-pdf",
+    "form": "pipe",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   }
+  ]
+ },
+ {
+  "scenario": "Serialization / Format · 序列化/格式",
+  "count_label": "54 个 · CLI 36 · Pipeline 18",
+  "n": 54,
+  "repos": [
+   {
+    "name": "jqlang/jq",
+    "url": "https://github.com/jqlang/jq",
+    "form": "cli",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sass/sassc",
+    "url": "https://github.com/sass/sassc",
+    "form": "cli",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "ArthurSonzogni/Diagon",
+    "url": "https://github.com/ArthurSonzogni/Diagon",
+    "form": "cli",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "quick-lint/quick-lint-js",
+    "url": "https://github.com/quick-lint/quick-lint-js",
+    "form": "cli",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "benhoyt/goawk",
+    "url": "https://github.com/benhoyt/goawk",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "cue-lang/cue",
+    "url": "https://github.com/cue-lang/cue",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "google/yamlfmt",
+    "url": "https://github.com/google/yamlfmt",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "homeport/dyff",
+    "url": "https://github.com/homeport/dyff",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "itchyny/gojq",
+    "url": "https://github.com/itchyny/gojq",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "jmespath/jp",
+    "url": "https://github.com/jmespath/jp",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "johnkerl/miller",
+    "url": "https://github.com/johnkerl/miller",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "josephburnett/jd",
+    "url": "https://github.com/josephburnett/jd",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "mikefarah/yq",
+    "url": "https://github.com/mikefarah/yq",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "mna/pigeon",
+    "url": "https://github.com/mna/pigeon",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "noborus/trdsql",
+    "url": "https://github.com/noborus/trdsql",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "omissis/go-jsonschema",
+    "url": "https://github.com/omissis/go-jsonschema",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "tomnomnom/gron",
+    "url": "https://github.com/tomnomnom/gron",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "tomwright/dasel",
+    "url": "https://github.com/tomwright/dasel",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "wader/fq",
+    "url": "https://github.com/wader/fq",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "antlr/antlr4",
+    "url": "https://github.com/antlr/antlr4",
+    "form": "cli",
+    "lang": "Java",
+    "build": "maven",
+    "src": "新CLI池"
+   },
+   {
+    "name": "peggyjs/peggy",
+    "url": "https://github.com/peggyjs/peggy",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "svg/svgo",
+    "url": "https://github.com/svg/svgo",
+    "form": "cli",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "kellyjonbrazil/jc",
+    "url": "https://github.com/kellyjonbrazil/jc",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "均衡补充"
+   },
+   {
+    "name": "Scony/godot-gdscript-toolkit",
+    "url": "https://github.com/Scony/godot-gdscript-toolkit",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "wireservice/csvkit",
+    "url": "https://github.com/wireservice/csvkit",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "01mf02/jaq",
+    "url": "https://github.com/01mf02/jaq",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "afnanenayet/diffsitter",
+    "url": "https://github.com/afnanenayet/diffsitter",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "BurntSushi/ucd-generate",
+    "url": "https://github.com/BurntSushi/ucd-generate",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "BurntSushi/xsv",
+    "url": "https://github.com/BurntSushi/xsv",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "mike-engel/jwt-cli",
+    "url": "https://github.com/mike-engel/jwt-cli",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "mohsen1/yek",
+    "url": "https://github.com/mohsen1/yek",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "rslint/rslint",
+    "url": "https://github.com/rslint/rslint",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "shuttle-hq/synth",
+    "url": "https://github.com/shuttle-hq/synth",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "stepchowfun/typical",
+    "url": "https://github.com/stepchowfun/typical",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "yamafaktory/jql",
+    "url": "https://github.com/yamafaktory/jql",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "stoplightio/spectral",
+    "url": "https://github.com/stoplightio/spectral",
+    "form": "cli",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "capnproto/capnproto",
+    "url": "https://github.com/capnproto/capnproto",
+    "form": "pipe",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "均衡补充"
+   },
+   {
+    "name": "google/flatbuffers",
+    "url": "https://github.com/google/flatbuffers",
+    "form": "pipe",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "均衡补充"
+   },
+   {
+    "name": "google/woff2",
+    "url": "https://github.com/google/woff2",
+    "form": "pipe",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "新CLI池"
+   },
+   {
+    "name": "gohugoio/hugo",
+    "url": "https://github.com/gohugoio/hugo",
+    "form": "pipe",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "vdjagilev/nmap-formatter",
+    "url": "https://github.com/vdjagilev/nmap-formatter",
+    "form": "pipe",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "OpenAPITools/openapi-generator",
+    "url": "https://github.com/OpenAPITools/openapi-generator",
+    "form": "pipe",
+    "lang": "Java",
+    "build": "maven",
+    "src": "均衡补充"
+   },
+   {
+    "name": "plantuml/plantuml",
+    "url": "https://github.com/plantuml/plantuml",
+    "form": "pipe",
+    "lang": "Java",
+    "build": "gradle",
+    "src": "新CLI池"
+   },
+   {
+    "name": "mermaid-js/mermaid-cli",
+    "url": "https://github.com/mermaid-js/mermaid-cli",
+    "form": "pipe",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "新CLI池"
+   },
+   {
+    "name": "mkdocs/mkdocs",
+    "url": "https://github.com/mkdocs/mkdocs",
+    "form": "pipe",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "sphinx-doc/sphinx",
+    "url": "https://github.com/sphinx-doc/sphinx",
+    "form": "pipe",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "tatuylonen/wiktextract",
+    "url": "https://github.com/tatuylonen/wiktextract",
+    "form": "pipe",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "weasyprint/weasyprint",
+    "url": "https://github.com/weasyprint/weasyprint",
+    "form": "pipe",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "asciidoctor/asciidoctor",
+    "url": "https://github.com/asciidoctor/asciidoctor",
+    "form": "pipe",
+    "lang": "Ruby",
+    "build": "bundler",
+    "src": "新CLI池"
+   },
+   {
+    "name": "getzola/zola",
+    "url": "https://github.com/getzola/zola",
+    "form": "pipe",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "rust-lang/mdBook",
+    "url": "https://github.com/rust-lang/mdBook",
+    "form": "pipe",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "typst/typst",
+    "url": "https://github.com/typst/typst",
+    "form": "pipe",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "quicktype/quicktype",
+    "url": "https://github.com/quicktype/quicktype",
+    "form": "pipe",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "均衡补充"
+   },
+   {
+    "name": "yamlresume/yamlresume",
+    "url": "https://github.com/yamlresume/yamlresume",
+    "form": "pipe",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   }
+  ]
+ },
+ {
+  "scenario": "Cryptography / Security · 密码学/安全",
+  "count_label": "37 个 · CLI 36 · Pipeline 1",
+  "n": 37,
+  "repos": [
+   {
+    "name": "jedisct1/minisign",
+    "url": "https://github.com/jedisct1/minisign",
+    "form": "cli",
+    "lang": "C",
+    "build": "cmake",
+    "src": "新CLI池"
+   },
+   {
+    "name": "openwall/john",
+    "url": "https://github.com/openwall/john",
+    "form": "cli",
+    "lang": "C",
+    "build": "make",
+    "src": "新CLI池"
+   },
+   {
+    "name": "msoos/cryptominisat",
+    "url": "https://github.com/msoos/cryptominisat",
+    "form": "cli",
+    "lang": "C++",
+    "build": "cmake",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "activecm/rita-legacy",
+    "url": "https://github.com/activecm/rita-legacy",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "anchore/grype",
+    "url": "https://github.com/anchore/grype",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "anchore/syft",
+    "url": "https://github.com/anchore/syft",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "aquasecurity/tfsec",
+    "url": "https://github.com/aquasecurity/tfsec",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "aquasecurity/trivy",
+    "url": "https://github.com/aquasecurity/trivy",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "betterleaks/betterleaks",
+    "url": "https://github.com/betterleaks/betterleaks",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "cloudflare/cfssl",
+    "url": "https://github.com/cloudflare/cfssl",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "controlplaneio/kubesec",
+    "url": "https://github.com/controlplaneio/kubesec",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "FiloSottile/age",
+    "url": "https://github.com/FiloSottile/age",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "FiloSottile/mkcert",
+    "url": "https://github.com/FiloSottile/mkcert",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "getsops/sops",
+    "url": "https://github.com/getsops/sops",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "gitleaks/gitleaks",
+    "url": "https://github.com/gitleaks/gitleaks",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "GreenmaskIO/greenmask",
+    "url": "https://github.com/GreenmaskIO/greenmask",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "restic/restic",
+    "url": "https://github.com/restic/restic",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "securego/gosec",
+    "url": "https://github.com/securego/gosec",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "新CLI池"
+   },
+   {
+    "name": "smallstep/cli",
+    "url": "https://github.com/smallstep/cli",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "trufflesecurity/trufflehog",
+    "url": "https://github.com/trufflesecurity/trufflehog",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "XmirrorSecurity/OpenSCA-cli",
+    "url": "https://github.com/XmirrorSecurity/OpenSCA-cli",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "bee-san/Name-That-Hash",
+    "url": "https://github.com/bee-san/Name-That-Hash",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "cisco-ai-defense/skill-scanner",
+    "url": "https://github.com/cisco-ai-defense/skill-scanner",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "ossf/cve-bin-tool",
+    "url": "https://github.com/ossf/cve-bin-tool",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "PyCQA/bandit",
+    "url": "https://github.com/PyCQA/bandit",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "salesforce/policy_sentry",
+    "url": "https://github.com/salesforce/policy_sentry",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "splx-ai/agentic-radar",
+    "url": "https://github.com/splx-ai/agentic-radar",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "noraj/haiti",
+    "url": "https://github.com/noraj/haiti",
+    "form": "cli",
+    "lang": "Ruby",
+    "build": "bundler",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "rubysec/bundler-audit",
+    "url": "https://github.com/rubysec/bundler-audit",
+    "form": "cli",
+    "lang": "Ruby",
+    "build": "bundler",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "blst-security/cherrybomb",
+    "url": "https://github.com/blst-security/cherrybomb",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "fkie-cad/cwe_checker",
+    "url": "https://github.com/fkie-cad/cwe_checker",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "hahwul/jwt-hack",
+    "url": "https://github.com/hahwul/jwt-hack",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "Jon-Becker/heimdall-rs",
+    "url": "https://github.com/Jon-Becker/heimdall-rs",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "mongodb/kingfisher",
+    "url": "https://github.com/mongodb/kingfisher",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "str4d/rage",
+    "url": "https://github.com/str4d/rage",
+    "form": "cli",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "新CLI池"
+   },
+   {
+    "name": "tclahr/uac",
+    "url": "https://github.com/tclahr/uac",
+    "form": "cli",
+    "lang": "Shell",
+    "build": "sh",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "cyphar/paperback",
+    "url": "https://github.com/cyphar/paperback",
+    "form": "pipe",
+    "lang": "Rust",
+    "build": "cargo",
+    "src": "上轮复筛保留"
+   }
+  ]
+ },
+ {
+  "scenario": "Web API · 接口服务",
+  "count_label": "14 个 · Service 8 · CLI 3 · Pipeline 3",
+  "n": 14,
+  "repos": [
+   {
+    "name": "projectdiscovery/cdncheck",
+    "url": "https://github.com/projectdiscovery/cdncheck",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "OpenAPITools/openapi-diff",
+    "url": "https://github.com/OpenAPITools/openapi-diff",
+    "form": "cli",
+    "lang": "Java",
+    "build": "maven",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "graphql-hive/graphql-inspector",
+    "url": "https://github.com/graphql-hive/graphql-inspector",
+    "form": "cli",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "anvilco/spectaql",
+    "url": "https://github.com/anvilco/spectaql",
+    "form": "pipe",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "Mermade/widdershins",
+    "url": "https://github.com/Mermade/widdershins",
+    "form": "pipe",
+    "lang": "JavaScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "mitmproxy/pdoc",
+    "url": "https://github.com/mitmproxy/pdoc",
+    "form": "pipe",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "gothinkster/aspnetcore-realworld-example-app",
+    "url": "https://github.com/gothinkster/aspnetcore-realworld-example-app",
+    "form": "svc",
+    "lang": "C#",
+    "build": "dotnet",
+    "src": "均衡补充"
+   },
+   {
+    "name": "gothinkster/golang-gin-realworld-example-app",
+    "url": "https://github.com/gothinkster/golang-gin-realworld-example-app",
+    "form": "svc",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "prest/prest",
+    "url": "https://github.com/prest/prest",
+    "form": "svc",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "swagger-api/swagger-petstore",
+    "url": "https://github.com/swagger-api/swagger-petstore",
+    "form": "svc",
+    "lang": "Java",
+    "build": "maven",
+    "src": "均衡补充"
+   },
+   {
+    "name": "gothinkster/laravel-realworld-example-app",
+    "url": "https://github.com/gothinkster/laravel-realworld-example-app",
+    "form": "svc",
+    "lang": "PHP",
+    "build": "composer",
+    "src": "均衡补充"
+   },
+   {
+    "name": "gothinkster/django-realworld-example-app",
+    "url": "https://github.com/gothinkster/django-realworld-example-app",
+    "form": "svc",
+    "lang": "Python",
+    "build": "pip",
+    "src": "均衡补充"
+   },
+   {
+    "name": "gothinkster/rails-realworld-example-app",
+    "url": "https://github.com/gothinkster/rails-realworld-example-app",
+    "form": "svc",
+    "lang": "Ruby",
+    "build": "bundler",
+    "src": "均衡补充"
+   },
+   {
+    "name": "keygen-sh/keygen-api",
+    "url": "https://github.com/keygen-sh/keygen-api",
+    "form": "svc",
+    "lang": "Ruby",
+    "build": "bundler",
+    "src": "上轮复筛保留"
+   }
+  ]
+ },
+ {
+  "scenario": "Database / Storage · 数据库/存储",
+  "count_label": "10 个 · Service 2 · CLI 7 · Pipeline 1",
+  "n": 10,
+  "repos": [
+   {
+    "name": "dinedal/textql",
+    "url": "https://github.com/dinedal/textql",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "均衡补充"
+   },
+   {
+    "name": "neilotoole/sq",
+    "url": "https://github.com/neilotoole/sq",
+    "form": "cli",
+    "lang": "Go",
+    "build": "go",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "schemacrawler/SchemaCrawler",
+    "url": "https://github.com/schemacrawler/SchemaCrawler",
+    "form": "cli",
+    "lang": "Java",
+    "build": "maven",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "EvgSkv/logica",
+    "url": "https://github.com/EvgSkv/logica",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "harelba/q",
+    "url": "https://github.com/harelba/q",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "simonw/sqlite-utils",
+    "url": "https://github.com/simonw/sqlite-utils",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "sqlfluff/sqlfluff",
+    "url": "https://github.com/sqlfluff/sqlfluff",
+    "form": "cli",
+    "lang": "Python",
+    "build": "pip",
+    "src": "新CLI池"
+   },
+   {
+    "name": "eralchemy/eralchemy",
+    "url": "https://github.com/eralchemy/eralchemy",
+    "form": "pipe",
+    "lang": "Python",
+    "build": "pip",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "Azure/data-api-builder",
+    "url": "https://github.com/Azure/data-api-builder",
+    "form": "svc",
+    "lang": "C#",
+    "build": "dotnet",
+    "src": "上轮复筛保留"
+   },
+   {
+    "name": "supabase/postgres-meta",
+    "url": "https://github.com/supabase/postgres-meta",
+    "form": "svc",
+    "lang": "TypeScript",
+    "build": "npm",
+    "src": "上轮复筛保留"
+   }
+  ]
+ }
+]

@@ -1,0 +1,19 @@
+--- hello-world ---
+  FAIL
+Using default tag: latest
+Error response from daemon: failed to resolve reference "docker.io/library/hello-world:latest": failed to do request: Head "https://registry-1.docker.io/v2/library/hello-world/manifests/latest": read tcp [2001:250:3002:3240::32fb]:47080->[2600:1f18:2148:bc02:fc67:cda7:5e51:e66e]:443: read: connection reset by peer
+--- docker.m.daocloud.io/library/golang:1.22-alpine ---
+  OK
+--- docker.1ms.run/library/python:3.12-slim ---
+  OK
+--- docker.1panel.live/library/node:20-alpine ---
+  OK
+--- existing images ---
+rebuild-cmatrix:latest
+rebuild-fixture:latest
+docker.1ms.run/library/python:3.12-slim
+python:3.12-slim
+docker.1panel.live/library/node:20-alpine
+docker.m.daocloud.io/library/golang:1.22-alpine
+--- daemon registry-mirrors ---
+(none configured)

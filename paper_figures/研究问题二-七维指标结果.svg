@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="470" viewBox="0 0 1060 470">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="76" y1="392.0" x2="1018" y2="392.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="396.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">0</text>
+<line x1="76" y1="306.0" x2="1018" y2="306.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="310.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">25</text>
+<line x1="76" y1="220.0" x2="1018" y2="220.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="224.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">50</text>
+<line x1="76" y1="134.0" x2="1018" y2="134.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="138.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">75</text>
+<line x1="76" y1="48.0" x2="1018" y2="48.0" stroke="#D7DCE2" stroke-width="1"/>
+<text x="44.0" y="52.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">100</text>
+<text x="76.0" y="420.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">FR</text>
+<text x="233.0" y="420.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">CMP</text>
+<text x="390.0" y="420.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">MTN</text>
+<text x="547.0" y="420.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">PERF</text>
+<text x="704.0" y="420.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">PTB</text>
+<text x="861.0" y="420.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">RLY</text>
+<text x="1018.0" y="420.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">SEC</text>
+<polyline points="76.0,282.8 233.0,380.7 390.0,165.3 547.0,127.0 704.0,205.0 861.0,141.6 1018.0,131.9" fill="none" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="76.0" cy="282.8" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="233.0" cy="380.7" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="390.0" cy="165.3" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="547.0" cy="127.0" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="704.0" cy="205.0" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="861.0" cy="141.6" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="1018.0" cy="131.9" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<polyline points="76.0,309.6 233.0,374.5 390.0,148.3 547.0,137.4 704.0,172.4 861.0,144.9 1018.0,109.7" fill="none" stroke="#555555" stroke-width="2"/>
+<circle cx="76.0" cy="309.6" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<circle cx="233.0" cy="374.5" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<circle cx="390.0" cy="148.3" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<circle cx="547.0" cy="137.4" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<circle cx="704.0" cy="172.4" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<circle cx="861.0" cy="144.9" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<circle cx="1018.0" cy="109.7" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<polyline points="76.0,260.0 233.0,367.9 390.0,165.1 547.0,118.8 704.0,197.9 861.0,125.3 1018.0,121.1" fill="none" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="76.0" cy="260.0" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="233.0" cy="367.9" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="390.0" cy="165.1" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="547.0" cy="118.8" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="704.0" cy="197.9" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="861.0" cy="125.3" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="1018.0" cy="121.1" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<polyline points="76.0,285.2 233.0,385.4 390.0,163.1 547.0,114.4 704.0,193.4 861.0,127.9 1018.0,123.4" fill="none" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="76.0" cy="285.2" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="233.0" cy="385.4" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="390.0" cy="163.1" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="547.0" cy="114.4" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="704.0" cy="193.4" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="861.0" cy="127.9" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="1018.0" cy="123.4" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<line x1="840" y1="112" x2="868" y2="112" stroke="#2F5D8C" stroke-width="2"/>
+<circle cx="854" cy="112" r="4" fill="white" stroke="#2F5D8C" stroke-width="2"/>
+<text x="878.0" y="115.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222222">Claude Code</text>
+<line x1="840" y1="135" x2="868" y2="135" stroke="#555555" stroke-width="2"/>
+<circle cx="854" cy="135" r="4" fill="white" stroke="#555555" stroke-width="2"/>
+<text x="878.0" y="138.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222222">Codex</text>
+<line x1="840" y1="158" x2="868" y2="158" stroke="#9C6B30" stroke-width="2"/>
+<circle cx="854" cy="158" r="4" fill="white" stroke="#9C6B30" stroke-width="2"/>
+<text x="878.0" y="161.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222222">Cursor</text>
+<line x1="840" y1="181" x2="868" y2="181" stroke="#5A7D5A" stroke-width="2"/>
+<circle cx="854" cy="181" r="4" fill="white" stroke="#5A7D5A" stroke-width="2"/>
+<text x="878.0" y="184.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222222">Kimi</text>
+</svg>

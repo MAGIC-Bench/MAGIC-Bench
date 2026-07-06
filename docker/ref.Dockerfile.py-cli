@@ -1,0 +1,24 @@
+# ref-image for a Python CLI repo (e.g. an ML tool that downloads models on first run).
+# Two-phase network: BUILD on (mirrors + warm-up), RUN off (assets frozen in image).
+FROM python:3.11-slim@sha256:REPLACE_WITH_DIGEST AS build
+ENV PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple \
+    HF_ENDPOINT=https://hf-mirror.com \
+    HF_HOME=/assets/hf TORCH_HOME=/assets/torch NLTK_DATA=/assets/nltk XDG_CACHE_HOME=/assets/cache
+COPY requirements.lock .
+RUN pip install --require-hashes -r requirements.lock        # pin + hash
+COPY . /src
+# WARM-UP: trigger every "first-run" download at BUILD time so RUN needs no network.
+RUN python -m mytool --warmup 2>/dev/null || true \
+ && python -c "import nltk; nltk.download('punkt', download_dir='/assets/nltk')" 2>/dev/null || true
+
+FROM python:3.11-slim@sha256:REPLACE_WITH_DIGEST
+COPY --from=build /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=build /assets /assets
+COPY --from=build /src /src
+ENV HF_HOME=/assets/hf TORCH_HOME=/assets/torch NLTK_DATA=/assets/nltk XDG_CACHE_HOME=/assets/cache \
+    HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TZ=UTC NO_COLOR=1
+WORKDIR /src
+ENTRYPOINT ["python", "-m", "mytool"]
+
+# offline self-check (must pass -> proves nothing lazy-downloads at run time):
+#   docker run --rm --network none ref-image  --help

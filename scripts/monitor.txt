@@ -1,0 +1,38 @@
+=== per-repo progress (STATUS.json) ===
+  achno-gowall                       pass=[]  [stage0 FAIL: fail: docker build failed: tmp/gowall;     printf '%s\n'       'EnableImagePreviewing: fal]
+  activecm-rita-legacy               pass=[]  [stage0 FAIL: fail: docker build failed:    https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c ]
+  afnanenayet-diffsitter             pass=[]  [stage0 FAIL: fail: docker build failed: release.
+            Install the buildx component to build imag]
+  afuh-rick-and-morty-api            stage 0-1 pass  [stage2 FAIL: fail: RuntimeError: claude stage2 did not write ['02_cli-contract.json']]
+  alexhallam-tv                      pass=[]  [stage0 FAIL: fail: docker build failed: ture release.
+            Install the buildx component to build]
+  alexpovel-srgn                     stage 0-8 pass
+  anvilco-spectaql                   pass=[]  [stage0 FAIL: fail: docker build failed: //registry.npmmirror.com'     > .npmrc   && npm install -g yarn]
+  bee-san-name-that-hash             stage 0-8 pass
+  benhoyt-goawk                      stage 0-8 pass
+  betterleaks-betterleaks            stage 0-8 pass
+  eralchemy-eralchemy                stage 0-8 pass
+  graphql-hive-graphql-inspector     pass=[]  [stage0 FAIL: fail: docker build failed: DEPRECATED: The legacy builder is deprecated and will be remove]
+  gron                               stage 0-7 pass
+  groncx                             stage 0-7 pass
+  homeport-dyff                      stage 0-8 pass
+  neilotoole-sq                      stage 0-4 pass  [stage5 FAIL: fail: PermissionError: [Errno 13] Permission denied: '/tmp/codebench_run_hh7dr9o3/export.y]
+  supabase-postgres-meta             stage 0-1 pass  [stage2 FAIL: fail: RuntimeError: claude stage2 did not write ['02_cli-contract.json']]
+
+=== codex stage activity right now ===
+=== run_dataset processes ===
+
+=== ref- images built ===
+ref-afuh-rick-and-morty-api:latest
+ref-alexpovel-srgn:latest
+ref-bee-san-name-that-hash:latest
+ref-benhoyt-goawk:latest
+ref-betterleaks-betterleaks:latest
+ref-eralchemy-eralchemy:latest
+ref-homeport-dyff:latest
+ref-neilotoole-sq:latest
+ref-supabase-postgres-meta:latest
+=== repos cloned ===
+achno-gowall activecm-rita-legacy afnanenayet-diffsitter afuh-rick-and-morty-api alexhallam-tv alexpovel-srgn anvilco-spectaql bee-san-name-that-hash benhoyt-goawk betterleaks-betterleaks eralchemy-eralchemy graphql-hive-graphql-inspector gron homeport-dyff neilotoole-sq supabase-postgres-meta 

@@ -1,0 +1,23 @@
+FULL manifest: 216 repos -> dataset/codegen-bench-v2.manifest.json
+PILOT v2: 15 repos (3/scenario) -> dataset/pilot-v2.manifest.json
+
+## cli_tool
+   adrienverge-yamllint                   cli       python   build=pip
+   astral-sh-ruff                         cli       rust     build=cargo
+   carapace-sh-carapace-bin               cli       go       build=go
+## serialization_format
+   kellyjonbrazil-jc                      cli       python   build=pip
+   01mf02-jaq                             cli       rust     build=cargo
+   cue-lang-cue                           cli       go       build=go
+## cryptography_security
+   cisco-ai-defense-skill-scanner         cli       python   build=pip
+   blst-security-cherrybomb               cli       rust     build=cargo
+   anchore-grype                          cli       go       build=go
+## web_api
+   projectdiscovery-cdncheck              cli       go       build=go
+   openapitools-openapi-diff              cli       java     build=maven
+   mitmproxy-pdoc                         pipeline  python   build=pip
+## database_storage
+   evgskv-logica                          cli       python   build=pip
+   dinedal-textql                         cli       go       build=go
+   schemacrawler-schemacrawler            cli       java     build=maven

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "repo-model",
+  "type": "object",
+  "required": ["repo_id", "scenario_type", "public_surface", "candidate_brief"],
+  "properties": {
+    "repo_id": { "type": "string" },
+    "scenario_type": { "enum": ["cli", "service", "pipeline"] },
+    "language": { "type": "string" },
+    "candidate_brief": { "type": "string", "minLength": 1 },
+    "external_deps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": { "kind": { "enum": ["env-download", "controllable-network", "uncontrollable-realtime"] } }
+      }
+    },
+    "determinism_hazards": { "type": "array" }
+  }
+}

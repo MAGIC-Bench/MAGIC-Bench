@@ -1,0 +1,8 @@
+| Dimension | Failed / applicable | Failure rate |
+| --- | --- | --- |
+| CMP (Compatibility) | 380/463 | 82.07% |
+| PTB (Portability/buildability) | 578/1379 | 41.91% |
+| MTN (Maintainability) | 374/1145 | 32.66% |
+| RLY (Reliability) | 175/691 | 25.33% |
+| PERF (Performance efficiency) | 156/701 | 22.25% |
+| SEC (Security) | 67/313 | 21.41% |

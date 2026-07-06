@@ -1,0 +1,221 @@
+{
+  "dataset": "codegen-bench-pilot-v3",
+  "defaults": {
+    "quota": 20,
+    "runtime_mode": "docker"
+  },
+  "repos": [
+    {
+      "id": "dosisod-refurb",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dosisod/refurb.git",
+        "ref": null
+      },
+      "_repo": "dosisod/refurb",
+      "_lang": "Python",
+      "_stars": 2536,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "A tool for refurbishing and modernizing Python codebases",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "josephburnett-jd",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/josephburnett/jd.git",
+        "ref": null
+      },
+      "_repo": "josephburnett/jd",
+      "_lang": "Go",
+      "_stars": 2277,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "JSON diff and patch",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "ogen-go-ogen",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "go",
+      "drop_threshold": 0.15,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ogen-go/ogen.git",
+        "ref": null
+      },
+      "_repo": "ogen-go/ogen",
+      "_lang": "Go",
+      "_stars": 2091,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "OpenAPI v3 code generator for Go; spec → type-safe Go client/server code",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "bee-san-name-that-hash",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bee-san/Name-That-Hash.git",
+        "ref": null
+      },
+      "_repo": "bee-san/Name-That-Hash",
+      "_lang": "Python",
+      "_stars": 1659,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "C",
+          "score": 4
+        }
+      ],
+      "_desc": "Don't know what type of hash it is? Name That Hash will name that hash type",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "neilotoole-sq",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "go",
+      "build_timeout_s": 1800,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/neilotoole/sq.git",
+        "ref": null
+      },
+      "_repo": "neilotoole/sq",
+      "_lang": "Go",
+      "_stars": 2520,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储",
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "sq data wrangler",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    }
+  ]
+}

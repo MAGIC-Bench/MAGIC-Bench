@@ -1,0 +1,17 @@
+{
+  "dataset": "gron-codex-test",
+  "defaults": { "quota": 20, "runtime_mode": "local" },
+  "repos": [
+    {
+      "id": "groncx",
+      "scenario": "dev-tooling",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": { "kind": "path", "path": "/mnt/d/code-bench/repos/gron" },
+      "runtime": { "mode": "local", "cover": { "mode": "go" } },
+      "launch": ["/mnt/d/code-bench/bin/gron_cov_linux"],
+      "quota": 20,
+      "max_rounds": 5
+    }
+  ]
+}

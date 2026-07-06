@@ -1,0 +1,25 @@
+[H[2J[3J================= codegen-bench pilot monitor =================
+time: 2026-06-22 17:58:38
+orchestrator: not running   
+active: repo[none]  codex[idle]  build[none]  replay[none]
+---------------------------------------------------------------
+ legend: ########## = stages 0..8   [DONE] full exam   [>>] active   [FAIL] stopped
+---------------------------------------------------------------
+ [DONE] achno-gowall                     ######### s8  166 tests
+ [DONE] alexhallam-tv                    ######### s8  120 tests
+ [DONE] alexpovel-srgn                   ######### s8  62 tests
+ [FAIL] afnanenayet-diffsitter           ......... s-  stage0 stopped
+ [DONE] benhoyt-goawk                    ######### s8  84 tests
+ [DONE] homeport-dyff                    ######### s8  23 tests
+ [FAIL] graphql-hive-graphql-inspector   ......... s-  stage0 stopped
+ [ . ] afuh-rick-and-morty-api          ####..... s3
+ [FAIL] anvilco-spectaql                 ......... s-  stage0 stopped
+ [FAIL] neilotoole-sq                    #####.... s4  stage5 stopped
+ [DONE] eralchemy-eralchemy              ######### s8  25 tests
+ [FAIL] supabase-postgres-meta           ##....... s1  stage2 stopped
+ [FAIL] activecm-rita-legacy             ......... s-  stage0 stopped
+ [DONE] bee-san-name-that-hash           ######### s8  29 tests
+ [DONE] betterleaks-betterleaks          ######### s8  125 tests
+---------------------------------------------------------------
+ full exams: 8/15      stopped/queued: 6
+(refresh every 30s  -  Ctrl-C to quit)

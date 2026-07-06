@@ -1,0 +1,38 @@
+{
+  "dataset": "codegen-bench-100",
+  "defaults": { "quota": 20, "runtime_mode": "docker" },
+  "_note": "PLACEHOLDER entries - one per scenario_type, NOT real repos. Replace with your 100. Per-repo fields override the language preset in engine/config.py. Anything omitted is filled by the preset; build/run commands a preset can't infer can be proposed by the agent in Stage 0/1.",
+  "repos": [
+    {
+      "id": "example-service-go",
+      "scenario": "web-backend",
+      "scenario_type": "service",
+      "language": "go",
+      "source": { "kind": "git", "url": "https://example.test/svc.git", "ref": "PINNED_COMMIT" },
+      "runtime": { "mode": "docker", "dockerfile": "docker/ref.Dockerfile.go-cli", "cover": { "mode": "go" } },
+      "service": { "port": 8080, "health": "/health", "start_timeout_s": 30 },
+      "dependencies": [
+        { "kind": "postgres", "env": "DATABASE_URL", "db_name": "appdb" },
+        { "kind": "redis", "env": "REDIS_URL" }
+      ]
+    },
+    {
+      "id": "example-cli-python",
+      "scenario": "dev-tooling",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": { "kind": "path", "path": "D:/datasets/example-cli-python" },
+      "runtime": { "mode": "docker", "dockerfile": "docker/ref.Dockerfile.py-cli", "cover": { "mode": "coveragepy", "collect": "/cover/coverage.json" } },
+      "launch": ["python", "-m", "tool"]
+    },
+    {
+      "id": "example-pipeline-rust",
+      "scenario": "data-pipeline",
+      "scenario_type": "pipeline",
+      "language": "rust",
+      "source": { "kind": "git", "url": "https://example.test/etl.git", "ref": "PINNED_COMMIT" },
+      "runtime": { "mode": "docker", "cover": { "mode": "lcov", "collect": "/cover/lcov.info" } },
+      "pipeline": { "in": "/in", "out": "/out", "cmd": ["etl", "--in", "/in", "--out", "/out"], "compare": "json_records" }
+    }
+  ]
+}

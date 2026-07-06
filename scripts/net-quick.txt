@@ -1,0 +1,5 @@
+=== networking (mirrored should NOT show 172.23.x NAT gateway) ===
+default via 172.17.64.1 dev eth4 proto kernel metric 45 
+=== reachability (401=reachable+unauth=GOOD, 000=blocked) ===
+api.openai.com -> 401 (0.972085s)
+google.com    -> 200 (1.092186s)

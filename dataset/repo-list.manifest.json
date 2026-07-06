@@ -1,0 +1,5215 @@
+{
+  "dataset": "codegen-bench-screening-121",
+  "defaults": {
+    "quota": 20,
+    "runtime_mode": "local"
+  },
+  "repos": [
+    {
+      "id": "carthage-software-mago",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/carthage-software/mago.git",
+        "ref": null
+      },
+      "_repo": "carthage-software/mago",
+      "_lang": "Rust",
+      "_stars": 3245,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Rust PHP toolchain CLI: linting, formatting, static analysis for PHP code",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "stoplightio-spectral",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "typescript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stoplightio/spectral.git",
+        "ref": null
+      },
+      "_repo": "stoplightio/spectral",
+      "_lang": "TypeScript",
+      "_stars": 3133,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "A flexible JSON/YAML linter and OpenAPI/AsyncAPI spec validator CLI",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "1password-typeshare",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/1Password/typeshare.git",
+        "ref": null
+      },
+      "_repo": "1Password/typeshare",
+      "_lang": "Rust",
+      "_stars": 2958,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Shared types for Rust and other languages via code generation CLI",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "rslint-rslint",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rslint/rslint.git",
+        "ref": null
+      },
+      "_repo": "rslint/rslint",
+      "_lang": "Rust",
+      "_stars": 2722,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        }
+      ],
+      "_desc": "A (WIP) Extremely fast JavaScript and TypeScript linter and Rust crate",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "zk-org-zk",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/zk-org/zk.git",
+        "ref": null
+      },
+      "_repo": "zk-org/zk",
+      "_lang": "Go",
+      "_stars": 2662,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "C",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "A plain text note-taking assistant",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "checkmarx-kics",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Checkmarx/kics.git",
+        "ref": null
+      },
+      "_repo": "Checkmarx/kics",
+      "_lang": "Go",
+      "_stars": 2649,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "Find security vulnerabilities in infrastructure-as-code with KICS",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "solidiquis-erdtree",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/solidiquis/erdtree.git",
+        "ref": null
+      },
+      "_repo": "solidiquis/erdtree",
+      "_lang": "Rust",
+      "_stars": 2585,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "A multi-threaded file-tree visualizer and disk usage analyzer",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "dosisod-refurb",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dosisod/refurb.git",
+        "ref": null
+      },
+      "_repo": "dosisod/refurb",
+      "_lang": "Python",
+      "_stars": 2536,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "A tool for refurbishing and modernizing Python codebases",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "jarulraj-sqlcheck",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jarulraj/sqlcheck.git",
+        "ref": null
+      },
+      "_repo": "jarulraj/sqlcheck",
+      "_lang": "C++",
+      "_stars": 2520,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "Automatically identify anti-patterns in SQL queries",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "neilotoole-sq",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/neilotoole/sq.git",
+        "ref": null
+      },
+      "_repo": "neilotoole/sq",
+      "_lang": "Go",
+      "_stars": 2520,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储",
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "sq data wrangler",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "mitmproxy-pdoc",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mitmproxy/pdoc.git",
+        "ref": null
+      },
+      "_repo": "mitmproxy/pdoc",
+      "_lang": "Python",
+      "_stars": 2509,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "API Documentation for Python Projects",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "mohsen1-yek",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mohsen1/yek.git",
+        "ref": null
+      },
+      "_repo": "mohsen1/yek",
+      "_lang": "Rust",
+      "_stars": 2456,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "A fast Rust based tool to serialize text-based files in a repo for LLM consumption",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "afnanenayet-diffsitter",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/afnanenayet/diffsitter.git",
+        "ref": null
+      },
+      "_repo": "afnanenayet/diffsitter",
+      "_lang": "Rust",
+      "_stars": 2383,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "A tree-sitter based AST difftool to get meaningful semantic diffs",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "josephburnett-jd",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/josephburnett/jd.git",
+        "ref": null
+      },
+      "_repo": "josephburnett/jd",
+      "_lang": "Go",
+      "_stars": 2277,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "JSON diff and patch",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "achno-gowall",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Achno/gowall.git",
+        "ref": null
+      },
+      "_repo": "Achno/gowall",
+      "_lang": "Go",
+      "_stars": 2258,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "A CLI tool that converts/themes images and wallpapers to match a color scheme",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "arthursonzogni-diagon",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ArthurSonzogni/Diagon.git",
+        "ref": null
+      },
+      "_repo": "ArthurSonzogni/Diagon",
+      "_lang": "C++",
+      "_stars": 2211,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "Interactive ASCII art diagram generators",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "modesty-pdf2json",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/modesty/pdf2json.git",
+        "ref": null
+      },
+      "_repo": "modesty/pdf2json",
+      "_lang": "JavaScript",
+      "_stars": 2204,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "converts binary PDF to JSON and text, for server-side PDF processing",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "noborus-trdsql",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/noborus/trdsql.git",
+        "ref": null
+      },
+      "_repo": "noborus/trdsql",
+      "_lang": "Go",
+      "_stars": 2162,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "CLI tool to execute SQL queries on CSV, LTSV, JSON, YAML and TBLN",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "6over3-bebop",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "csharp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/6over3/bebop.git",
+        "ref": null
+      },
+      "_repo": "6over3/bebop",
+      "_lang": "C#",
+      "_stars": 2162,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "Blazing fast, typesafe binary serialization",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "alexhallam-tv",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexhallam/tv.git",
+        "ref": null
+      },
+      "_repo": "alexhallam/tv",
+      "_lang": "Rust",
+      "_stars": 2159,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "Tidy Viewer (tv) is a cross-platform CLI csv pretty printer",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "ogen-go-ogen",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ogen-go/ogen.git",
+        "ref": null
+      },
+      "_repo": "ogen-go/ogen",
+      "_lang": "Go",
+      "_stars": 2091,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "OpenAPI v3 code generator for Go; spec → type-safe Go client/server code",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "simonw-sqlite-utils",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/simonw/sqlite-utils.git",
+        "ref": null
+      },
+      "_repo": "simonw/sqlite-utils",
+      "_lang": "Python",
+      "_stars": 2073,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "Python CLI utility and library for manipulating SQLite databases",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "benhoyt-goawk",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/benhoyt/goawk.git",
+        "ref": null
+      },
+      "_repo": "benhoyt/goawk",
+      "_lang": "Go",
+      "_stars": 2039,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "C",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "A POSIX-compliant AWK interpreter written in Go, with CSV support",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "dominikwilkowski-cfonts",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dominikwilkowski/cfonts.git",
+        "ref": null
+      },
+      "_repo": "dominikwilkowski/cfonts",
+      "_lang": "JavaScript",
+      "_stars": 1875,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "Sexy fonts for the console",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "homeport-dyff",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/homeport/dyff.git",
+        "ref": null
+      },
+      "_repo": "homeport/dyff",
+      "_lang": "Go",
+      "_stars": 1847,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "/ˈdʏf/ - diff tool for YAML files, and sometimes JSON",
+      "_friction": [
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "schemacrawler-schemacrawler",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "java",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/schemacrawler/SchemaCrawler.git",
+        "ref": null
+      },
+      "_repo": "schemacrawler/SchemaCrawler",
+      "_lang": "Java",
+      "_stars": 1814,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "Free database schema discovery and comprehension tool",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "nccgroup-sobelow",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "elixir",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/nccgroup/sobelow.git",
+        "ref": null
+      },
+      "_repo": "nccgroup/sobelow",
+      "_lang": "Elixir",
+      "_stars": 1788,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        }
+      ],
+      "_desc": "Security-focused static analysis for the Phoenix Framework",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "graphql-hive-graphql-inspector",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "typescript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/graphql-hive/graphql-inspector.git",
+        "ref": null
+      },
+      "_repo": "graphql-hive/graphql-inspector",
+      "_lang": "TypeScript",
+      "_stars": 1755,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "Validate, evolve and audit your GraphQL schema",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "yamafaktory-jql",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yamafaktory/jql.git",
+        "ref": null
+      },
+      "_repo": "yamafaktory/jql",
+      "_lang": "Rust",
+      "_stars": 1672,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "A JSON Query Language CLI tool built with Rust",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "bee-san-name-that-hash",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bee-san/Name-That-Hash.git",
+        "ref": null
+      },
+      "_repo": "bee-san/Name-That-Hash",
+      "_lang": "Python",
+      "_stars": 1659,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "C",
+          "score": 4
+        }
+      ],
+      "_desc": "Don't know what type of hash it is? Name That Hash will name that hash type",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "scito-extract-otp-secrets",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/scito/extract_otp_secrets.git",
+        "ref": null
+      },
+      "_repo": "scito/extract_otp_secrets",
+      "_lang": "Python",
+      "_stars": 1625,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Extract and decode two-factor authentication secrets from QR codes",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "quick-lint-quick-lint-js",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/quick-lint/quick-lint-js.git",
+        "ref": null
+      },
+      "_repo": "quick-lint/quick-lint-js",
+      "_lang": "C++",
+      "_stars": 1591,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 3
+        },
+        {
+          "lang": "Python",
+          "score": 2
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "quick-lint-js finds bugs in JavaScript programs",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "mermade-widdershins",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Mermade/widdershins.git",
+        "ref": null
+      },
+      "_repo": "Mermade/widdershins",
+      "_lang": "JavaScript",
+      "_stars": 1576,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "OpenAPI / Swagger, AsyncAPI, Semoasa to Markdown",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "scony-godot-gdscript-toolkit",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Scony/godot-gdscript-toolkit.git",
+        "ref": null
+      },
+      "_repo": "Scony/godot-gdscript-toolkit",
+      "_lang": "Python",
+      "_stars": 1565,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Independent set of GDScript tools - parser, linter, formatter, and more",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "hauntsaninja-pyp",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hauntsaninja/pyp.git",
+        "ref": null
+      },
+      "_repo": "hauntsaninja/pyp",
+      "_lang": "Python",
+      "_stars": 1527,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        }
+      ],
+      "_desc": "Easily run Python at the shell! Magical, but never mysterious.",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "phpcsstandards-php-codesniffer",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "php",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
+        "ref": null
+      },
+      "_repo": "PHPCSStandards/PHP_CodeSniffer",
+      "_lang": "PHP",
+      "_stars": 1520,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "PHP_CodeSniffer tokenizes PHP files and detects violations of coding standards",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "mike-engel-jwt-cli",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mike-engel/jwt-cli.git",
+        "ref": null
+      },
+      "_repo": "mike-engel/jwt-cli",
+      "_lang": "Rust",
+      "_stars": 1481,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "A super fast CLI tool to decode and encode JWTs built in Rust",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "stelligent-cfn-nag",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "ruby",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stelligent/cfn_nag.git",
+        "ref": null
+      },
+      "_repo": "stelligent/cfn_nag",
+      "_lang": "Ruby",
+      "_stars": 1313,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        }
+      ],
+      "_desc": "Linting tool for CloudFormation templates",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "rvben-rumdl",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rvben/rumdl.git",
+        "ref": null
+      },
+      "_repo": "rvben/rumdl",
+      "_lang": "Rust",
+      "_stars": 1278,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C",
+          "score": 2
+        }
+      ],
+      "_desc": "Fast Markdown linter and formatter written in Rust",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "tavianator-bfs",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "c",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tavianator/bfs.git",
+        "ref": null
+      },
+      "_repo": "tavianator/bfs",
+      "_lang": "C",
+      "_stars": 1239,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "A breadth-first version of the UNIX find command",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "blst-security-cherrybomb",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/blst-security/cherrybomb.git",
+        "ref": null
+      },
+      "_repo": "blst-security/cherrybomb",
+      "_lang": "Rust",
+      "_stars": 1231,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "加密/安全",
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C",
+          "score": 2
+        }
+      ],
+      "_desc": "Stop half-done API specs! Cherrybomb is a CLI tool that helps you avoid undefined API behavior by validating your API fi",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "anvilco-spectaql",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/anvilco/spectaql.git",
+        "ref": null
+      },
+      "_repo": "anvilco/spectaql",
+      "_lang": "JavaScript",
+      "_stars": 1225,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "Autogenerate static GraphQL API documentation",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "chaqchase-lla",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chaqchase/lla.git",
+        "ref": null
+      },
+      "_repo": "chaqchase/lla",
+      "_lang": "Rust",
+      "_stars": 1222,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "A blazing fast ls replacement with superpowers",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "tatuylonen-wiktextract",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tatuylonen/wiktextract.git",
+        "ref": null
+      },
+      "_repo": "tatuylonen/wiktextract",
+      "_lang": "Python",
+      "_stars": 1195,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "Wiktionary dump file parser and multilingual data extractor",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "astahmer-openapi-zod-client",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "typescript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/astahmer/openapi-zod-client.git",
+        "ref": null
+      },
+      "_repo": "astahmer/openapi-zod-client",
+      "_lang": "TypeScript",
+      "_stars": 1172,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "Generate a zodios (typescript http client with zod validation) from an OpenAPI spec (json/yaml)",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "peggyjs-peggy",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/peggyjs/peggy.git",
+        "ref": null
+      },
+      "_repo": "peggyjs/peggy",
+      "_lang": "JavaScript",
+      "_stars": 1168,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "Peggy: Parser generator for JavaScript",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "quiibz-sherif",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/QuiiBz/sherif.git",
+        "ref": null
+      },
+      "_repo": "QuiiBz/sherif",
+      "_lang": "JavaScript",
+      "_stars": 1165,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "Opinionated, zero-config linter for TypeScript & JavaScript monorepos",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "iwe-org-iwe",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/iwe-org/iwe.git",
+        "ref": null
+      },
+      "_repo": "iwe-org/iwe",
+      "_lang": "Rust",
+      "_stars": 1127,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Markdown-based knowledge management CLI for organizing notes and documents",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "cocogitto-cocogitto",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cocogitto/cocogitto.git",
+        "ref": null
+      },
+      "_repo": "cocogitto/cocogitto",
+      "_lang": "Rust",
+      "_stars": 1126,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "The Conventional Commits toolbox",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "sibprogrammer-xq",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/sibprogrammer/xq.git",
+        "ref": null
+      },
+      "_repo": "sibprogrammer/xq",
+      "_lang": "Go",
+      "_stars": 1125,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Command-line XML and HTML beautifier and content extractor",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "cornucopia-rs-cornucopia",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cornucopia-rs/cornucopia.git",
+        "ref": null
+      },
+      "_repo": "cornucopia-rs/cornucopia",
+      "_lang": "Rust",
+      "_stars": 1097,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "Generate type-checked Rust from your PostgreSQL queries",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "openapitools-openapi-diff",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "java",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/OpenAPITools/openapi-diff.git",
+        "ref": null
+      },
+      "_repo": "OpenAPITools/openapi-diff",
+      "_lang": "Java",
+      "_stars": 1087,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "Utility for comparing two OpenAPI specifications.",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "ebroecker-canmatrix",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ebroecker/canmatrix.git",
+        "ref": null
+      },
+      "_repo": "ebroecker/canmatrix",
+      "_lang": "Python",
+      "_stars": 1080,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "Converting Can (Controller Area Network) Database Formats .arxml .dbc .dbf",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "cmhughes-latexindent-pl",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "perl",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cmhughes/latexindent.pl.git",
+        "ref": null
+      },
+      "_repo": "cmhughes/latexindent.pl",
+      "_lang": "Perl",
+      "_stars": 1046,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "Perl/Lua LaTeX formatter CLI; indent/format .tex files via stdin/file→stdout",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "numtide-treefmt",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/numtide/treefmt.git",
+        "ref": null
+      },
+      "_repo": "numtide/treefmt",
+      "_lang": "Go",
+      "_stars": 1017,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "the formatter multiplexer",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "in-toto-in-toto",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/in-toto/in-toto.git",
+        "ref": null
+      },
+      "_repo": "in-toto/in-toto",
+      "_lang": "Python",
+      "_stars": 1009,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "Framework to protect supply chain integrity",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "hahwul-jwt-hack",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hahwul/jwt-hack.git",
+        "ref": null
+      },
+      "_repo": "hahwul/jwt-hack",
+      "_lang": "Rust",
+      "_stars": 999,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "JWT Hack Toolkit for JWT security testing",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "noraj-haiti",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "ruby",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/noraj/haiti.git",
+        "ref": null
+      },
+      "_repo": "noraj/haiti",
+      "_lang": "Ruby",
+      "_stars": 986,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        }
+      ],
+      "_desc": "Hash type identifier (CLI & lib)",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "zalando-zally",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "kotlin",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/zalando/zally.git",
+        "ref": null
+      },
+      "_repo": "zalando/zally",
+      "_lang": "Kotlin",
+      "_stars": 944,
+      "_tier": 1,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "Zally - A minimalistic, opinionated API linter for OpenAPI specs",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "msoos-cryptominisat",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/msoos/cryptominisat.git",
+        "ref": null
+      },
+      "_repo": "msoos/cryptominisat",
+      "_lang": "C++",
+      "_stars": 936,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "An advanced SAT solver",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "mna-pigeon",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mna/pigeon.git",
+        "ref": null
+      },
+      "_repo": "mna/pigeon",
+      "_lang": "Go",
+      "_stars": 920,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C",
+          "score": 2
+        }
+      ],
+      "_desc": "PEG parser generator CLI for Go; grammar file → Go parser source code",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "alexpovel-srgn",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexpovel/srgn.git",
+        "ref": null
+      },
+      "_repo": "alexpovel/srgn",
+      "_lang": "Rust",
+      "_stars": 905,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        }
+      ],
+      "_desc": "A grep-like tool which understands source code syntax and allows for manipulation in addition to search",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "hhatto-gocloc",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hhatto/gocloc.git",
+        "ref": null
+      },
+      "_repo": "hhatto/gocloc",
+      "_lang": "Go",
+      "_stars": 901,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        }
+      ],
+      "_desc": "A little fast cloc(Count Lines Of Code)",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "uber-mockolo",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "swift",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/uber/mockolo.git",
+        "ref": null
+      },
+      "_repo": "uber/mockolo",
+      "_lang": "Swift",
+      "_stars": 886,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 3
+        }
+      ],
+      "_desc": "Efficient Mock Generator for Swift",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "webrpc-webrpc",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/webrpc/webrpc.git",
+        "ref": null
+      },
+      "_repo": "webrpc/webrpc",
+      "_lang": "Go",
+      "_stars": 828,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "webrpc schema code generator CLI; schema → client/server code in multiple languages",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "omissis-go-jsonschema",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/omissis/go-jsonschema.git",
+        "ref": null
+      },
+      "_repo": "omissis/go-jsonschema",
+      "_lang": "Go",
+      "_stars": 795,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "CLI tool generating Go structs from JSON Schema definitions",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "stepchowfun-typical",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stepchowfun/typical.git",
+        "ref": null
+      },
+      "_repo": "stepchowfun/typical",
+      "_lang": "Rust",
+      "_stars": 768,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Data interchange with algebraic data types; schema compiler CLI → multi-language code",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "23andme-yamale",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/23andMe/Yamale.git",
+        "ref": null
+      },
+      "_repo": "23andMe/Yamale",
+      "_lang": "Python",
+      "_stars": 765,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "TypeScript",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "YAML schema validator CLI; schema + YAML → pass/fail validation result",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "dvidelabs-flatcc",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "c",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dvidelabs/flatcc.git",
+        "ref": null
+      },
+      "_repo": "dvidelabs/flatcc",
+      "_lang": "C",
+      "_stars": 754,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "FlatBuffers schema compiler and C runtime library; flatcc CLI generates C headers",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "vdjagilev-nmap-formatter",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vdjagilev/nmap-formatter.git",
+        "ref": null
+      },
+      "_repo": "vdjagilev/nmap-formatter",
+      "_lang": "Go",
+      "_stars": 733,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "CLI tool to convert NMAP XML output to HTML/CSV/JSON/Markdown/SQLite formats",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "pamburus-hl",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pamburus/hl.git",
+        "ref": null
+      },
+      "_repo": "pamburus/hl",
+      "_lang": "Rust",
+      "_stars": 3178,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Fast JSON/logfmt log formatter CLI; stdin→stdout with color/pager integration",
+      "_friction": [
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "microsoft-procdump-for-linux",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "c",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/microsoft/ProcDump-for-Linux.git",
+        "ref": null
+      },
+      "_repo": "microsoft/ProcDump-for-Linux",
+      "_lang": "C",
+      "_stars": 3071,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "C++",
+          "score": 4
+        }
+      ],
+      "_desc": "A Linux version of the ProcDump Sysinternals tool",
+      "_friction": [
+        "thin_output",
+        "host_specific",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "dnote-dnote",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dnote/dnote.git",
+        "ref": null
+      },
+      "_repo": "dnote/dnote",
+      "_lang": "Go",
+      "_stars": 3042,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "A simple command line notebook",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "motiv-labs-janus",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/motiv-labs/janus.git",
+        "ref": null
+      },
+      "_repo": "motiv-labs/janus",
+      "_lang": "Go",
+      "_stars": 2842,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "An API Gateway written in Go",
+      "_friction": [
+        "stateful",
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "glauth-glauth",
+      "scenario": "cryptography_security",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/glauth/glauth.git",
+        "ref": null
+      },
+      "_repo": "glauth/glauth",
+      "_lang": "Go",
+      "_stars": 2824,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "A lightweight LDAP server for development, home use, or CI",
+      "_friction": [
+        "stateful",
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "rubysec-bundler-audit",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "ruby",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rubysec/bundler-audit.git",
+        "ref": null
+      },
+      "_repo": "rubysec/bundler-audit",
+      "_lang": "Ruby",
+      "_stars": 2755,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        }
+      ],
+      "_desc": "Patch-level verification for Bundler",
+      "_friction": [
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "krakend-krakend-ce",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/krakend/krakend-ce.git",
+        "ref": null
+      },
+      "_repo": "krakend/krakend-ce",
+      "_lang": "Go",
+      "_stars": 2642,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "KrakenD Community Edition API Gateway",
+      "_friction": [
+        "stateful",
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "polarismesh-polaris",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/polarismesh/polaris.git",
+        "ref": null
+      },
+      "_repo": "polarismesh/polaris",
+      "_lang": "Go",
+      "_stars": 2548,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "Service discovery and governance for microservices",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "indradb-indradb",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/indradb/indradb.git",
+        "ref": null
+      },
+      "_repo": "indradb/indradb",
+      "_lang": "Rust",
+      "_stars": 2453,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "A graph database implemented in Rust",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "prettier-pretty-quick",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "typescript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/prettier/pretty-quick.git",
+        "ref": null
+      },
+      "_repo": "prettier/pretty-quick",
+      "_lang": "TypeScript",
+      "_stars": 2290,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 3
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "Get Pretty Quick - Run Prettier on changed files",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "ryanmjacobs-c",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "shell",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ryanmjacobs/c.git",
+        "ref": null
+      },
+      "_repo": "ryanmjacobs/c",
+      "_lang": "Shell",
+      "_stars": 2177,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "Compile and run C files in one step",
+      "_friction": [
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "evgskv-logica",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/EvgSkv/logica.git",
+        "ref": null
+      },
+      "_repo": "EvgSkv/logica",
+      "_lang": "Python",
+      "_stars": 2117,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        }
+      ],
+      "_desc": "Logic programming language that compiles to SQL; runs on DuckDB, BigQuery, PostgreSQL, SQLite",
+      "_friction": [
+        "normalizable",
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "deadc0de6-dotdrop",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/deadc0de6/dotdrop.git",
+        "ref": null
+      },
+      "_repo": "deadc0de6/dotdrop",
+      "_lang": "Python",
+      "_stars": 1928,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "Save your dotfiles once, deploy them everywhere",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "mosuka-bayard",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mosuka/bayard.git",
+        "ref": null
+      },
+      "_repo": "mosuka/bayard",
+      "_lang": "Rust",
+      "_stars": 1871,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "A distributed search engine powered by Tantivy",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "greenmaskio-greenmask",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/GreenmaskIO/greenmask.git",
+        "ref": null
+      },
+      "_repo": "GreenmaskIO/greenmask",
+      "_lang": "Go",
+      "_stars": 1698,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全",
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "Greenmask — open-source PostgreSQL backup and anonymization tool",
+      "_friction": [
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "samwho-spacer",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/samwho/spacer.git",
+        "ref": null
+      },
+      "_repo": "samwho/spacer",
+      "_lang": "Rust",
+      "_stars": 1687,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "CLI tool that inserts spacers in command output when there is a pause",
+      "_friction": [
+        "nondeterministic"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "dhax-go-base",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dhax/go-base.git",
+        "ref": null
+      },
+      "_repo": "dhax/go-base",
+      "_lang": "Go",
+      "_stars": 1686,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "Go RESTful API starter kit with JWT auth, Postgres, Redis",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "thevahidal-soul",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thevahidal/soul.git",
+        "ref": null
+      },
+      "_repo": "thevahidal/soul",
+      "_lang": "JavaScript",
+      "_stars": 1680,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储",
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "A SQLite REST and realtime server",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "eolinker-apinto",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eolinker/apinto.git",
+        "ref": null
+      },
+      "_repo": "eolinker/apinto",
+      "_lang": "Go",
+      "_stars": 1672,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "API gateway for cloud-native microservices",
+      "_friction": [
+        "stateful",
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "gothenburgbitfactory-timewarrior",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/GothenburgBitFactory/timewarrior.git",
+        "ref": null
+      },
+      "_repo": "GothenburgBitFactory/timewarrior",
+      "_lang": "C++",
+      "_stars": 1618,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "Timewarrior - Commandline Time Tracking and Reporting",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "revanced-revanced-cli",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "kotlin",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ReVanced/revanced-cli.git",
+        "ref": null
+      },
+      "_repo": "ReVanced/revanced-cli",
+      "_lang": "Kotlin",
+      "_stars": 1580,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 3
+        },
+        {
+          "lang": "Go",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 5
+        }
+      ],
+      "_desc": "Command-line application to use ReVanced",
+      "_friction": [
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "percona-percona-toolkit",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "perl",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/percona/percona-toolkit.git",
+        "ref": null
+      },
+      "_repo": "percona/percona-toolkit",
+      "_lang": "Perl",
+      "_stars": 1510,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        }
+      ],
+      "_desc": "Percona Toolkit - advanced open-source tools for MySQL",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "shuttle-hq-synth",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shuttle-hq/synth.git",
+        "ref": null
+      },
+      "_repo": "shuttle-hq/synth",
+      "_lang": "Rust",
+      "_stars": 1485,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "The Declarative Data Generator",
+      "_friction": [
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "cyphar-paperback",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cyphar/paperback.git",
+        "ref": null
+      },
+      "_repo": "cyphar/paperback",
+      "_lang": "Rust",
+      "_stars": 1467,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C",
+          "score": 3
+        }
+      ],
+      "_desc": "paperback: paper-based backup scheme using Shamir's secret sharing",
+      "_friction": [
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "azure-data-api-builder",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "csharp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Azure/data-api-builder.git",
+        "ref": null
+      },
+      "_repo": "Azure/data-api-builder",
+      "_lang": "C#",
+      "_stars": 1443,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储",
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "Build APIs for your databases in minutes",
+      "_friction": [
+        "stateful",
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "lnx-search-lnx",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lnx-search/lnx.git",
+        "ref": null
+      },
+      "_repo": "lnx-search/lnx",
+      "_lang": "Rust",
+      "_stars": 1443,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "An ultra-fast, adaptable search engine built on tantivy",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "eralchemy-eralchemy",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eralchemy/eralchemy.git",
+        "ref": null
+      },
+      "_repo": "eralchemy/eralchemy",
+      "_lang": "Python",
+      "_stars": 1417,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "Entity relation diagrams generator from databases",
+      "_friction": [
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "fsouza-fake-gcs-server",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/fsouza/fake-gcs-server.git",
+        "ref": null
+      },
+      "_repo": "fsouza/fake-gcs-server",
+      "_lang": "Go",
+      "_stars": 1412,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "Fake GCS server — local Google Cloud Storage emulator",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "noir-lang-noir",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/noir-lang/noir.git",
+        "ref": null
+      },
+      "_repo": "noir-lang/noir",
+      "_lang": "Rust",
+      "_stars": 1361,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        }
+      ],
+      "_desc": "Noir is a domain specific language for zero knowledge proofs",
+      "_friction": [
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "aserto-dev-topaz",
+      "scenario": "cryptography_security",
+      "scenario_type": "service",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aserto-dev/topaz.git",
+        "ref": null
+      },
+      "_repo": "aserto-dev/topaz",
+      "_lang": "Go",
+      "_stars": 1343,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全",
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "Cloud-native authorization service with OPA policies",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "supabase-postgres-meta",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "typescript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/supabase/postgres-meta.git",
+        "ref": null
+      },
+      "_repo": "supabase/postgres-meta",
+      "_lang": "TypeScript",
+      "_stars": 1206,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "A REST API for managing your Postgres database",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "naggie-dstask",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/naggie/dstask.git",
+        "ref": null
+      },
+      "_repo": "naggie/dstask",
+      "_lang": "Go",
+      "_stars": 1178,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "C",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "Git powered terminal-based todo/note manager -- markdown note page per task. Single binary!",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "developmentseed-titiler",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/developmentseed/titiler.git",
+        "ref": null
+      },
+      "_repo": "developmentseed/titiler",
+      "_lang": "Python",
+      "_stars": 1117,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "Build your own Raster dynamic map tile services",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "xmirrorsecurity-opensca-cli",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/XmirrorSecurity/OpenSCA-cli.git",
+        "ref": null
+      },
+      "_repo": "XmirrorSecurity/OpenSCA-cli",
+      "_lang": "Go",
+      "_stars": 1115,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        }
+      ],
+      "_desc": "Open source component SCA scanner CLI",
+      "_friction": [
+        "normalizable",
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "pauljamescleary-scala-pet-store",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "scala",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pauljamescleary/scala-pet-store.git",
+        "ref": null
+      },
+      "_repo": "pauljamescleary/scala-pet-store",
+      "_lang": "Scala",
+      "_stars": 1077,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "Scala Http4s REST petstore example with Doobie and Circe",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "karlomikus-bar-assistant",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "php",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/karlomikus/bar-assistant.git",
+        "ref": null
+      },
+      "_repo": "karlomikus/bar-assistant",
+      "_lang": "PHP",
+      "_stars": 1041,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Rust",
+          "score": 2
+        }
+      ],
+      "_desc": "Self-hosted cocktail bar REST API with optional Meilisearch and AI",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "redis-memtier-benchmark",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/redis/memtier_benchmark.git",
+        "ref": null
+      },
+      "_repo": "redis/memtier_benchmark",
+      "_lang": "C++",
+      "_stars": 1040,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        }
+      ],
+      "_desc": "NoSQL redis and memcache traffic generation and benchmarking tool",
+      "_friction": [
+        "normalizable",
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "afuh-rick-and-morty-api",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/afuh/rick-and-morty-api.git",
+        "ref": null
+      },
+      "_repo": "afuh/rick-and-morty-api",
+      "_lang": "JavaScript",
+      "_stars": 1030,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "The Rick and Morty API - REST and GraphQL",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "square-certigo",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/square/certigo.git",
+        "ref": null
+      },
+      "_repo": "square/certigo",
+      "_lang": "Go",
+      "_stars": 1023,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "A utility to examine and validate certificates in a variety of formats",
+      "_friction": [
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "microsoft-devskim",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "csharp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/microsoft/DevSkim.git",
+        "ref": null
+      },
+      "_repo": "microsoft/DevSkim",
+      "_lang": "C#",
+      "_stars": 996,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "加密/安全",
+      "_all_scen": [
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Rust",
+          "score": 3
+        }
+      ],
+      "_desc": "IDE plugins, language analyzers, and security rules",
+      "_friction": [
+        "thin_output",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "omarciovsena-abibliadigital",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/omarciovsena/abibliadigital.git",
+        "ref": null
+      },
+      "_repo": "omarciovsena/abibliadigital",
+      "_lang": "JavaScript",
+      "_stars": 986,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "RESTful Bible API in Node.js with MongoDB",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "splx-ai-agentic-radar",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/splx-ai/agentic-radar.git",
+        "ref": null
+      },
+      "_repo": "splx-ai/agentic-radar",
+      "_lang": "Python",
+      "_stars": 982,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具",
+        "加密/安全"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "A security scanner for your LLM agentic workflows",
+      "_friction": [
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "dyatko-arkit",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dyatko/arkit.git",
+        "ref": null
+      },
+      "_repo": "dyatko/arkit",
+      "_lang": "JavaScript",
+      "_stars": 969,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "JavaScript architecture diagrams and dependency graphs",
+      "_friction": [
+        "record_replay"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "gammons-ultralist",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gammons/ultralist.git",
+        "ref": null
+      },
+      "_repo": "gammons/ultralist",
+      "_lang": "Go",
+      "_stars": 951,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        }
+      ],
+      "_desc": "Simple task management for tech folks.",
+      "_friction": [
+        "stateful",
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "git-bahn-git-graph",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/git-bahn/git-graph.git",
+        "ref": null
+      },
+      "_repo": "git-bahn/git-graph",
+      "_lang": "Rust",
+      "_stars": 939,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "C",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "CLI tool that reads a local git repository and renders an ASCII graph to stdout",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "homeport-termshot",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/homeport/termshot.git",
+        "ref": null
+      },
+      "_repo": "homeport/termshot",
+      "_lang": "Go",
+      "_stars": 915,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "Creates screenshots based on terminal command output",
+      "_friction": [
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "lune-org-lune",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lune-org/lune.git",
+        "ref": null
+      },
+      "_repo": "lune-org/lune",
+      "_lang": "Rust",
+      "_stars": 907,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        }
+      ],
+      "_desc": "A standalone Luau runtime",
+      "_friction": [
+        "thin_output",
+        "host_specific"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "serverest-serverest",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "javascript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ServeRest/ServeRest.git",
+        "ref": null
+      },
+      "_repo": "ServeRest/ServeRest",
+      "_lang": "JavaScript",
+      "_stars": 895,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        }
+      ],
+      "_desc": "Local REST API server for testing - ServeRest",
+      "_friction": [
+        "stateful",
+        "normalizable"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "jacobevelyn-friends",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "ruby",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JacobEvelyn/friends.git",
+        "ref": null
+      },
+      "_repo": "JacobEvelyn/friends",
+      "_lang": "Ruby",
+      "_stars": 890,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        }
+      ],
+      "_desc": "Spend time with the people you care about. Introvert-tested. Extrovert-approved.",
+      "_friction": [
+        "stateful",
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "softinstigate-restheart",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "java",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SoftInstigate/restheart.git",
+        "ref": null
+      },
+      "_repo": "SoftInstigate/restheart",
+      "_lang": "Java",
+      "_stars": 877,
+      "_tier": 2,
+      "_golden": "service",
+      "_scen_label": "Web API",
+      "_all_scen": [
+        "Web API"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C#",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "RESTful API backend for MongoDB with MCP server support",
+      "_friction": [
+        "stateful"
+      ],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "ubugeeei-prod-vize",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ubugeeei-prod/vize.git",
+        "ref": null
+      },
+      "_repo": "ubugeeei-prod/vize",
+      "_lang": "Rust",
+      "_stars": 788,
+      "_tier": 2,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Python",
+          "score": 2
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 1
+        }
+      ],
+      "_desc": "Unofficial High-Performance Vue.js Toolchain in Rust with CLI for lint, fmt, check, build",
+      "_friction": [
+        "stateful",
+        "thin_output"
+      ],
+      "_src": "screening-2026-06-24"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Dimension,Passed / applicable,Pass rate
+CMP (Compatibility),10/229,4.37%
+MTN (Maintainability),771/1145,67.34%
+PERF (Performance efficiency),545/701,77.75%
+PTB (Portability/buildability),801/1379,58.09%
+RLY (Reliability),516/691,74.67%
+SEC (Security),246/313,78.59%

@@ -1,0 +1,21 @@
+newest: /home/kiwi/.codex/sessions/2026/06/22/rollout-2026-06-22T02-51-53-019eeb86-63e2-7ed3-9984-03cf2d817efa.jsonl
+=== session_meta payload (minus base_instructions) ===
+{
+  "id": "019eeb86-63e2-7ed3-9984-03cf2d817efa",
+  "timestamp": "2026-06-21T18:51:53.700Z",
+  "cwd": "/mnt/d/code-bench/out/betterleaks-betterleaks",
+  "originator": "codex_exec",
+  "cli_version": "0.141.0",
+  "source": "exec",
+  "thread_source": "user",
+  "model_provider": "openai"
+}
+=== turn_context / config records (first match) ===
+{"model":"gpt-5.5","reasoning_effort":null,"developer_instructions":null}
+{"input_tokens":13839,"cached_input_tokens":4992,"output_tokens":249,"reasoning_output_tokens":0,"total_tokens":14088}
+{"input_tokens":13839,"cached_input_tokens":4992,"output_tokens":249,"reasoning_output_tokens":0,"total_tokens":14088}
+=== effort/model/verbosity config across ALL sessions ===
+    170 "model":"gpt-5.5"
+     85 "summary":"auto"
+=== any 'effort' substring anywhere in newest ===
+      1 reasoning_effort":null

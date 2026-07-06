@@ -1,0 +1,3465 @@
+{
+ "dataset": "codegen-bench-v2",
+ "defaults": {
+  "quota": 20,
+  "runtime_mode": "docker"
+ },
+ "repos": [
+  {
+   "id": "facebook-zstd",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/facebook/zstd.git",
+    "ref": null
+   },
+   "_repo": "facebook/zstd",
+   "_form": "cli",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "google-zopfli",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/zopfli.git",
+    "ref": null
+   },
+   "_repo": "google/zopfli",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "libarchive-libarchive",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/libarchive/libarchive.git",
+    "ref": null
+   },
+   "_repo": "libarchive/libarchive",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "libjpeg-turbo-libjpeg-turbo",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/libjpeg-turbo/libjpeg-turbo.git",
+    "ref": null
+   },
+   "_repo": "libjpeg-turbo/libjpeg-turbo",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "lz4-lz4",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/lz4/lz4.git",
+    "ref": null
+   },
+   "_repo": "lz4/lz4",
+   "_form": "cli",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "quickjs-ng-quickjs",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/quickjs-ng/quickjs.git",
+    "ref": null
+   },
+   "_repo": "quickjs-ng/quickjs",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "tavianator-bfs",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tavianator/bfs.git",
+    "ref": null
+   },
+   "_repo": "tavianator/bfs",
+   "_form": "cli",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "xiph-flac",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/xiph/flac.git",
+    "ref": null
+   },
+   "_repo": "xiph/flac",
+   "_form": "cli",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "gothenburgbitfactory-timewarrior",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/GothenburgBitFactory/timewarrior.git",
+    "ref": null
+   },
+   "_repo": "GothenburgBitFactory/timewarrior",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "jarulraj-sqlcheck",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/jarulraj/sqlcheck.git",
+    "ref": null
+   },
+   "_repo": "jarulraj/sqlcheck",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "qpdf-qpdf",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/qpdf/qpdf.git",
+    "ref": null
+   },
+   "_repo": "qpdf/qpdf",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "carapace-sh-carapace-bin",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/carapace-sh/carapace-bin.git",
+    "ref": null
+   },
+   "_repo": "carapace-sh/carapace-bin",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "client9-misspell",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/client9/misspell.git",
+    "ref": null
+   },
+   "_repo": "client9/misspell",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "dominikh-go-tools",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/dominikh/go-tools.git",
+    "ref": null
+   },
+   "_repo": "dominikh/go-tools",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "ericchiang-pup",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/ericchiang/pup.git",
+    "ref": null
+   },
+   "_repo": "ericchiang/pup",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "errata-ai-vale",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/errata-ai/vale.git",
+    "ref": null
+   },
+   "_repo": "errata-ai/vale",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "evanw-esbuild",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/evanw/esbuild.git",
+    "ref": null
+   },
+   "_repo": "evanw/esbuild",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "gammons-ultralist",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gammons/ultralist.git",
+    "ref": null
+   },
+   "_repo": "gammons/ultralist",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "go-task-task",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/go-task/task.git",
+    "ref": null
+   },
+   "_repo": "go-task/task",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "hhatto-gocloc",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/hhatto/gocloc.git",
+    "ref": null
+   },
+   "_repo": "hhatto/gocloc",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "homeport-termshot",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/homeport/termshot.git",
+    "ref": null
+   },
+   "_repo": "homeport/termshot",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "muesli-duf",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/muesli/duf.git",
+    "ref": null
+   },
+   "_repo": "muesli/duf",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "mvdan-gofumpt",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mvdan/gofumpt.git",
+    "ref": null
+   },
+   "_repo": "mvdan/gofumpt",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "mvdan-sh",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mvdan/sh.git",
+    "ref": null
+   },
+   "_repo": "mvdan/sh",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "mvdan-xurls",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mvdan/xurls.git",
+    "ref": null
+   },
+   "_repo": "mvdan/xurls",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "rhysd-actionlint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/rhysd/actionlint.git",
+    "ref": null
+   },
+   "_repo": "rhysd/actionlint",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sibprogrammer-xq",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sibprogrammer/xq.git",
+    "ref": null
+   },
+   "_repo": "sibprogrammer/xq",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "square-certigo",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/square/certigo.git",
+    "ref": null
+   },
+   "_repo": "square/certigo",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "tdewolff-minify",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tdewolff/minify.git",
+    "ref": null
+   },
+   "_repo": "tdewolff/minify",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "tomnomnom-anew",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tomnomnom/anew.git",
+    "ref": null
+   },
+   "_repo": "tomnomnom/anew",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "tomnomnom-unfurl",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tomnomnom/unfurl.git",
+    "ref": null
+   },
+   "_repo": "tomnomnom/unfurl",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "yakitrak-notesmd-cli",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/Yakitrak/notesmd-cli.git",
+    "ref": null
+   },
+   "_repo": "Yakitrak/notesmd-cli",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "google-google-java-format",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/google-java-format.git",
+    "ref": null
+   },
+   "_repo": "google/google-java-format",
+   "_form": "cli",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "eslint-eslint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/eslint/eslint.git",
+    "ref": null
+   },
+   "_repo": "eslint/eslint",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "igorshubovych-markdownlint-cli",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/igorshubovych/markdownlint-cli.git",
+    "ref": null
+   },
+   "_repo": "igorshubovych/markdownlint-cli",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "jshint-jshint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/jshint/jshint.git",
+    "ref": null
+   },
+   "_repo": "jshint/jshint",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "prettier-prettier",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/prettier/prettier.git",
+    "ref": null
+   },
+   "_repo": "prettier/prettier",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "stylelint-stylelint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/stylelint/stylelint.git",
+    "ref": null
+   },
+   "_repo": "stylelint/stylelint",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "terser-terser",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/terser/terser.git",
+    "ref": null
+   },
+   "_repo": "terser/terser",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "facebook-ktfmt",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "kotlin",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/facebook/ktfmt.git",
+    "ref": null
+   },
+   "_repo": "facebook/ktfmt",
+   "_form": "cli",
+   "_build": "maven",
+   "_lang": "Kotlin",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "pinterest-ktlint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "kotlin",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/pinterest/ktlint.git",
+    "ref": null
+   },
+   "_repo": "pinterest/ktlint",
+   "_form": "cli",
+   "_build": "gradle",
+   "_lang": "Kotlin",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "revanced-revanced-cli",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "kotlin",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/ReVanced/revanced-cli.git",
+    "ref": null
+   },
+   "_repo": "ReVanced/revanced-cli",
+   "_form": "cli",
+   "_build": "gradle",
+   "_lang": "Kotlin",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "phpcsstandards-php-codesniffer",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "php",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
+    "ref": null
+   },
+   "_repo": "PHPCSStandards/PHP_CodeSniffer",
+   "_form": "cli",
+   "_build": "composer",
+   "_lang": "PHP",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "adrienverge-yamllint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/adrienverge/yamllint.git",
+    "ref": null
+   },
+   "_repo": "adrienverge/yamllint",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "asottile-pyupgrade",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/asottile/pyupgrade.git",
+    "ref": null
+   },
+   "_repo": "asottile/pyupgrade",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "asottile-reorder-python-imports",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/asottile/reorder-python-imports.git",
+    "ref": null
+   },
+   "_repo": "asottile/reorder-python-imports",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "codespell-project-codespell",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/codespell-project/codespell.git",
+    "ref": null
+   },
+   "_repo": "codespell-project/codespell",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "deadc0de6-dotdrop",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/deadc0de6/dotdrop.git",
+    "ref": null
+   },
+   "_repo": "deadc0de6/dotdrop",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "dosisod-refurb",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/dosisod/refurb.git",
+    "ref": null
+   },
+   "_repo": "dosisod/refurb",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "google-pytype",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/pytype.git",
+    "ref": null
+   },
+   "_repo": "google/pytype",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "google-yapf",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/yapf.git",
+    "ref": null
+   },
+   "_repo": "google/yapf",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "hauntsaninja-pyp",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/hauntsaninja/pyp.git",
+    "ref": null
+   },
+   "_repo": "hauntsaninja/pyp",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "hhatto-autopep8",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/hhatto/autopep8.git",
+    "ref": null
+   },
+   "_repo": "hhatto/autopep8",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "jendrikseipp-vulture",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/jendrikseipp/vulture.git",
+    "ref": null
+   },
+   "_repo": "jendrikseipp/vulture",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "nedbat-coveragepy",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/nedbat/coveragepy.git",
+    "ref": null
+   },
+   "_repo": "nedbat/coveragepy",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "psf-black",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/psf/black.git",
+    "ref": null
+   },
+   "_repo": "psf/black",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "pycqa-isort",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/PyCQA/isort.git",
+    "ref": null
+   },
+   "_repo": "PyCQA/isort",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "pycqa-pycodestyle",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/PyCQA/pycodestyle.git",
+    "ref": null
+   },
+   "_repo": "PyCQA/pycodestyle",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "pycqa-pyflakes",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/PyCQA/pyflakes.git",
+    "ref": null
+   },
+   "_repo": "PyCQA/pyflakes",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "pydoit-doit",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/pydoit/doit.git",
+    "ref": null
+   },
+   "_repo": "pydoit/doit",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "pylint-dev-pylint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/pylint-dev/pylint.git",
+    "ref": null
+   },
+   "_repo": "pylint-dev/pylint",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "python-mypy",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/python/mypy.git",
+    "ref": null
+   },
+   "_repo": "python/mypy",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "rubik-radon",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/rubik/radon.git",
+    "ref": null
+   },
+   "_repo": "rubik/radon",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "jacobevelyn-friends",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "ruby",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/JacobEvelyn/friends.git",
+    "ref": null
+   },
+   "_repo": "JacobEvelyn/friends",
+   "_form": "cli",
+   "_build": "bundler",
+   "_lang": "Ruby",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "alexhallam-tv",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/alexhallam/tv.git",
+    "ref": null
+   },
+   "_repo": "alexhallam/tv",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "alexpovel-srgn",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/alexpovel/srgn.git",
+    "ref": null
+   },
+   "_repo": "alexpovel/srgn",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "astral-sh-ruff",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/astral-sh/ruff.git",
+    "ref": null
+   },
+   "_repo": "astral-sh/ruff",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "biomejs-biome",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/biomejs/biome.git",
+    "ref": null
+   },
+   "_repo": "biomejs/biome",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "bootandy-dust",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/bootandy/dust.git",
+    "ref": null
+   },
+   "_repo": "bootandy/dust",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "burntsushi-critcmp",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/BurntSushi/critcmp.git",
+    "ref": null
+   },
+   "_repo": "BurntSushi/critcmp",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "burntsushi-ripgrep",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/BurntSushi/ripgrep.git",
+    "ref": null
+   },
+   "_repo": "BurntSushi/ripgrep",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "casey-just",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/casey/just.git",
+    "ref": null
+   },
+   "_repo": "casey/just",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "chmln-sd",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/chmln/sd.git",
+    "ref": null
+   },
+   "_repo": "chmln/sd",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "dalance-procs",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/dalance/procs.git",
+    "ref": null
+   },
+   "_repo": "dalance/procs",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "dominikwilkowski-cfonts",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/dominikwilkowski/cfonts.git",
+    "ref": null
+   },
+   "_repo": "dominikwilkowski/cfonts",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "eza-community-eza",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/eza-community/eza.git",
+    "ref": null
+   },
+   "_repo": "eza-community/eza",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "lsd-rs-lsd",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/lsd-rs/lsd.git",
+    "ref": null
+   },
+   "_repo": "lsd-rs/lsd",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "rust-lang-rustfmt",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/rust-lang/rustfmt.git",
+    "ref": null
+   },
+   "_repo": "rust-lang/rustfmt",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "samwho-spacer",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/samwho/spacer.git",
+    "ref": null
+   },
+   "_repo": "samwho/spacer",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "sharkdp-bat",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sharkdp/bat.git",
+    "ref": null
+   },
+   "_repo": "sharkdp/bat",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sharkdp-diskus",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sharkdp/diskus.git",
+    "ref": null
+   },
+   "_repo": "sharkdp/diskus",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sharkdp-fd",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sharkdp/fd.git",
+    "ref": null
+   },
+   "_repo": "sharkdp/fd",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sharkdp-hexyl",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sharkdp/hexyl.git",
+    "ref": null
+   },
+   "_repo": "sharkdp/hexyl",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sharkdp-hyperfine",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sharkdp/hyperfine.git",
+    "ref": null
+   },
+   "_repo": "sharkdp/hyperfine",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sharkdp-pastel",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sharkdp/pastel.git",
+    "ref": null
+   },
+   "_repo": "sharkdp/pastel",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "solidiquis-erdtree",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/solidiquis/erdtree.git",
+    "ref": null
+   },
+   "_repo": "solidiquis/erdtree",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "tach-org-tach",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tach-org/tach.git",
+    "ref": null
+   },
+   "_repo": "tach-org/tach",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "tombi-toml-tombi",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tombi-toml/tombi.git",
+    "ref": null
+   },
+   "_repo": "tombi-toml/tombi",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "tuna-f1sh-cyme",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tuna-f1sh/cyme.git",
+    "ref": null
+   },
+   "_repo": "tuna-f1sh/cyme",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "uutils-coreutils",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/uutils/coreutils.git",
+    "ref": null
+   },
+   "_repo": "uutils/coreutils",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "xampprocky-tokei",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/XAMPPRocky/tokei.git",
+    "ref": null
+   },
+   "_repo": "XAMPPRocky/tokei",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "microsoft-pyright",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/microsoft/pyright.git",
+    "ref": null
+   },
+   "_repo": "microsoft/pyright",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "kornelski-pngquant",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/kornelski/pngquant.git",
+    "ref": null
+   },
+   "_repo": "kornelski/pngquant",
+   "_form": "pipe",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "xiph-opus-tools",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/xiph/opus-tools.git",
+    "ref": null
+   },
+   "_repo": "xiph/opus-tools",
+   "_form": "pipe",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "google-guetzli",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/guetzli.git",
+    "ref": null
+   },
+   "_repo": "google/guetzli",
+   "_form": "pipe",
+   "_build": "make",
+   "_lang": "C++",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "achno-gowall",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/Achno/gowall.git",
+    "ref": null
+   },
+   "_repo": "Achno/gowall",
+   "_form": "pipe",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "dyatko-arkit",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/dyatko/arkit.git",
+    "ref": null
+   },
+   "_repo": "dyatko/arkit",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "rollup-rollup",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/rollup/rollup.git",
+    "ref": null
+   },
+   "_repo": "rollup/rollup",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "shssoichiro-oxipng",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/shssoichiro/oxipng.git",
+    "ref": null
+   },
+   "_repo": "shssoichiro/oxipng",
+   "_form": "pipe",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "playcanvas-splat-transform",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/playcanvas/splat-transform.git",
+    "ref": null
+   },
+   "_repo": "playcanvas/splat-transform",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "simonhaenisch-md-to-pdf",
+   "scenario": "cli_tool",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/simonhaenisch/md-to-pdf.git",
+    "ref": null
+   },
+   "_repo": "simonhaenisch/md-to-pdf",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "jqlang-jq",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/jqlang/jq.git",
+    "ref": null
+   },
+   "_repo": "jqlang/jq",
+   "_form": "cli",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sass-sassc",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sass/sassc.git",
+    "ref": null
+   },
+   "_repo": "sass/sassc",
+   "_form": "cli",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "arthursonzogni-diagon",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/ArthurSonzogni/Diagon.git",
+    "ref": null
+   },
+   "_repo": "ArthurSonzogni/Diagon",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "quick-lint-quick-lint-js",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/quick-lint/quick-lint-js.git",
+    "ref": null
+   },
+   "_repo": "quick-lint/quick-lint-js",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "benhoyt-goawk",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/benhoyt/goawk.git",
+    "ref": null
+   },
+   "_repo": "benhoyt/goawk",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "cue-lang-cue",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/cue-lang/cue.git",
+    "ref": null
+   },
+   "_repo": "cue-lang/cue",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "google-yamlfmt",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/yamlfmt.git",
+    "ref": null
+   },
+   "_repo": "google/yamlfmt",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "homeport-dyff",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/homeport/dyff.git",
+    "ref": null
+   },
+   "_repo": "homeport/dyff",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "itchyny-gojq",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/itchyny/gojq.git",
+    "ref": null
+   },
+   "_repo": "itchyny/gojq",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "jmespath-jp",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/jmespath/jp.git",
+    "ref": null
+   },
+   "_repo": "jmespath/jp",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "johnkerl-miller",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/johnkerl/miller.git",
+    "ref": null
+   },
+   "_repo": "johnkerl/miller",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "josephburnett-jd",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/josephburnett/jd.git",
+    "ref": null
+   },
+   "_repo": "josephburnett/jd",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "mikefarah-yq",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mikefarah/yq.git",
+    "ref": null
+   },
+   "_repo": "mikefarah/yq",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "mna-pigeon",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mna/pigeon.git",
+    "ref": null
+   },
+   "_repo": "mna/pigeon",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "noborus-trdsql",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/noborus/trdsql.git",
+    "ref": null
+   },
+   "_repo": "noborus/trdsql",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "omissis-go-jsonschema",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/omissis/go-jsonschema.git",
+    "ref": null
+   },
+   "_repo": "omissis/go-jsonschema",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "tomnomnom-gron",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tomnomnom/gron.git",
+    "ref": null
+   },
+   "_repo": "tomnomnom/gron",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "tomwright-dasel",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tomwright/dasel.git",
+    "ref": null
+   },
+   "_repo": "tomwright/dasel",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "wader-fq",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/wader/fq.git",
+    "ref": null
+   },
+   "_repo": "wader/fq",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "antlr-antlr4",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/antlr/antlr4.git",
+    "ref": null
+   },
+   "_repo": "antlr/antlr4",
+   "_form": "cli",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "peggyjs-peggy",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/peggyjs/peggy.git",
+    "ref": null
+   },
+   "_repo": "peggyjs/peggy",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "svg-svgo",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/svg/svgo.git",
+    "ref": null
+   },
+   "_repo": "svg/svgo",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "kellyjonbrazil-jc",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/kellyjonbrazil/jc.git",
+    "ref": null
+   },
+   "_repo": "kellyjonbrazil/jc",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "scony-godot-gdscript-toolkit",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/Scony/godot-gdscript-toolkit.git",
+    "ref": null
+   },
+   "_repo": "Scony/godot-gdscript-toolkit",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "wireservice-csvkit",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/wireservice/csvkit.git",
+    "ref": null
+   },
+   "_repo": "wireservice/csvkit",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "01mf02-jaq",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/01mf02/jaq.git",
+    "ref": null
+   },
+   "_repo": "01mf02/jaq",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "afnanenayet-diffsitter",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/afnanenayet/diffsitter.git",
+    "ref": null
+   },
+   "_repo": "afnanenayet/diffsitter",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "burntsushi-ucd-generate",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/BurntSushi/ucd-generate.git",
+    "ref": null
+   },
+   "_repo": "BurntSushi/ucd-generate",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "burntsushi-xsv",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/BurntSushi/xsv.git",
+    "ref": null
+   },
+   "_repo": "BurntSushi/xsv",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "mike-engel-jwt-cli",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mike-engel/jwt-cli.git",
+    "ref": null
+   },
+   "_repo": "mike-engel/jwt-cli",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "mohsen1-yek",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mohsen1/yek.git",
+    "ref": null
+   },
+   "_repo": "mohsen1/yek",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "rslint-rslint",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/rslint/rslint.git",
+    "ref": null
+   },
+   "_repo": "rslint/rslint",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "shuttle-hq-synth",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/shuttle-hq/synth.git",
+    "ref": null
+   },
+   "_repo": "shuttle-hq/synth",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "stepchowfun-typical",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/stepchowfun/typical.git",
+    "ref": null
+   },
+   "_repo": "stepchowfun/typical",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "yamafaktory-jql",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/yamafaktory/jql.git",
+    "ref": null
+   },
+   "_repo": "yamafaktory/jql",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "stoplightio-spectral",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/stoplightio/spectral.git",
+    "ref": null
+   },
+   "_repo": "stoplightio/spectral",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "capnproto-capnproto",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/capnproto/capnproto.git",
+    "ref": null
+   },
+   "_repo": "capnproto/capnproto",
+   "_form": "pipe",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "google-flatbuffers",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/flatbuffers.git",
+    "ref": null
+   },
+   "_repo": "google/flatbuffers",
+   "_form": "pipe",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "google-woff2",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/google/woff2.git",
+    "ref": null
+   },
+   "_repo": "google/woff2",
+   "_form": "pipe",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "gohugoio-hugo",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gohugoio/hugo.git",
+    "ref": null
+   },
+   "_repo": "gohugoio/hugo",
+   "_form": "pipe",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "vdjagilev-nmap-formatter",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/vdjagilev/nmap-formatter.git",
+    "ref": null
+   },
+   "_repo": "vdjagilev/nmap-formatter",
+   "_form": "pipe",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "openapitools-openapi-generator",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/OpenAPITools/openapi-generator.git",
+    "ref": null
+   },
+   "_repo": "OpenAPITools/openapi-generator",
+   "_form": "pipe",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "plantuml-plantuml",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/plantuml/plantuml.git",
+    "ref": null
+   },
+   "_repo": "plantuml/plantuml",
+   "_form": "pipe",
+   "_build": "gradle",
+   "_lang": "Java",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "mermaid-js-mermaid-cli",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mermaid-js/mermaid-cli.git",
+    "ref": null
+   },
+   "_repo": "mermaid-js/mermaid-cli",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "mkdocs-mkdocs",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mkdocs/mkdocs.git",
+    "ref": null
+   },
+   "_repo": "mkdocs/mkdocs",
+   "_form": "pipe",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "sphinx-doc-sphinx",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sphinx-doc/sphinx.git",
+    "ref": null
+   },
+   "_repo": "sphinx-doc/sphinx",
+   "_form": "pipe",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "tatuylonen-wiktextract",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tatuylonen/wiktextract.git",
+    "ref": null
+   },
+   "_repo": "tatuylonen/wiktextract",
+   "_form": "pipe",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "weasyprint-weasyprint",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/weasyprint/weasyprint.git",
+    "ref": null
+   },
+   "_repo": "weasyprint/weasyprint",
+   "_form": "pipe",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "asciidoctor-asciidoctor",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "ruby",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/asciidoctor/asciidoctor.git",
+    "ref": null
+   },
+   "_repo": "asciidoctor/asciidoctor",
+   "_form": "pipe",
+   "_build": "bundler",
+   "_lang": "Ruby",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "getzola-zola",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/getzola/zola.git",
+    "ref": null
+   },
+   "_repo": "getzola/zola",
+   "_form": "pipe",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "rust-lang-mdbook",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/rust-lang/mdBook.git",
+    "ref": null
+   },
+   "_repo": "rust-lang/mdBook",
+   "_form": "pipe",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "typst-typst",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/typst/typst.git",
+    "ref": null
+   },
+   "_repo": "typst/typst",
+   "_form": "pipe",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "quicktype-quicktype",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/quicktype/quicktype.git",
+    "ref": null
+   },
+   "_repo": "quicktype/quicktype",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "yamlresume-yamlresume",
+   "scenario": "serialization_format",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/yamlresume/yamlresume.git",
+    "ref": null
+   },
+   "_repo": "yamlresume/yamlresume",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "jedisct1-minisign",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/jedisct1/minisign.git",
+    "ref": null
+   },
+   "_repo": "jedisct1/minisign",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "openwall-john",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "c",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/openwall/john.git",
+    "ref": null
+   },
+   "_repo": "openwall/john",
+   "_form": "cli",
+   "_build": "make",
+   "_lang": "C",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "msoos-cryptominisat",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "cpp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/msoos/cryptominisat.git",
+    "ref": null
+   },
+   "_repo": "msoos/cryptominisat",
+   "_form": "cli",
+   "_build": "cmake",
+   "_lang": "C++",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "activecm-rita-legacy",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/activecm/rita-legacy.git",
+    "ref": null
+   },
+   "_repo": "activecm/rita-legacy",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "anchore-grype",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/anchore/grype.git",
+    "ref": null
+   },
+   "_repo": "anchore/grype",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "anchore-syft",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/anchore/syft.git",
+    "ref": null
+   },
+   "_repo": "anchore/syft",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "aquasecurity-tfsec",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/aquasecurity/tfsec.git",
+    "ref": null
+   },
+   "_repo": "aquasecurity/tfsec",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "aquasecurity-trivy",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/aquasecurity/trivy.git",
+    "ref": null
+   },
+   "_repo": "aquasecurity/trivy",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "betterleaks-betterleaks",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/betterleaks/betterleaks.git",
+    "ref": null
+   },
+   "_repo": "betterleaks/betterleaks",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "cloudflare-cfssl",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/cloudflare/cfssl.git",
+    "ref": null
+   },
+   "_repo": "cloudflare/cfssl",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "controlplaneio-kubesec",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/controlplaneio/kubesec.git",
+    "ref": null
+   },
+   "_repo": "controlplaneio/kubesec",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "filosottile-age",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/FiloSottile/age.git",
+    "ref": null
+   },
+   "_repo": "FiloSottile/age",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "filosottile-mkcert",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/FiloSottile/mkcert.git",
+    "ref": null
+   },
+   "_repo": "FiloSottile/mkcert",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "getsops-sops",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/getsops/sops.git",
+    "ref": null
+   },
+   "_repo": "getsops/sops",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "gitleaks-gitleaks",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gitleaks/gitleaks.git",
+    "ref": null
+   },
+   "_repo": "gitleaks/gitleaks",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "greenmaskio-greenmask",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/GreenmaskIO/greenmask.git",
+    "ref": null
+   },
+   "_repo": "GreenmaskIO/greenmask",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "restic-restic",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/restic/restic.git",
+    "ref": null
+   },
+   "_repo": "restic/restic",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "securego-gosec",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/securego/gosec.git",
+    "ref": null
+   },
+   "_repo": "securego/gosec",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "smallstep-cli",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/smallstep/cli.git",
+    "ref": null
+   },
+   "_repo": "smallstep/cli",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "trufflesecurity-trufflehog",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/trufflesecurity/trufflehog.git",
+    "ref": null
+   },
+   "_repo": "trufflesecurity/trufflehog",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "xmirrorsecurity-opensca-cli",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/XmirrorSecurity/OpenSCA-cli.git",
+    "ref": null
+   },
+   "_repo": "XmirrorSecurity/OpenSCA-cli",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "bee-san-name-that-hash",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/bee-san/Name-That-Hash.git",
+    "ref": null
+   },
+   "_repo": "bee-san/Name-That-Hash",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "cisco-ai-defense-skill-scanner",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/cisco-ai-defense/skill-scanner.git",
+    "ref": null
+   },
+   "_repo": "cisco-ai-defense/skill-scanner",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "ossf-cve-bin-tool",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/ossf/cve-bin-tool.git",
+    "ref": null
+   },
+   "_repo": "ossf/cve-bin-tool",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "pycqa-bandit",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/PyCQA/bandit.git",
+    "ref": null
+   },
+   "_repo": "PyCQA/bandit",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "salesforce-policy-sentry",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/salesforce/policy_sentry.git",
+    "ref": null
+   },
+   "_repo": "salesforce/policy_sentry",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "splx-ai-agentic-radar",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/splx-ai/agentic-radar.git",
+    "ref": null
+   },
+   "_repo": "splx-ai/agentic-radar",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "noraj-haiti",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "ruby",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/noraj/haiti.git",
+    "ref": null
+   },
+   "_repo": "noraj/haiti",
+   "_form": "cli",
+   "_build": "bundler",
+   "_lang": "Ruby",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "rubysec-bundler-audit",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "ruby",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/rubysec/bundler-audit.git",
+    "ref": null
+   },
+   "_repo": "rubysec/bundler-audit",
+   "_form": "cli",
+   "_build": "bundler",
+   "_lang": "Ruby",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "blst-security-cherrybomb",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/blst-security/cherrybomb.git",
+    "ref": null
+   },
+   "_repo": "blst-security/cherrybomb",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "fkie-cad-cwe-checker",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/fkie-cad/cwe_checker.git",
+    "ref": null
+   },
+   "_repo": "fkie-cad/cwe_checker",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "hahwul-jwt-hack",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/hahwul/jwt-hack.git",
+    "ref": null
+   },
+   "_repo": "hahwul/jwt-hack",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "jon-becker-heimdall-rs",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/Jon-Becker/heimdall-rs.git",
+    "ref": null
+   },
+   "_repo": "Jon-Becker/heimdall-rs",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "mongodb-kingfisher",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mongodb/kingfisher.git",
+    "ref": null
+   },
+   "_repo": "mongodb/kingfisher",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "str4d-rage",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/str4d/rage.git",
+    "ref": null
+   },
+   "_repo": "str4d/rage",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "tclahr-uac",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "shell",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/tclahr/uac.git",
+    "ref": null
+   },
+   "_repo": "tclahr/uac",
+   "_form": "cli",
+   "_build": "sh",
+   "_lang": "Shell",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "cyphar-paperback",
+   "scenario": "cryptography_security",
+   "scenario_type": "pipeline",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/cyphar/paperback.git",
+    "ref": null
+   },
+   "_repo": "cyphar/paperback",
+   "_form": "pipe",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "projectdiscovery-cdncheck",
+   "scenario": "web_api",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/projectdiscovery/cdncheck.git",
+    "ref": null
+   },
+   "_repo": "projectdiscovery/cdncheck",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "openapitools-openapi-diff",
+   "scenario": "web_api",
+   "scenario_type": "cli",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/OpenAPITools/openapi-diff.git",
+    "ref": null
+   },
+   "_repo": "OpenAPITools/openapi-diff",
+   "_form": "cli",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "graphql-hive-graphql-inspector",
+   "scenario": "web_api",
+   "scenario_type": "cli",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/graphql-hive/graphql-inspector.git",
+    "ref": null
+   },
+   "_repo": "graphql-hive/graphql-inspector",
+   "_form": "cli",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "anvilco-spectaql",
+   "scenario": "web_api",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/anvilco/spectaql.git",
+    "ref": null
+   },
+   "_repo": "anvilco/spectaql",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "mermade-widdershins",
+   "scenario": "web_api",
+   "scenario_type": "pipeline",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/Mermade/widdershins.git",
+    "ref": null
+   },
+   "_repo": "Mermade/widdershins",
+   "_form": "pipe",
+   "_build": "npm",
+   "_lang": "JavaScript",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "mitmproxy-pdoc",
+   "scenario": "web_api",
+   "scenario_type": "pipeline",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mitmproxy/pdoc.git",
+    "ref": null
+   },
+   "_repo": "mitmproxy/pdoc",
+   "_form": "pipe",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "gothinkster-aspnetcore-realworld-example-app",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "csharp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gothinkster/aspnetcore-realworld-example-app.git",
+    "ref": null
+   },
+   "_repo": "gothinkster/aspnetcore-realworld-example-app",
+   "_form": "svc",
+   "_build": "dotnet",
+   "_lang": "C#",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "gothinkster-golang-gin-realworld-example-app",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gothinkster/golang-gin-realworld-example-app.git",
+    "ref": null
+   },
+   "_repo": "gothinkster/golang-gin-realworld-example-app",
+   "_form": "svc",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "prest-prest",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/prest/prest.git",
+    "ref": null
+   },
+   "_repo": "prest/prest",
+   "_form": "svc",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "swagger-api-swagger-petstore",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/swagger-api/swagger-petstore.git",
+    "ref": null
+   },
+   "_repo": "swagger-api/swagger-petstore",
+   "_form": "svc",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "gothinkster-laravel-realworld-example-app",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "php",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gothinkster/laravel-realworld-example-app.git",
+    "ref": null
+   },
+   "_repo": "gothinkster/laravel-realworld-example-app",
+   "_form": "svc",
+   "_build": "composer",
+   "_lang": "PHP",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "gothinkster-django-realworld-example-app",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gothinkster/django-realworld-example-app.git",
+    "ref": null
+   },
+   "_repo": "gothinkster/django-realworld-example-app",
+   "_form": "svc",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "gothinkster-rails-realworld-example-app",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "ruby",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/gothinkster/rails-realworld-example-app.git",
+    "ref": null
+   },
+   "_repo": "gothinkster/rails-realworld-example-app",
+   "_form": "svc",
+   "_build": "bundler",
+   "_lang": "Ruby",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "keygen-sh-keygen-api",
+   "scenario": "web_api",
+   "scenario_type": "service",
+   "language": "ruby",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/keygen-sh/keygen-api.git",
+    "ref": null
+   },
+   "_repo": "keygen-sh/keygen-api",
+   "_form": "svc",
+   "_build": "bundler",
+   "_lang": "Ruby",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "dinedal-textql",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/dinedal/textql.git",
+    "ref": null
+   },
+   "_repo": "dinedal/textql",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "neilotoole-sq",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/neilotoole/sq.git",
+    "ref": null
+   },
+   "_repo": "neilotoole/sq",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "schemacrawler-schemacrawler",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/schemacrawler/SchemaCrawler.git",
+    "ref": null
+   },
+   "_repo": "schemacrawler/SchemaCrawler",
+   "_form": "cli",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "evgskv-logica",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/EvgSkv/logica.git",
+    "ref": null
+   },
+   "_repo": "EvgSkv/logica",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "harelba-q",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/harelba/q.git",
+    "ref": null
+   },
+   "_repo": "harelba/q",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "simonw-sqlite-utils",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/simonw/sqlite-utils.git",
+    "ref": null
+   },
+   "_repo": "simonw/sqlite-utils",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "sqlfluff-sqlfluff",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/sqlfluff/sqlfluff.git",
+    "ref": null
+   },
+   "_repo": "sqlfluff/sqlfluff",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "eralchemy-eralchemy",
+   "scenario": "database_storage",
+   "scenario_type": "pipeline",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/eralchemy/eralchemy.git",
+    "ref": null
+   },
+   "_repo": "eralchemy/eralchemy",
+   "_form": "pipe",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "azure-data-api-builder",
+   "scenario": "database_storage",
+   "scenario_type": "service",
+   "language": "csharp",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/Azure/data-api-builder.git",
+    "ref": null
+   },
+   "_repo": "Azure/data-api-builder",
+   "_form": "svc",
+   "_build": "dotnet",
+   "_lang": "C#",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "supabase-postgres-meta",
+   "scenario": "database_storage",
+   "scenario_type": "service",
+   "language": "node",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/supabase/postgres-meta.git",
+    "ref": null
+   },
+   "_repo": "supabase/postgres-meta",
+   "_form": "svc",
+   "_build": "npm",
+   "_lang": "TypeScript",
+   "_src": "上轮复筛保留"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+###################### achno-gowall ######################
+----- Dockerfile.codebench (FROM + RUN lines) -----
+1:FROM docker.m.daocloud.io/library/golang:1.25-bookworm AS builder
+3:WORKDIR /src
+8:RUN set -eux; \
+20:RUN go mod download
+23:RUN go build -trimpath -buildvcs=false -ldflags="-s -w" -o /out/gowall .
+25:FROM docker.m.daocloud.io/library/debian:bookworm-slim AS runtime
+32:RUN set -eux; \
+57:ENTRYPOINT ["gowall"]
+----- full docker_build_error tail -----
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c set -eux;     if [ -f /etc/apt/sources.list ]; then       sed -i 's|http://deb.debian.org/debian|https://mirrors.tuna.tsinghua.edu.cn/debian|g; s|http://security.debian.org/debian-security|https://mirrors.tuna.tsinghua.edu.cn/debian-security|g' /etc/apt/sources.list;     fi;     if [ -d /etc/apt/sources.list.d ]; then       find /etc/apt/sources.list.d -type f -name '*.sources' -exec sed -i 's|http://deb.debian.org/debian|https://mirrors.tuna.tsinghua.edu.cn/debian|g; s|http://security.debian.org/debian-security|https://mirrors.tuna.tsinghua.edu.cn/debian-security|g' {} +;     fi;     apt-get update;     apt-get install -y --no-install-recommends       ca-certificates       pngquant       tesseract-ocr       tesseract-ocr-eng;     rm -rf /var/lib/apt/lists/*;     mkdir -p /root/.config/gowall /tmp/gowall;     printf '%s\n'       'EnableImagePreviewing: false'       'InlineImagePreview: false'       'OutputFolder: /tmp/gowall'       'OnnxRuntimeFolderPath: /tmp/gowall/onnx'       'OnnxModelFolderPath: /tmp/gowall/onnx'       > /root/.config/gowall/config.yml' returned a non-zero code: 100
+
+
+###################### activecm-rita-legacy ######################
+----- Dockerfile.codebench (FROM + RUN lines) -----
+1:FROM docker.m.daocloud.io/library/golang:1.17.13-bullseye AS builder
+3:WORKDIR /src
+10:RUN go mod download
+14:ARG VERSION=v4.8.2
+15:ARG EXACT_VERSION=v4.8.2
+16:RUN go build -trimpath -buildvcs=false \
+20:RUN mkdir -p /out/etc/rita /out/tmp /out/var/lib/rita/logs && \
+27:FROM scratch
+37:ENTRYPOINT ["/rita"]
+----- full docker_build_error tail -----
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c go build -trimpath -buildvcs=false     -ldflags="-s -w -X github.com/activecm/rita-legacy/config.Version=${VERSION} -X github.com/activecm/rita-legacy/config.ExactVersion=${EXACT_VERSION}"     -o /out/rita .' returned a non-zero code: 2
+
+
+###################### afnanenayet-diffsitter ######################
+----- Dockerfile.codebench (FROM + RUN lines) -----
+1:FROM docker.m.daocloud.io/library/rust:1.85.1-slim-bookworm AS builder
+6:RUN sed -i 's|deb.debian.org|mirrors.ustc.edu.cn|g; s|security.debian.org|mirrors.ustc.edu.cn|g' /etc/apt/sources.list.d/debian.sources \
+14:RUN mkdir -p "${CARGO_HOME}" \
+26:WORKDIR /usr/src/diffsitter
+29:RUN git submodule update --init --recursive --depth 1 \
+32:FROM docker.m.daocloud.io/library/debian:bookworm-slim AS runtime
+34:RUN sed -i 's|deb.debian.org|mirrors.ustc.edu.cn|g; s|security.debian.org|mirrors.ustc.edu.cn|g' /etc/apt/sources.list.d/debian.sources \
+44:ENTRYPOINT ["/usr/local/bin/diffsitter"]
+----- full docker_build_error tail -----
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c git submodule update --init --recursive --depth 1     && cargo build --locked --profile production --bin diffsitter' returned a non-zero code: 101
+
+
+###################### alexhallam-tv ######################
+----- Dockerfile.codebench (FROM + RUN lines) -----
+1:FROM docker.m.daocloud.io/library/rust:1.82-slim-bookworm AS builder
+3:RUN apt-get update \
+7:WORKDIR /app
+9:RUN mkdir -p /usr/local/cargo && printf '%s\n' \
+21:RUN mkdir -p tidy-viewer-core/src tidy-viewer-cli/src tidy-viewer-py/src \
+28:RUN cargo build --locked --release --package tidy-viewer --bin tidy-viewer \
+31:FROM docker.m.daocloud.io/library/debian:bookworm-slim AS runtime
+33:RUN apt-get update \
+42:ENTRYPOINT ["/usr/local/bin/tidy-viewer"]
+----- full docker_build_error tail -----
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c cargo build --locked --release --package tidy-viewer --bin tidy-viewer     && strip target/release/tidy-viewer' returned a non-zero code: 101
+
+
+###################### anvilco-spectaql ######################
+----- Dockerfile.codebench (FROM + RUN lines) -----
+1:FROM docker.m.daocloud.io/library/node:20.19.3-bookworm-slim AS build
+3:WORKDIR /app
+11:RUN npm config set registry https://registry.npmmirror.com \
+23:RUN npm run build \
+28:FROM docker.m.daocloud.io/library/node:20.19.3-bookworm-slim AS runtime
+30:WORKDIR /app
+40:RUN set -eu; \
+56:ENTRYPOINT ["spectaql-pipeline"]
+----- full docker_build_error tail -----
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c npm config set registry https://registry.npmmirror.com   && npm config set @anvilco:registry https://registry.npmmirror.com   && printf '%s\n'     'registry=https://registry.npmmirror.com'     '@anvilco:registry=https://registry.npmmirror.com'     > .npmrc   && npm install -g yarn@1.22.22 --registry=https://registry.npmmirror.com   && yarn config set registry https://registry.npmmirror.com   && yarn install --frozen-lockfile --non-interactive --registry=https://registry.npmmirror.com' returned a non-zero code: 1
+
+
+###################### graphql-hive-graphql-inspector ######################
+----- Dockerfile.codebench (FROM + RUN lines) -----
+1:FROM docker.m.daocloud.io/library/node:20.19.5-bookworm-slim AS build
+8:WORKDIR /app
+10:RUN npm install -g pnpm@9.12.3 --registry=https://registry.npmmirror.com
+15:RUN pnpm install --frozen-lockfile --registry=https://registry.npmmirror.com
+16:RUN pnpm build
+18:FROM docker.m.daocloud.io/library/node:20.19.5-bookworm-slim AS runtime
+26:WORKDIR ${DISTDIR}
+28:RUN npm install -g pnpm@9.12.3 --registry=https://registry.npmmirror.com
+33:RUN pnpm install --prod --frozen-lockfile --registry=https://registry.npmmirror.com \
+38:ENTRYPOINT ["graphql-inspector"]
+----- full docker_build_error tail -----
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c pnpm build' returned a non-zero code: 1
+
+

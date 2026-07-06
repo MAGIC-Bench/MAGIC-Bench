@@ -1,0 +1,1283 @@
+{
+  "agents": {
+    "claude": {
+      "projects": 81,
+      "build_fail": 20,
+      "dimensions": {
+        "CMP": {
+          "reported_den": 93,
+          "reported_one": 2,
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 2,
+          "build_ok_false_den": 32,
+          "build_ok_false_zero": 32,
+          "build_ok_true_none": 61,
+          "build_ok_false_none": 0
+        },
+        "MTN": {
+          "reported_den": 385,
+          "reported_one": 201,
+          "build_ok_true_den": 305,
+          "build_ok_true_one": 201,
+          "build_ok_false_den": 80,
+          "build_ok_false_zero": 80,
+          "build_ok_true_none": 0,
+          "build_ok_false_none": 0
+        },
+        "PERF": {
+          "reported_den": 246,
+          "reported_one": 141,
+          "build_ok_true_den": 183,
+          "build_ok_true_one": 141,
+          "build_ok_false_den": 63,
+          "build_ok_false_zero": 63,
+          "build_ok_true_none": 61,
+          "build_ok_false_none": 0
+        },
+        "PTB": {
+          "reported_den": 462,
+          "reported_one": 199,
+          "build_ok_true_den": 366,
+          "build_ok_true_one": 199,
+          "build_ok_false_den": 96,
+          "build_ok_false_zero": 96,
+          "build_ok_true_none": 0,
+          "build_ok_false_none": 0
+        },
+        "RLY": {
+          "reported_den": 235,
+          "reported_one": 131,
+          "build_ok_true_den": 180,
+          "build_ok_true_one": 131,
+          "build_ok_false_den": 55,
+          "build_ok_false_zero": 55,
+          "build_ok_true_none": 45,
+          "build_ok_false_none": 0
+        },
+        "SEC": {
+          "reported_den": 105,
+          "reported_one": 62,
+          "build_ok_true_den": 82,
+          "build_ok_true_one": 62,
+          "build_ok_false_den": 23,
+          "build_ok_false_zero": 23,
+          "build_ok_true_none": 2,
+          "build_ok_false_none": 0
+        }
+      },
+      "metrics": {
+        "CMP.CMP1": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 59,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16,
+          "build_ok_true_one": 2
+        },
+        "CMP.CMP2": {
+          "build_ok_true_none": 61,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "MTN.MTN1": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 30,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16,
+          "build_ok_true_one": 31
+        },
+        "MTN.MTN2": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 55,
+          "build_ok_true_zero": 6,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "MTN.MTN3": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 54,
+          "build_ok_true_zero": 7,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "MTN.MTN4": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 15,
+          "build_ok_true_zero": 46,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "MTN.MTN5": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 46,
+          "build_ok_true_zero": 15,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "PERF.PERF1": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 61,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "PERF.PERF2": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 8,
+          "build_ok_true_one": 53,
+          "build_ok_false_den": 15,
+          "build_ok_false_zero": 15
+        },
+        "PERF.PERF3": {
+          "build_ok_true_none": 61,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "PERF.PERF4": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 34,
+          "build_ok_true_one": 27,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "PTB.PTB1": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 61,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "PTB.PTB2": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 61,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "PTB.PTB3": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 25,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16,
+          "build_ok_true_one": 36
+        },
+        "PTB.PTB4": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 46,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16,
+          "build_ok_true_one": 15
+        },
+        "PTB.PTB5": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 53,
+          "build_ok_true_zero": 8,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "PTB.PTB6": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 27,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16,
+          "build_ok_true_one": 34
+        },
+        "RLY.RLY1": {
+          "build_ok_true_den": 61,
+          "build_ok_true_zero": 47,
+          "build_ok_true_one": 14,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "RLY.RLY2": {
+          "build_ok_true_none": 18,
+          "build_ok_false_den": 3,
+          "build_ok_false_zero": 3
+        },
+        "RLY.RLY3": {
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_none": 5
+        },
+        "RLY.RLY4": {
+          "build_ok_true_den": 58,
+          "build_ok_true_one": 56,
+          "build_ok_false_den": 13,
+          "build_ok_false_zero": 13,
+          "build_ok_true_zero": 2
+        },
+        "RLY.RLY5": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 61,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "RLY.RLY6": {
+          "build_ok_true_none": 22,
+          "build_ok_false_den": 5,
+          "build_ok_false_zero": 5
+        },
+        "SEC.SEC1": {
+          "build_ok_true_den": 5,
+          "build_ok_true_zero": 4,
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_one": 1
+        },
+        "SEC.SEC2": {
+          "build_ok_true_den": 61,
+          "build_ok_true_one": 53,
+          "build_ok_true_zero": 8,
+          "build_ok_false_den": 16,
+          "build_ok_false_zero": 16
+        },
+        "SEC.SEC3": {
+          "build_ok_false_den": 1,
+          "build_ok_false_zero": 1,
+          "build_ok_true_den": 3,
+          "build_ok_true_one": 2,
+          "build_ok_true_zero": 1
+        },
+        "SEC.SEC4": {
+          "build_ok_true_none": 2,
+          "build_ok_true_den": 7,
+          "build_ok_true_one": 4,
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_zero": 3
+        },
+        "SEC.SEC5": {
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_den": 6,
+          "build_ok_true_zero": 4,
+          "build_ok_true_one": 2
+        }
+      }
+    },
+    "codex": {
+      "projects": 81,
+      "build_fail": 22,
+      "dimensions": {
+        "CMP": {
+          "reported_den": 101,
+          "reported_one": 3,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 3,
+          "build_ok_false_den": 42,
+          "build_ok_false_zero": 42,
+          "build_ok_true_none": 59,
+          "build_ok_false_none": 0
+        },
+        "MTN": {
+          "reported_den": 400,
+          "reported_one": 209,
+          "build_ok_true_den": 295,
+          "build_ok_true_one": 209,
+          "build_ok_false_den": 105,
+          "build_ok_false_zero": 105,
+          "build_ok_true_none": 0,
+          "build_ok_false_none": 0
+        },
+        "PERF": {
+          "reported_den": 260,
+          "reported_one": 131,
+          "build_ok_true_den": 177,
+          "build_ok_true_one": 131,
+          "build_ok_false_den": 83,
+          "build_ok_false_zero": 83,
+          "build_ok_true_none": 59,
+          "build_ok_false_none": 0
+        },
+        "PTB": {
+          "reported_den": 480,
+          "reported_one": 226,
+          "build_ok_true_den": 354,
+          "build_ok_true_one": 226,
+          "build_ok_false_den": 126,
+          "build_ok_false_zero": 126,
+          "build_ok_true_none": 0,
+          "build_ok_false_none": 0
+        },
+        "RLY": {
+          "reported_den": 247,
+          "reported_one": 125,
+          "build_ok_true_den": 174,
+          "build_ok_true_one": 125,
+          "build_ok_false_den": 73,
+          "build_ok_false_zero": 73,
+          "build_ok_true_none": 41,
+          "build_ok_false_none": 0
+        },
+        "SEC": {
+          "reported_den": 109,
+          "reported_one": 64,
+          "build_ok_true_den": 78,
+          "build_ok_true_one": 64,
+          "build_ok_false_den": 31,
+          "build_ok_false_zero": 31,
+          "build_ok_true_none": 1,
+          "build_ok_false_none": 0
+        }
+      },
+      "metrics": {
+        "CMP.CMP1": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 3,
+          "build_ok_true_zero": 56
+        },
+        "CMP.CMP2": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_none": 59
+        },
+        "MTN.MTN1": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_zero": 27,
+          "build_ok_true_one": 32
+        },
+        "MTN.MTN2": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 54,
+          "build_ok_true_zero": 5
+        },
+        "MTN.MTN3": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 54,
+          "build_ok_true_zero": 5
+        },
+        "MTN.MTN4": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_zero": 45,
+          "build_ok_true_one": 14
+        },
+        "MTN.MTN5": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 55,
+          "build_ok_true_zero": 4
+        },
+        "PERF.PERF1": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 59
+        },
+        "PERF.PERF2": {
+          "build_ok_false_den": 20,
+          "build_ok_false_zero": 20,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 51,
+          "build_ok_true_zero": 8
+        },
+        "PERF.PERF3": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_none": 59
+        },
+        "PERF.PERF4": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_zero": 38,
+          "build_ok_true_one": 21
+        },
+        "PTB.PTB1": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 59
+        },
+        "PTB.PTB2": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_zero": 57,
+          "build_ok_true_one": 2
+        },
+        "PTB.PTB3": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 44,
+          "build_ok_true_zero": 15
+        },
+        "PTB.PTB4": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 24,
+          "build_ok_true_zero": 35
+        },
+        "PTB.PTB5": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 56,
+          "build_ok_true_zero": 3
+        },
+        "PTB.PTB6": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 41,
+          "build_ok_true_zero": 18
+        },
+        "RLY.RLY1": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_zero": 48,
+          "build_ok_true_one": 11
+        },
+        "RLY.RLY2": {
+          "build_ok_false_den": 5,
+          "build_ok_false_zero": 5,
+          "build_ok_true_none": 16
+        },
+        "RLY.RLY3": {
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_none": 5
+        },
+        "RLY.RLY4": {
+          "build_ok_false_den": 17,
+          "build_ok_false_zero": 17,
+          "build_ok_true_den": 56,
+          "build_ok_true_one": 55,
+          "build_ok_true_zero": 1
+        },
+        "RLY.RLY5": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 59
+        },
+        "RLY.RLY6": {
+          "build_ok_false_den": 7,
+          "build_ok_false_zero": 7,
+          "build_ok_true_none": 20
+        },
+        "SEC.SEC1": {
+          "build_ok_false_den": 3,
+          "build_ok_false_zero": 3,
+          "build_ok_true_den": 4,
+          "build_ok_true_zero": 2,
+          "build_ok_true_one": 2
+        },
+        "SEC.SEC2": {
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_den": 59,
+          "build_ok_true_one": 55,
+          "build_ok_true_zero": 4
+        },
+        "SEC.SEC3": {
+          "build_ok_false_den": 1,
+          "build_ok_false_zero": 1,
+          "build_ok_true_den": 3,
+          "build_ok_true_one": 1,
+          "build_ok_true_zero": 2
+        },
+        "SEC.SEC4": {
+          "build_ok_false_den": 3,
+          "build_ok_false_zero": 3,
+          "build_ok_true_den": 7,
+          "build_ok_true_one": 4,
+          "build_ok_true_zero": 3,
+          "build_ok_true_none": 1
+        },
+        "SEC.SEC5": {
+          "build_ok_false_den": 3,
+          "build_ok_false_zero": 3,
+          "build_ok_true_den": 5,
+          "build_ok_true_zero": 3,
+          "build_ok_true_one": 2
+        }
+      }
+    },
+    "cursor": {
+      "projects": 81,
+      "build_fail": 24,
+      "dimensions": {
+        "CMP": {
+          "reported_den": 101,
+          "reported_one": 4,
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 4,
+          "build_ok_false_den": 44,
+          "build_ok_false_zero": 44,
+          "build_ok_true_none": 57,
+          "build_ok_false_none": 0
+        },
+        "MTN": {
+          "reported_den": 395,
+          "reported_one": 188,
+          "build_ok_true_den": 285,
+          "build_ok_true_one": 188,
+          "build_ok_false_den": 110,
+          "build_ok_false_zero": 110,
+          "build_ok_true_none": 0,
+          "build_ok_false_none": 0
+        },
+        "PERF": {
+          "reported_den": 258,
+          "reported_one": 135,
+          "build_ok_true_den": 170,
+          "build_ok_true_one": 135,
+          "build_ok_false_den": 88,
+          "build_ok_false_zero": 88,
+          "build_ok_true_none": 57,
+          "build_ok_false_none": 0
+        },
+        "PTB": {
+          "reported_den": 474,
+          "reported_one": 193,
+          "build_ok_true_den": 342,
+          "build_ok_true_one": 193,
+          "build_ok_false_den": 132,
+          "build_ok_false_zero": 132,
+          "build_ok_true_none": 0,
+          "build_ok_false_none": 0
+        },
+        "RLY": {
+          "reported_den": 240,
+          "reported_one": 131,
+          "build_ok_true_den": 169,
+          "build_ok_true_one": 131,
+          "build_ok_false_den": 71,
+          "build_ok_false_zero": 71,
+          "build_ok_true_none": 46,
+          "build_ok_false_none": 0
+        },
+        "SEC": {
+          "reported_den": 107,
+          "reported_one": 63,
+          "build_ok_true_den": 80,
+          "build_ok_true_one": 63,
+          "build_ok_false_den": 27,
+          "build_ok_false_zero": 27,
+          "build_ok_true_none": 2,
+          "build_ok_false_none": 0
+        }
+      },
+      "metrics": {
+        "CMP.CMP1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_zero": 53,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_one": 4
+        },
+        "CMP.CMP2": {
+          "build_ok_true_none": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "MTN.MTN1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 15,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 42
+        },
+        "MTN.MTN2": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 55,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 2
+        },
+        "MTN.MTN3": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 55,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 2
+        },
+        "MTN.MTN4": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 16,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 41
+        },
+        "MTN.MTN5": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 47,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 10
+        },
+        "PERF.PERF1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 56,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 1
+        },
+        "PERF.PERF2": {
+          "build_ok_true_den": 56,
+          "build_ok_true_one": 46,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 10
+        },
+        "PERF.PERF3": {
+          "build_ok_true_none": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "PERF.PERF4": {
+          "build_ok_true_den": 57,
+          "build_ok_true_zero": 24,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_one": 33
+        },
+        "PTB.PTB1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "PTB.PTB2": {
+          "build_ok_true_den": 57,
+          "build_ok_true_zero": 56,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_one": 1
+        },
+        "PTB.PTB3": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 47,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 10
+        },
+        "PTB.PTB4": {
+          "build_ok_true_den": 57,
+          "build_ok_true_zero": 48,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_one": 9
+        },
+        "PTB.PTB5": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 53,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 4
+        },
+        "PTB.PTB6": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 26,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 31
+        },
+        "RLY.RLY1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_zero": 37,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_one": 20
+        },
+        "RLY.RLY2": {
+          "build_ok_true_none": 18,
+          "build_ok_false_den": 3,
+          "build_ok_false_zero": 3
+        },
+        "RLY.RLY3": {
+          "build_ok_true_none": 5,
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2
+        },
+        "RLY.RLY4": {
+          "build_ok_true_den": 55,
+          "build_ok_true_one": 54,
+          "build_ok_false_den": 18,
+          "build_ok_false_zero": 18,
+          "build_ok_true_zero": 1
+        },
+        "RLY.RLY5": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "RLY.RLY6": {
+          "build_ok_true_none": 23,
+          "build_ok_false_den": 4,
+          "build_ok_false_zero": 4
+        },
+        "SEC.SEC1": {
+          "build_ok_true_den": 6,
+          "build_ok_true_zero": 2,
+          "build_ok_true_one": 4,
+          "build_ok_false_den": 1,
+          "build_ok_false_zero": 1
+        },
+        "SEC.SEC2": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 53,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_zero": 4
+        },
+        "SEC.SEC3": {
+          "build_ok_true_den": 4,
+          "build_ok_true_zero": 2,
+          "build_ok_true_one": 2
+        },
+        "SEC.SEC4": {
+          "build_ok_true_none": 2,
+          "build_ok_true_den": 8,
+          "build_ok_true_one": 4,
+          "build_ok_true_zero": 4,
+          "build_ok_false_den": 1,
+          "build_ok_false_zero": 1
+        },
+        "SEC.SEC5": {
+          "build_ok_true_den": 5,
+          "build_ok_true_zero": 5,
+          "build_ok_false_den": 3,
+          "build_ok_false_zero": 3
+        }
+      }
+    },
+    "kimi": {
+      "projects": 81,
+      "build_fail": 24,
+      "dimensions": {
+        "CMP": {
+          "reported_den": 96,
+          "reported_one": 1,
+          "build_ok_true_den": 52,
+          "build_ok_true_one": 1,
+          "build_ok_false_den": 44,
+          "build_ok_false_zero": 44,
+          "build_ok_true_none": 62,
+          "build_ok_false_none": 0
+        },
+        "MTN": {
+          "reported_den": 370,
+          "reported_one": 173,
+          "build_ok_true_den": 260,
+          "build_ok_true_one": 173,
+          "build_ok_false_den": 110,
+          "build_ok_false_zero": 110,
+          "build_ok_true_none": 25,
+          "build_ok_false_none": 0
+        },
+        "PERF": {
+          "reported_den": 258,
+          "reported_one": 138,
+          "build_ok_true_den": 171,
+          "build_ok_true_one": 138,
+          "build_ok_false_den": 87,
+          "build_ok_false_zero": 87,
+          "build_ok_true_none": 57,
+          "build_ok_false_none": 0
+        },
+        "PTB": {
+          "reported_den": 449,
+          "reported_one": 183,
+          "build_ok_true_den": 317,
+          "build_ok_true_one": 183,
+          "build_ok_false_den": 132,
+          "build_ok_false_zero": 132,
+          "build_ok_true_none": 25,
+          "build_ok_false_none": 0
+        },
+        "RLY": {
+          "reported_den": 243,
+          "reported_one": 129,
+          "build_ok_true_den": 168,
+          "build_ok_true_one": 129,
+          "build_ok_false_den": 75,
+          "build_ok_false_zero": 75,
+          "build_ok_true_none": 42,
+          "build_ok_false_none": 0
+        },
+        "SEC": {
+          "reported_den": 102,
+          "reported_one": 57,
+          "build_ok_true_den": 73,
+          "build_ok_true_one": 57,
+          "build_ok_false_den": 29,
+          "build_ok_false_zero": 29,
+          "build_ok_true_none": 7,
+          "build_ok_false_none": 0
+        }
+      },
+      "metrics": {
+        "CMP.CMP1": {
+          "build_ok_true_den": 52,
+          "build_ok_true_zero": 51,
+          "build_ok_true_one": 1,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "CMP.CMP2": {
+          "build_ok_true_none": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "MTN.MTN1": {
+          "build_ok_true_den": 52,
+          "build_ok_true_zero": 33,
+          "build_ok_true_one": 19,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "MTN.MTN2": {
+          "build_ok_true_den": 52,
+          "build_ok_true_one": 47,
+          "build_ok_true_zero": 5,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "MTN.MTN3": {
+          "build_ok_true_den": 52,
+          "build_ok_true_one": 46,
+          "build_ok_true_zero": 6,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "MTN.MTN4": {
+          "build_ok_true_den": 52,
+          "build_ok_true_zero": 38,
+          "build_ok_true_one": 14,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "MTN.MTN5": {
+          "build_ok_true_den": 52,
+          "build_ok_true_one": 47,
+          "build_ok_true_zero": 5,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "PERF.PERF1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "PERF.PERF2": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 52,
+          "build_ok_false_den": 21,
+          "build_ok_false_zero": 21,
+          "build_ok_true_zero": 5
+        },
+        "PERF.PERF3": {
+          "build_ok_true_none": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "PERF.PERF4": {
+          "build_ok_true_den": 57,
+          "build_ok_true_zero": 28,
+          "build_ok_true_one": 29,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "PTB.PTB1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "PTB.PTB2": {
+          "build_ok_true_den": 52,
+          "build_ok_true_zero": 52,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "PTB.PTB3": {
+          "build_ok_true_den": 52,
+          "build_ok_true_one": 37,
+          "build_ok_true_zero": 15,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "PTB.PTB4": {
+          "build_ok_true_den": 52,
+          "build_ok_true_zero": 39,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_one": 13,
+          "build_ok_true_none": 5
+        },
+        "PTB.PTB5": {
+          "build_ok_true_den": 52,
+          "build_ok_true_one": 48,
+          "build_ok_true_zero": 4,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "PTB.PTB6": {
+          "build_ok_true_den": 52,
+          "build_ok_true_zero": 24,
+          "build_ok_true_one": 28,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "RLY.RLY1": {
+          "build_ok_true_den": 57,
+          "build_ok_true_zero": 38,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_one": 19
+        },
+        "RLY.RLY2": {
+          "build_ok_true_none": 17,
+          "build_ok_false_den": 4,
+          "build_ok_false_zero": 4
+        },
+        "RLY.RLY3": {
+          "build_ok_false_den": 3,
+          "build_ok_false_zero": 3,
+          "build_ok_true_none": 4
+        },
+        "RLY.RLY4": {
+          "build_ok_true_den": 54,
+          "build_ok_true_one": 53,
+          "build_ok_false_den": 18,
+          "build_ok_false_zero": 18,
+          "build_ok_true_zero": 1
+        },
+        "RLY.RLY5": {
+          "build_ok_true_den": 57,
+          "build_ok_true_one": 57,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22
+        },
+        "RLY.RLY6": {
+          "build_ok_true_none": 21,
+          "build_ok_false_den": 6,
+          "build_ok_false_zero": 6
+        },
+        "SEC.SEC1": {
+          "build_ok_true_den": 5,
+          "build_ok_true_one": 2,
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_zero": 3
+        },
+        "SEC.SEC2": {
+          "build_ok_true_den": 52,
+          "build_ok_true_one": 49,
+          "build_ok_true_zero": 3,
+          "build_ok_false_den": 22,
+          "build_ok_false_zero": 22,
+          "build_ok_true_none": 5
+        },
+        "SEC.SEC3": {
+          "build_ok_false_den": 1,
+          "build_ok_false_zero": 1,
+          "build_ok_true_den": 3,
+          "build_ok_true_one": 2,
+          "build_ok_true_zero": 1
+        },
+        "SEC.SEC4": {
+          "build_ok_true_none": 2,
+          "build_ok_true_den": 7,
+          "build_ok_true_one": 3,
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_zero": 4
+        },
+        "SEC.SEC5": {
+          "build_ok_false_den": 2,
+          "build_ok_false_zero": 2,
+          "build_ok_true_den": 6,
+          "build_ok_true_zero": 5,
+          "build_ok_true_one": 1
+        }
+      }
+    }
+  },
+  "overall": {
+    "dimensions": {
+      "CMP": {
+        "reported_den": 391,
+        "reported_one": 10,
+        "build_ok_true_den": 229,
+        "build_ok_true_one": 10,
+        "build_ok_false_den": 162,
+        "build_ok_false_zero": 162,
+        "build_ok_true_none": 239,
+        "build_ok_false_none": 0
+      },
+      "MTN": {
+        "reported_den": 1550,
+        "reported_one": 771,
+        "build_ok_true_den": 1145,
+        "build_ok_true_one": 771,
+        "build_ok_false_den": 405,
+        "build_ok_false_zero": 405,
+        "build_ok_true_none": 25,
+        "build_ok_false_none": 0
+      },
+      "PERF": {
+        "reported_den": 1022,
+        "reported_one": 545,
+        "build_ok_true_den": 701,
+        "build_ok_true_one": 545,
+        "build_ok_false_den": 321,
+        "build_ok_false_zero": 321,
+        "build_ok_true_none": 234,
+        "build_ok_false_none": 0
+      },
+      "PTB": {
+        "reported_den": 1865,
+        "reported_one": 801,
+        "build_ok_true_den": 1379,
+        "build_ok_true_one": 801,
+        "build_ok_false_den": 486,
+        "build_ok_false_zero": 486,
+        "build_ok_true_none": 25,
+        "build_ok_false_none": 0
+      },
+      "RLY": {
+        "reported_den": 965,
+        "reported_one": 516,
+        "build_ok_true_den": 691,
+        "build_ok_true_one": 516,
+        "build_ok_false_den": 274,
+        "build_ok_false_zero": 274,
+        "build_ok_true_none": 174,
+        "build_ok_false_none": 0
+      },
+      "SEC": {
+        "reported_den": 423,
+        "reported_one": 246,
+        "build_ok_true_den": 313,
+        "build_ok_true_one": 246,
+        "build_ok_false_den": 110,
+        "build_ok_false_zero": 110,
+        "build_ok_true_none": 12,
+        "build_ok_false_none": 0
+      }
+    },
+    "metrics": {
+      "CMP.CMP1": {
+        "build_ok_true_den": 229,
+        "build_ok_true_zero": 219,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_one": 10,
+        "build_ok_true_none": 5
+      },
+      "CMP.CMP2": {
+        "build_ok_true_none": 234,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81
+      },
+      "MTN.MTN1": {
+        "build_ok_true_den": 229,
+        "build_ok_true_zero": 132,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_one": 97,
+        "build_ok_true_none": 5
+      },
+      "MTN.MTN2": {
+        "build_ok_true_den": 229,
+        "build_ok_true_one": 211,
+        "build_ok_true_zero": 18,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_none": 5
+      },
+      "MTN.MTN3": {
+        "build_ok_true_den": 229,
+        "build_ok_true_one": 209,
+        "build_ok_true_zero": 20,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_none": 5
+      },
+      "MTN.MTN4": {
+        "build_ok_true_den": 229,
+        "build_ok_true_one": 59,
+        "build_ok_true_zero": 170,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_none": 5
+      },
+      "MTN.MTN5": {
+        "build_ok_true_den": 229,
+        "build_ok_true_one": 195,
+        "build_ok_true_zero": 34,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_none": 5
+      },
+      "PERF.PERF1": {
+        "build_ok_true_den": 234,
+        "build_ok_true_one": 233,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_zero": 1
+      },
+      "PERF.PERF2": {
+        "build_ok_true_den": 233,
+        "build_ok_true_zero": 31,
+        "build_ok_true_one": 202,
+        "build_ok_false_den": 78,
+        "build_ok_false_zero": 78
+      },
+      "PERF.PERF3": {
+        "build_ok_true_none": 234,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81
+      },
+      "PERF.PERF4": {
+        "build_ok_true_den": 234,
+        "build_ok_true_zero": 124,
+        "build_ok_true_one": 110,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81
+      },
+      "PTB.PTB1": {
+        "build_ok_true_den": 234,
+        "build_ok_true_one": 234,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81
+      },
+      "PTB.PTB2": {
+        "build_ok_true_den": 229,
+        "build_ok_true_zero": 226,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_one": 3,
+        "build_ok_true_none": 5
+      },
+      "PTB.PTB3": {
+        "build_ok_true_den": 229,
+        "build_ok_true_zero": 65,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_one": 164,
+        "build_ok_true_none": 5
+      },
+      "PTB.PTB4": {
+        "build_ok_true_den": 229,
+        "build_ok_true_zero": 168,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_one": 61,
+        "build_ok_true_none": 5
+      },
+      "PTB.PTB5": {
+        "build_ok_true_den": 229,
+        "build_ok_true_one": 210,
+        "build_ok_true_zero": 19,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_none": 5
+      },
+      "PTB.PTB6": {
+        "build_ok_true_den": 229,
+        "build_ok_true_zero": 100,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_one": 129,
+        "build_ok_true_none": 5
+      },
+      "RLY.RLY1": {
+        "build_ok_true_den": 234,
+        "build_ok_true_zero": 170,
+        "build_ok_true_one": 64,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81
+      },
+      "RLY.RLY2": {
+        "build_ok_true_none": 69,
+        "build_ok_false_den": 15,
+        "build_ok_false_zero": 15
+      },
+      "RLY.RLY3": {
+        "build_ok_false_den": 9,
+        "build_ok_false_zero": 9,
+        "build_ok_true_none": 19
+      },
+      "RLY.RLY4": {
+        "build_ok_true_den": 223,
+        "build_ok_true_one": 218,
+        "build_ok_false_den": 66,
+        "build_ok_false_zero": 66,
+        "build_ok_true_zero": 5
+      },
+      "RLY.RLY5": {
+        "build_ok_true_den": 234,
+        "build_ok_true_one": 234,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81
+      },
+      "RLY.RLY6": {
+        "build_ok_true_none": 86,
+        "build_ok_false_den": 22,
+        "build_ok_false_zero": 22
+      },
+      "SEC.SEC1": {
+        "build_ok_true_den": 20,
+        "build_ok_true_zero": 11,
+        "build_ok_false_den": 8,
+        "build_ok_false_zero": 8,
+        "build_ok_true_one": 9
+      },
+      "SEC.SEC2": {
+        "build_ok_true_den": 229,
+        "build_ok_true_one": 210,
+        "build_ok_true_zero": 19,
+        "build_ok_false_den": 81,
+        "build_ok_false_zero": 81,
+        "build_ok_true_none": 5
+      },
+      "SEC.SEC3": {
+        "build_ok_false_den": 3,
+        "build_ok_false_zero": 3,
+        "build_ok_true_den": 13,
+        "build_ok_true_one": 7,
+        "build_ok_true_zero": 6
+      },
+      "SEC.SEC4": {
+        "build_ok_true_none": 7,
+        "build_ok_true_den": 29,
+        "build_ok_true_one": 15,
+        "build_ok_false_den": 8,
+        "build_ok_false_zero": 8,
+        "build_ok_true_zero": 14
+      },
+      "SEC.SEC5": {
+        "build_ok_false_den": 10,
+        "build_ok_false_zero": 10,
+        "build_ok_true_den": 22,
+        "build_ok_true_zero": 17,
+        "build_ok_true_one": 5
+      }
+    }
+  }
+}

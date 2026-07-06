@@ -1,0 +1,20 @@
+=== codex --help (reason/effort/model) ===
+          Examples: - `-c model="o3"` - `-c 'sandbox_permissions=["disk-full-read-access"]'` - `-c
+  -m, --model <MODEL>
+          Model the agent should use
+          Select the sandbox policy to use when executing model-generated shell commands
+          Configure when the model requires human approval before executing a command
+            approval. Will escalate to the user if the model proposes a command that is not in the
+          - on-request: The model decides when to ask the user for approval
+            the model
+          to the model (no per‑call approval)
+=== codex exec --help ===
+  -c, --config <key=value>
+          Examples: - `-c model="o3"` - `-c 'sandbox_permissions=["disk-full-read-access"]'` - `-c
+  -m, --model <MODEL>
+          Model the agent should use
+          Select the sandbox policy to use when executing model-generated shell commands
+  -C, --cd <DIR>
+          Path to a JSON Schema file describing the model's final response shape
+=== docs/skills mentions of reasoning_effort enum ===
+=== invalid-value probe (clap/serde should reject locally and list valid variants) ===

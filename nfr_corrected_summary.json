@@ -1,0 +1,450 @@
+{
+  "overall": {
+    "CMP": {
+      "reported": {
+        "passed": 10,
+        "denominator": 391,
+        "rate": 0.02557544757033248
+      },
+      "corrected_build_ok_only": {
+        "passed": 10,
+        "denominator": 229,
+        "rate": 0.043668122270742356
+      },
+      "removed_build_fail_denominator": 162,
+      "build_ok_true_none": 239
+    },
+    "MTN": {
+      "reported": {
+        "passed": 771,
+        "denominator": 1550,
+        "rate": 0.4974193548387097
+      },
+      "corrected_build_ok_only": {
+        "passed": 771,
+        "denominator": 1145,
+        "rate": 0.6733624454148471
+      },
+      "removed_build_fail_denominator": 405,
+      "build_ok_true_none": 25
+    },
+    "PERF": {
+      "reported": {
+        "passed": 545,
+        "denominator": 1022,
+        "rate": 0.5332681017612525
+      },
+      "corrected_build_ok_only": {
+        "passed": 545,
+        "denominator": 701,
+        "rate": 0.7774607703281027
+      },
+      "removed_build_fail_denominator": 321,
+      "build_ok_true_none": 234
+    },
+    "PTB": {
+      "reported": {
+        "passed": 801,
+        "denominator": 1865,
+        "rate": 0.4294906166219839
+      },
+      "corrected_build_ok_only": {
+        "passed": 801,
+        "denominator": 1379,
+        "rate": 0.5808556925308195
+      },
+      "removed_build_fail_denominator": 486,
+      "build_ok_true_none": 25
+    },
+    "RLY": {
+      "reported": {
+        "passed": 516,
+        "denominator": 965,
+        "rate": 0.5347150259067357
+      },
+      "corrected_build_ok_only": {
+        "passed": 516,
+        "denominator": 691,
+        "rate": 0.7467438494934877
+      },
+      "removed_build_fail_denominator": 274,
+      "build_ok_true_none": 174
+    },
+    "SEC": {
+      "reported": {
+        "passed": 246,
+        "denominator": 423,
+        "rate": 0.5815602836879432
+      },
+      "corrected_build_ok_only": {
+        "passed": 246,
+        "denominator": 313,
+        "rate": 0.7859424920127795
+      },
+      "removed_build_fail_denominator": 110,
+      "build_ok_true_none": 12
+    }
+  },
+  "agents": {
+    "claude": {
+      "projects": 81,
+      "build_fail": 20,
+      "dimensions": {
+        "CMP": {
+          "reported": {
+            "passed": 2,
+            "denominator": 93,
+            "rate": 0.021505376344086023
+          },
+          "corrected_build_ok_only": {
+            "passed": 2,
+            "denominator": 61,
+            "rate": 0.03278688524590164
+          },
+          "removed_build_fail_denominator": 32,
+          "build_ok_true_none": 61
+        },
+        "MTN": {
+          "reported": {
+            "passed": 201,
+            "denominator": 385,
+            "rate": 0.522077922077922
+          },
+          "corrected_build_ok_only": {
+            "passed": 201,
+            "denominator": 305,
+            "rate": 0.659016393442623
+          },
+          "removed_build_fail_denominator": 80,
+          "build_ok_true_none": 0
+        },
+        "PERF": {
+          "reported": {
+            "passed": 141,
+            "denominator": 246,
+            "rate": 0.573170731707317
+          },
+          "corrected_build_ok_only": {
+            "passed": 141,
+            "denominator": 183,
+            "rate": 0.7704918032786885
+          },
+          "removed_build_fail_denominator": 63,
+          "build_ok_true_none": 61
+        },
+        "PTB": {
+          "reported": {
+            "passed": 199,
+            "denominator": 462,
+            "rate": 0.43073593073593075
+          },
+          "corrected_build_ok_only": {
+            "passed": 199,
+            "denominator": 366,
+            "rate": 0.5437158469945356
+          },
+          "removed_build_fail_denominator": 96,
+          "build_ok_true_none": 0
+        },
+        "RLY": {
+          "reported": {
+            "passed": 131,
+            "denominator": 235,
+            "rate": 0.5574468085106383
+          },
+          "corrected_build_ok_only": {
+            "passed": 131,
+            "denominator": 180,
+            "rate": 0.7277777777777777
+          },
+          "removed_build_fail_denominator": 55,
+          "build_ok_true_none": 45
+        },
+        "SEC": {
+          "reported": {
+            "passed": 62,
+            "denominator": 105,
+            "rate": 0.5904761904761905
+          },
+          "corrected_build_ok_only": {
+            "passed": 62,
+            "denominator": 82,
+            "rate": 0.7560975609756098
+          },
+          "removed_build_fail_denominator": 23,
+          "build_ok_true_none": 2
+        }
+      }
+    },
+    "codex": {
+      "projects": 81,
+      "build_fail": 22,
+      "dimensions": {
+        "CMP": {
+          "reported": {
+            "passed": 3,
+            "denominator": 101,
+            "rate": 0.0297029702970297
+          },
+          "corrected_build_ok_only": {
+            "passed": 3,
+            "denominator": 59,
+            "rate": 0.05084745762711865
+          },
+          "removed_build_fail_denominator": 42,
+          "build_ok_true_none": 59
+        },
+        "MTN": {
+          "reported": {
+            "passed": 209,
+            "denominator": 400,
+            "rate": 0.5225
+          },
+          "corrected_build_ok_only": {
+            "passed": 209,
+            "denominator": 295,
+            "rate": 0.7084745762711865
+          },
+          "removed_build_fail_denominator": 105,
+          "build_ok_true_none": 0
+        },
+        "PERF": {
+          "reported": {
+            "passed": 131,
+            "denominator": 260,
+            "rate": 0.5038461538461538
+          },
+          "corrected_build_ok_only": {
+            "passed": 131,
+            "denominator": 177,
+            "rate": 0.7401129943502824
+          },
+          "removed_build_fail_denominator": 83,
+          "build_ok_true_none": 59
+        },
+        "PTB": {
+          "reported": {
+            "passed": 226,
+            "denominator": 480,
+            "rate": 0.4708333333333333
+          },
+          "corrected_build_ok_only": {
+            "passed": 226,
+            "denominator": 354,
+            "rate": 0.6384180790960452
+          },
+          "removed_build_fail_denominator": 126,
+          "build_ok_true_none": 0
+        },
+        "RLY": {
+          "reported": {
+            "passed": 125,
+            "denominator": 247,
+            "rate": 0.5060728744939271
+          },
+          "corrected_build_ok_only": {
+            "passed": 125,
+            "denominator": 174,
+            "rate": 0.7183908045977011
+          },
+          "removed_build_fail_denominator": 73,
+          "build_ok_true_none": 41
+        },
+        "SEC": {
+          "reported": {
+            "passed": 64,
+            "denominator": 109,
+            "rate": 0.5871559633027523
+          },
+          "corrected_build_ok_only": {
+            "passed": 64,
+            "denominator": 78,
+            "rate": 0.8205128205128205
+          },
+          "removed_build_fail_denominator": 31,
+          "build_ok_true_none": 1
+        }
+      }
+    },
+    "cursor": {
+      "projects": 81,
+      "build_fail": 24,
+      "dimensions": {
+        "CMP": {
+          "reported": {
+            "passed": 4,
+            "denominator": 101,
+            "rate": 0.039603960396039604
+          },
+          "corrected_build_ok_only": {
+            "passed": 4,
+            "denominator": 57,
+            "rate": 0.07017543859649122
+          },
+          "removed_build_fail_denominator": 44,
+          "build_ok_true_none": 57
+        },
+        "MTN": {
+          "reported": {
+            "passed": 188,
+            "denominator": 395,
+            "rate": 0.4759493670886076
+          },
+          "corrected_build_ok_only": {
+            "passed": 188,
+            "denominator": 285,
+            "rate": 0.6596491228070176
+          },
+          "removed_build_fail_denominator": 110,
+          "build_ok_true_none": 0
+        },
+        "PERF": {
+          "reported": {
+            "passed": 135,
+            "denominator": 258,
+            "rate": 0.5232558139534884
+          },
+          "corrected_build_ok_only": {
+            "passed": 135,
+            "denominator": 170,
+            "rate": 0.7941176470588235
+          },
+          "removed_build_fail_denominator": 88,
+          "build_ok_true_none": 57
+        },
+        "PTB": {
+          "reported": {
+            "passed": 193,
+            "denominator": 474,
+            "rate": 0.40717299578059074
+          },
+          "corrected_build_ok_only": {
+            "passed": 193,
+            "denominator": 342,
+            "rate": 0.564327485380117
+          },
+          "removed_build_fail_denominator": 132,
+          "build_ok_true_none": 0
+        },
+        "RLY": {
+          "reported": {
+            "passed": 131,
+            "denominator": 240,
+            "rate": 0.5458333333333333
+          },
+          "corrected_build_ok_only": {
+            "passed": 131,
+            "denominator": 169,
+            "rate": 0.7751479289940828
+          },
+          "removed_build_fail_denominator": 71,
+          "build_ok_true_none": 46
+        },
+        "SEC": {
+          "reported": {
+            "passed": 63,
+            "denominator": 107,
+            "rate": 0.5887850467289719
+          },
+          "corrected_build_ok_only": {
+            "passed": 63,
+            "denominator": 80,
+            "rate": 0.7875
+          },
+          "removed_build_fail_denominator": 27,
+          "build_ok_true_none": 2
+        }
+      }
+    },
+    "kimi": {
+      "projects": 81,
+      "build_fail": 24,
+      "dimensions": {
+        "CMP": {
+          "reported": {
+            "passed": 1,
+            "denominator": 96,
+            "rate": 0.010416666666666666
+          },
+          "corrected_build_ok_only": {
+            "passed": 1,
+            "denominator": 52,
+            "rate": 0.019230769230769232
+          },
+          "removed_build_fail_denominator": 44,
+          "build_ok_true_none": 62
+        },
+        "MTN": {
+          "reported": {
+            "passed": 173,
+            "denominator": 370,
+            "rate": 0.46756756756756757
+          },
+          "corrected_build_ok_only": {
+            "passed": 173,
+            "denominator": 260,
+            "rate": 0.6653846153846154
+          },
+          "removed_build_fail_denominator": 110,
+          "build_ok_true_none": 25
+        },
+        "PERF": {
+          "reported": {
+            "passed": 138,
+            "denominator": 258,
+            "rate": 0.5348837209302325
+          },
+          "corrected_build_ok_only": {
+            "passed": 138,
+            "denominator": 171,
+            "rate": 0.8070175438596491
+          },
+          "removed_build_fail_denominator": 87,
+          "build_ok_true_none": 57
+        },
+        "PTB": {
+          "reported": {
+            "passed": 183,
+            "denominator": 449,
+            "rate": 0.40757238307349664
+          },
+          "corrected_build_ok_only": {
+            "passed": 183,
+            "denominator": 317,
+            "rate": 0.5772870662460567
+          },
+          "removed_build_fail_denominator": 132,
+          "build_ok_true_none": 25
+        },
+        "RLY": {
+          "reported": {
+            "passed": 129,
+            "denominator": 243,
+            "rate": 0.5308641975308642
+          },
+          "corrected_build_ok_only": {
+            "passed": 129,
+            "denominator": 168,
+            "rate": 0.7678571428571429
+          },
+          "removed_build_fail_denominator": 75,
+          "build_ok_true_none": 42
+        },
+        "SEC": {
+          "reported": {
+            "passed": 57,
+            "denominator": 102,
+            "rate": 0.5588235294117647
+          },
+          "corrected_build_ok_only": {
+            "passed": 57,
+            "denominator": 73,
+            "rate": 0.7808219178082192
+          },
+          "removed_build_fail_denominator": 29,
+          "build_ok_true_none": 7
+        }
+      }
+    }
+  }
+}

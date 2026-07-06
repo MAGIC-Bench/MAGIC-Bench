@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="500" viewBox="0 0 1160 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="235.0" y="62.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#111111">Source repositories</text>
+<path d="M 235.00 134.00 A 118.00 118.00 0 0 1 345.08 294.50 L 289.11 272.89 A 58.00 58.00 0 0 0 235.00 194.00 Z" fill="#4E79A7" stroke="white" stroke-width="1"/>
+<path d="M 345.08 294.50 A 118.00 118.00 0 0 1 248.70 369.20 L 241.73 309.61 A 58.00 58.00 0 0 0 289.11 272.89 Z" fill="#A0CBE8" stroke="white" stroke-width="1"/>
+<path d="M 248.70 369.20 A 118.00 118.00 0 0 1 155.70 339.38 L 196.02 294.95 A 58.00 58.00 0 0 0 241.73 309.61 Z" fill="#F28E2B" stroke="white" stroke-width="1"/>
+<path d="M 155.70 339.38 A 118.00 118.00 0 0 1 121.96 285.84 L 179.44 268.63 A 58.00 58.00 0 0 0 196.02 294.95 Z" fill="#59A14F" stroke="white" stroke-width="1"/>
+<path d="M 121.96 285.84 A 118.00 118.00 0 0 1 117.55 240.58 L 177.27 246.38 A 58.00 58.00 0 0 0 179.44 268.63 Z" fill="#8CD17D" stroke="white" stroke-width="1"/>
+<path d="M 117.55 240.58 A 118.00 118.00 0 0 1 123.35 213.80 L 180.12 233.22 A 58.00 58.00 0 0 0 177.27 246.38 Z" fill="#B6992D" stroke="white" stroke-width="1"/>
+<path d="M 123.35 213.80 A 118.00 118.00 0 0 1 235.00 134.00 L 235.00 194.00 A 58.00 58.00 0 0 0 180.12 233.22 Z" fill="#499894" stroke="white" stroke-width="1"/>
+<circle cx="235" cy="252" r="58" fill="white"/>
+<text x="235.0" y="250.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">81</text>
+<text x="235.0" y="276.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#555555">tasks</text>
+<rect x="390.0" y="96.0" width="15.0" height="15.0" rx="0" fill="#4E79A7" stroke="#4E79A7" stroke-width="1"/>
+<text x="414.0" y="108.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Rust  25 (30.9%)</text>
+<rect x="390.0" y="130.0" width="15.0" height="15.0" rx="0" fill="#A0CBE8" stroke="#A0CBE8" stroke-width="1"/>
+<text x="414.0" y="142.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Go  14 (17.3%)</text>
+<rect x="390.0" y="164.0" width="15.0" height="15.0" rx="0" fill="#F28E2B" stroke="#F28E2B" stroke-width="1"/>
+<text x="414.0" y="176.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Python  11 (13.6%)</text>
+<rect x="390.0" y="198.0" width="15.0" height="15.0" rx="0" fill="#59A14F" stroke="#59A14F" stroke-width="1"/>
+<text x="414.0" y="210.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">JavaScript  7 (8.6%)</text>
+<rect x="390.0" y="232.0" width="15.0" height="15.0" rx="0" fill="#8CD17D" stroke="#8CD17D" stroke-width="1"/>
+<text x="414.0" y="244.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">C++  5 (6.2%)</text>
+<rect x="390.0" y="266.0" width="15.0" height="15.0" rx="0" fill="#B6992D" stroke="#B6992D" stroke-width="1"/>
+<text x="414.0" y="278.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Ruby  3 (3.7%)</text>
+<rect x="390.0" y="300.0" width="15.0" height="15.0" rx="0" fill="#499894" stroke="#499894" stroke-width="1"/>
+<text x="414.0" y="312.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Other  16 (19.8%)</text>
+<text x="760.0" y="62.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#111111">Target languages</text>
+<path d="M 760.00 134.00 A 118.00 118.00 0 1 1 711.17 359.42 L 736.00 304.80 A 58.00 58.00 0 1 0 760.00 194.00 Z" fill="#4E79A7" stroke="white" stroke-width="1"/>
+<path d="M 711.17 359.42 A 118.00 118.00 0 0 1 660.17 189.08 L 710.93 221.07 A 58.00 58.00 0 0 0 736.00 304.80 Z" fill="#A0CBE8" stroke="white" stroke-width="1"/>
+<path d="M 660.17 189.08 A 118.00 118.00 0 0 1 741.77 135.42 L 751.04 194.70 A 58.00 58.00 0 0 0 710.93 221.07 Z" fill="#F28E2B" stroke="white" stroke-width="1"/>
+<path d="M 741.77 135.42 A 118.00 118.00 0 0 1 750.86 134.35 L 755.51 194.17 A 58.00 58.00 0 0 0 751.04 194.70 Z" fill="#59A14F" stroke="white" stroke-width="1"/>
+<path d="M 750.86 134.35 A 118.00 118.00 0 0 1 760.00 134.00 L 760.00 194.00 A 58.00 58.00 0 0 0 755.51 194.17 Z" fill="#8CD17D" stroke="white" stroke-width="1"/>
+<circle cx="760" cy="252" r="58" fill="white"/>
+<text x="760.0" y="250.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">81</text>
+<text x="760.0" y="276.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#555555">tasks</text>
+<rect x="900.0" y="96.0" width="15.0" height="15.0" rx="0" fill="#4E79A7" stroke="#4E79A7" stroke-width="1"/>
+<text x="924.0" y="108.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Go  46 (56.8%)</text>
+<rect x="900.0" y="130.0" width="15.0" height="15.0" rx="0" fill="#A0CBE8" stroke="#A0CBE8" stroke-width="1"/>
+<text x="924.0" y="142.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Rust  22 (27.2%)</text>
+<rect x="900.0" y="164.0" width="15.0" height="15.0" rx="0" fill="#F28E2B" stroke="#F28E2B" stroke-width="1"/>
+<text x="924.0" y="176.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Python  11 (13.6%)</text>
+<rect x="900.0" y="198.0" width="15.0" height="15.0" rx="0" fill="#59A14F" stroke="#59A14F" stroke-width="1"/>
+<text x="924.0" y="210.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">TypeScript  1 (1.2%)</text>
+<rect x="900.0" y="232.0" width="15.0" height="15.0" rx="0" fill="#8CD17D" stroke="#8CD17D" stroke-width="1"/>
+<text x="924.0" y="244.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222">Node  1 (1.2%)</text>
+</svg>

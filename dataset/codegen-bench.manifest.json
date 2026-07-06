@@ -1,0 +1,1863 @@
+{
+  "dataset": "codegen-bench-qualified",
+  "defaults": {
+    "quota": 20,
+    "runtime_mode": "docker"
+  },
+  "_note": "Exported from the qualification HTML (合格标的清单 去重). scenario_type<-类型, scenario<-所属场景. LANGUAGE='unknown' (not in source) -> fill per repo before running; PIN source.ref (commit) for reproducibility. _* fields are reference metadata.",
+  "repos": [
+    {
+      "id": "achno-gowall",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Achno/gowall.git",
+        "ref": null
+      },
+      "_repo": "Achno/gowall",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地图像处理命令行输入图片出文件",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "activecm-rita-legacy",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/activecm/rita-legacy.git",
+        "ref": null
+      },
+      "_repo": "activecm/rita-legacy",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "批量日志分析命令行出报告",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "afnanenayet-diffsitter",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/afnanenayet/diffsitter.git",
+        "ref": null
+      },
+      "_repo": "afnanenayet/diffsitter",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "基于语法树的 diff，输出退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "afuh-rick-and-morty-api",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/afuh/rick-and-morty-api.git",
+        "ref": null
+      },
+      "_repo": "afuh/rick-and-morty-api",
+      "_all_scenarios": "web_api",
+      "_type_label": "Service",
+      "_reason": "纯REST/GraphQL后端配通用DB",
+      "_gh_language": "JavaScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "alexhallam-tv",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexhallam/tv.git",
+        "ref": null
+      },
+      "_repo": "alexhallam/tv",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "CSV 美化打印到 stdout，退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "alexpovel-srgn",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexpovel/srgn.git",
+        "ref": null
+      },
+      "_repo": "alexpovel/srgn",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "语法感知grep/sed标准流处理",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "anvilco-spectaql",
+      "scenario": "web_api",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/anvilco/spectaql.git",
+        "ref": null
+      },
+      "_repo": "anvilco/spectaql",
+      "_all_scenarios": "web_api",
+      "_type_label": "Pipeline",
+      "_reason": "schema转静态HTML文档后退出",
+      "_gh_language": "JavaScript",
+      "_default_branch": "main"
+    },
+    {
+      "id": "arthursonzogni-diagon",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ArthurSonzogni/Diagon.git",
+        "ref": null
+      },
+      "_repo": "ArthurSonzogni/Diagon",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "本地stdin输入ASCII图输出即退出",
+      "_gh_language": "C++",
+      "_default_branch": "main"
+    },
+    {
+      "id": "azure-data-api-builder",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "csharp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Azure/data-api-builder.git",
+        "ref": null
+      },
+      "_repo": "Azure/data-api-builder",
+      "_all_scenarios": "database_storage、web_api",
+      "_type_label": "Service",
+      "_reason": "自托管引擎基于通用库暴露 REST/GraphQL",
+      "_gh_language": "C#",
+      "_default_branch": "main"
+    },
+    {
+      "id": "bee-san-name-that-hash",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bee-san/Name-That-Hash.git",
+        "ref": null
+      },
+      "_repo": "bee-san/Name-That-Hash",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "识别哈希类型，输入输出退出",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "benhoyt-goawk",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/benhoyt/goawk.git",
+        "ref": null
+      },
+      "_repo": "benhoyt/goawk",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "AWK 实现，stdin→stdout，退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "betterleaks-betterleaks",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/betterleaks/betterleaks.git",
+        "ref": null
+      },
+      "_repo": "betterleaks/betterleaks",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "扫描目录stdin输出后退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "blst-security-cherrybomb",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/blst-security/cherrybomb.git",
+        "ref": null
+      },
+      "_repo": "blst-security/cherrybomb",
+      "_all_scenarios": "cli_tool、cryptography_security、web_api",
+      "_type_label": "CLI",
+      "_reason": "本地OpenAPI审计CLI可入CI",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "carapace-sh-carapace-bin",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/carapace-sh/carapace-bin.git",
+        "ref": null
+      },
+      "_repo": "carapace-sh/carapace-bin",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "生成补全输出到 stdout 即退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "chaqchase-lla",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chaqchase/lla.git",
+        "ref": null
+      },
+      "_repo": "chaqchase/lla",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "ls 替代品，默认列目录后退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "chipsalliance-verible",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chipsalliance/verible.git",
+        "ref": null
+      },
+      "_repo": "chipsalliance/verible",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "SystemVerilog lint/format CLI 套件",
+      "_gh_language": "C++",
+      "_default_branch": "master"
+    },
+    {
+      "id": "cisco-ai-defense-skill-scanner",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cisco-ai-defense/skill-scanner.git",
+        "ref": null
+      },
+      "_repo": "cisco-ai-defense/skill-scanner",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "核心 scan 静态本地分析，联网可选",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "cmhughes-latexindent-pl",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "tex",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cmhughes/latexindent.pl.git",
+        "ref": null
+      },
+      "_repo": "cmhughes/latexindent.pl",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "读LaTeX文件格式化后退出",
+      "_gh_language": "TeX",
+      "_default_branch": "main"
+    },
+    {
+      "id": "codelytv-php-ddd-example",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "php",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/CodelyTV/php-ddd-example.git",
+        "ref": null
+      },
+      "_repo": "CodelyTV/php-ddd-example",
+      "_all_scenarios": "web_api",
+      "_type_label": "Service",
+      "_reason": "无头后端DDD示例REST服务",
+      "_gh_language": "PHP",
+      "_default_branch": "main"
+    },
+    {
+      "id": "codingo-interlace",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/codingo/Interlace.git",
+        "ref": null
+      },
+      "_repo": "codingo/Interlace",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "命令多线程化本地执行退出",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "cyphar-paperback",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cyphar/paperback.git",
+        "ref": null
+      },
+      "_repo": "cyphar/paperback",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地加密生成纸质备份 PDF，无网络",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "deadc0de6-dotdrop",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/deadc0de6/dotdrop.git",
+        "ref": null
+      },
+      "_repo": "deadc0de6/dotdrop",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "模板化部署本地 dotfiles，执行退出",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "dominikwilkowski-cfonts",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dominikwilkowski/cfonts.git",
+        "ref": null
+      },
+      "_repo": "dominikwilkowski/cfonts",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "命令行ANSI字体argv到stdout",
+      "_gh_language": "Rust",
+      "_default_branch": "released"
+    },
+    {
+      "id": "dosisod-refurb",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dosisod/refurb.git",
+        "ref": null
+      },
+      "_repo": "dosisod/refurb",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "Python 重构建议静态检查 CLI",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "dyatko-arkit",
+      "scenario": "cli_tool",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dyatko/arkit.git",
+        "ref": null
+      },
+      "_repo": "dyatko/arkit",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "Pipeline",
+      "_reason": "代码生成架构图文件后退出",
+      "_gh_language": "JavaScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "dyne-tomb",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "shell",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dyne/tomb.git",
+        "ref": null
+      },
+      "_repo": "dyne/tomb",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "封装 LUKS/cryptsetup 本地加密卷",
+      "_gh_language": "Shell",
+      "_default_branch": "master"
+    },
+    {
+      "id": "ebay-tsv-utils",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "d",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eBay/tsv-utils.git",
+        "ref": null
+      },
+      "_repo": "eBay/tsv-utils",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "TSV 处理 CLI 套件，输入输出退出",
+      "_gh_language": "D",
+      "_default_branch": "master"
+    },
+    {
+      "id": "eralchemy-eralchemy",
+      "scenario": "database_storage",
+      "scenario_type": "pipeline",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eralchemy/eralchemy.git",
+        "ref": null
+      },
+      "_repo": "eralchemy/eralchemy",
+      "_all_scenarios": "database_storage",
+      "_type_label": "Pipeline",
+      "_reason": "由DB/标记生成ER图文件即退出",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "evgskv-logica",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "jupyter notebook",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/EvgSkv/logica.git",
+        "ref": null
+      },
+      "_repo": "EvgSkv/logica",
+      "_all_scenarios": "database_storage",
+      "_type_label": "CLI",
+      "_reason": "编译 Datalog 到 SQL 的本地 CLI，SQLite 可用",
+      "_gh_language": "Jupyter Notebook",
+      "_default_branch": "main"
+    },
+    {
+      "id": "fkie-cad-cwe-checker",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/fkie-cad/cwe_checker.git",
+        "ref": null
+      },
+      "_repo": "fkie-cad/cwe_checker",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "二进制分析输入文件出报告",
+      "_gh_language": "Rust",
+      "_default_branch": "master"
+    },
+    {
+      "id": "gammons-ultralist",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gammons/ultralist.git",
+        "ref": null
+      },
+      "_repo": "gammons/ultralist",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地待办命令行即退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "google-fscrypt",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/google/fscrypt.git",
+        "ref": null
+      },
+      "_repo": "google/fscrypt",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地文件系统加密命令行",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "gothenburgbitfactory-timewarrior",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/GothenburgBitFactory/timewarrior.git",
+        "ref": null
+      },
+      "_repo": "GothenburgBitFactory/timewarrior",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地时间追踪，命令式记录报告",
+      "_gh_language": "C++",
+      "_default_branch": "develop"
+    },
+    {
+      "id": "graphql-hive-graphql-inspector",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/graphql-hive/graphql-inspector.git",
+        "ref": null
+      },
+      "_repo": "graphql-hive/graphql-inspector",
+      "_all_scenarios": "web_api",
+      "_type_label": "CLI",
+      "_reason": "CLI 比对 GraphQL schema 文件，退出",
+      "_gh_language": "TypeScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "greenmaskio-greenmask",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/GreenmaskIO/greenmask.git",
+        "ref": null
+      },
+      "_repo": "GreenmaskIO/greenmask",
+      "_all_scenarios": "cryptography_security、database_storage",
+      "_type_label": "CLI",
+      "_reason": "命令行转储/脱敏/恢复，默认本地目录",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "hahwul-jwt-hack",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hahwul/jwt-hack.git",
+        "ref": null
+      },
+      "_repo": "hahwul/jwt-hack",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "JWT工具编解码破解后退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "hauntsaninja-pyp",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hauntsaninja/pyp.git",
+        "ref": null
+      },
+      "_repo": "hauntsaninja/pyp",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "在shell跑Python标准流处理",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "hhatto-gocloc",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hhatto/gocloc.git",
+        "ref": null
+      },
+      "_repo": "hhatto/gocloc",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "统计代码行数输出后退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "homeport-dyff",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/homeport/dyff.git",
+        "ref": null
+      },
+      "_repo": "homeport/dyff",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "YAML/JSON 差异比较 CLI，输出退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "homeport-termshot",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/homeport/termshot.git",
+        "ref": null
+      },
+      "_repo": "homeport/termshot",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "命令输出渲染PNG退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "jacobevelyn-friends",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "ruby",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JacobEvelyn/friends.git",
+        "ref": null
+      },
+      "_repo": "JacobEvelyn/friends",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "纯本地非交互Ruby命令行工具",
+      "_gh_language": "Ruby",
+      "_default_branch": "main"
+    },
+    {
+      "id": "jarulraj-sqlcheck",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jarulraj/sqlcheck.git",
+        "ref": null
+      },
+      "_repo": "jarulraj/sqlcheck",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "读SQL文件报告反模式后退出",
+      "_gh_language": "C++",
+      "_default_branch": "master"
+    },
+    {
+      "id": "jon-becker-heimdall-rs",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Jon-Becker/heimdall-rs.git",
+        "ref": null
+      },
+      "_repo": "Jon-Becker/heimdall-rs",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "可对本地 EVM 字节码反编译，RPC 可选",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "josephburnett-jd",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/josephburnett/jd.git",
+        "ref": null
+      },
+      "_repo": "josephburnett/jd",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "JSON差异/补丁文件到stdout",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "keygen-sh-keygen-api",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "gherkin",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/keygen-sh/keygen-api.git",
+        "ref": null
+      },
+      "_repo": "keygen-sh/keygen-api",
+      "_all_scenarios": "web_api",
+      "_type_label": "Service",
+      "_reason": "自托管软件授权 REST API，仅需 PG/Redis",
+      "_gh_language": "Gherkin",
+      "_default_branch": "master"
+    },
+    {
+      "id": "kimono-koans-httm",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/kimono-koans/httm.git",
+        "ref": null
+      },
+      "_repo": "kimono-koans/httm",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "默认打印 ZFS 快照版本，退出",
+      "_gh_language": "Rust",
+      "_default_branch": "master"
+    },
+    {
+      "id": "lptstr-winfetch",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "powershell",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lptstr/winfetch.git",
+        "ref": null
+      },
+      "_repo": "lptstr/winfetch",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "打印系统信息（neofetch 类），退出",
+      "_gh_language": "PowerShell",
+      "_default_branch": "master"
+    },
+    {
+      "id": "lune-org-lune",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lune-org/lune.git",
+        "ref": null
+      },
+      "_repo": "lune-org/lune",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "跑Luau脚本即退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "martinpaljak-globalplatformpro",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "java",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/martinpaljak/GlobalPlatformPro.git",
+        "ref": null
+      },
+      "_repo": "martinpaljak/GlobalPlatformPro",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地argv到stdout后退出",
+      "_gh_language": "Java",
+      "_default_branch": "next"
+    },
+    {
+      "id": "mermade-widdershins",
+      "scenario": "web_api",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Mermade/widdershins.git",
+        "ref": null
+      },
+      "_repo": "Mermade/widdershins",
+      "_all_scenarios": "web_api",
+      "_type_label": "Pipeline",
+      "_reason": "OpenAPI→Markdown 文档转换，退出",
+      "_gh_language": "JavaScript",
+      "_default_branch": "main"
+    },
+    {
+      "id": "microsoft-procdump-for-linux",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "c",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/microsoft/ProcDump-for-Linux.git",
+        "ref": null
+      },
+      "_repo": "microsoft/ProcDump-for-Linux",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地进程转储命令行",
+      "_gh_language": "C",
+      "_default_branch": "master"
+    },
+    {
+      "id": "mike-engel-jwt-cli",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mike-engel/jwt-cli.git",
+        "ref": null
+      },
+      "_repo": "mike-engel/jwt-cli",
+      "_all_scenarios": "cli_tool、serialization_format",
+      "_type_label": "CLI",
+      "_reason": "本地编解码 JWT，输出退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "mitmproxy-pdoc",
+      "scenario": "web_api",
+      "scenario_type": "pipeline",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mitmproxy/pdoc.git",
+        "ref": null
+      },
+      "_repo": "mitmproxy/pdoc",
+      "_all_scenarios": "web_api",
+      "_type_label": "Pipeline",
+      "_reason": "Python 模块批量生成静态 HTML 文档",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "mna-pigeon",
+      "scenario": "serialization_format",
+      "scenario_type": "pipeline",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mna/pigeon.git",
+        "ref": null
+      },
+      "_repo": "mna/pigeon",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "Pipeline",
+      "_reason": "PEG语法生成解析器代码后退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "mohsen1-yek",
+      "scenario": "cli_tool",
+      "scenario_type": "pipeline",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mohsen1/yek.git",
+        "ref": null
+      },
+      "_repo": "mohsen1/yek",
+      "_all_scenarios": "cli_tool、serialization_format",
+      "_type_label": "Pipeline",
+      "_reason": "序列化仓库文本供 LLM，本地输出退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "moltar-typescript-runtime-type-benchmarks",
+      "scenario": "serialization_format",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/moltar/typescript-runtime-type-benchmarks.git",
+        "ref": null
+      },
+      "_repo": "moltar/typescript-runtime-type-benchmarks",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "Pipeline",
+      "_reason": "本地非交互基准测试批处理",
+      "_gh_language": "TypeScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "mongodb-kingfisher",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mongodb/kingfisher.git",
+        "ref": null
+      },
+      "_repo": "mongodb/kingfisher",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地扫描密钥即退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "msoos-cryptominisat",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/msoos/cryptominisat.git",
+        "ref": null
+      },
+      "_repo": "msoos/cryptominisat",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "SAT求解器读CNF出结果",
+      "_gh_language": "C++",
+      "_default_branch": "master"
+    },
+    {
+      "id": "nccgroup-sobelow",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "elixir",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/nccgroup/sobelow.git",
+        "ref": null
+      },
+      "_repo": "nccgroup/sobelow",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "静态分析Phoenix报告后退出",
+      "_gh_language": "Elixir",
+      "_default_branch": "master"
+    },
+    {
+      "id": "neilotoole-sq",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/neilotoole/sq.git",
+        "ref": null
+      },
+      "_repo": "neilotoole/sq",
+      "_all_scenarios": "database_storage、serialization_format",
+      "_type_label": "CLI",
+      "_reason": "jq 式数据查询 CLI，调用即退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "noborus-trdsql",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/noborus/trdsql.git",
+        "ref": null
+      },
+      "_repo": "noborus/trdsql",
+      "_all_scenarios": "cli_tool、serialization_format",
+      "_type_label": "CLI",
+      "_reason": "对 CSV/JSON 执行 SQL，输出退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "noraj-haiti",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "ruby",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/noraj/haiti.git",
+        "ref": null
+      },
+      "_repo": "noraj/haiti",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "哈希类型识别CLI输入即退出",
+      "_gh_language": "Ruby",
+      "_default_branch": "master"
+    },
+    {
+      "id": "omarciovsena-abibliadigital",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/omarciovsena/abibliadigital.git",
+        "ref": null
+      },
+      "_repo": "omarciovsena/abibliadigital",
+      "_all_scenarios": "web_api",
+      "_type_label": "Service",
+      "_reason": "REST圣经API仅需MongoDB",
+      "_gh_language": "JavaScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "omissis-go-jsonschema",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/omissis/go-jsonschema.git",
+        "ref": null
+      },
+      "_repo": "omissis/go-jsonschema",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "JSON Schema生成Go代码退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "openapitools-openapi-diff",
+      "scenario": "web_api",
+      "scenario_type": "cli",
+      "language": "java",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/OpenAPITools/openapi-diff.git",
+        "ref": null
+      },
+      "_repo": "OpenAPITools/openapi-diff",
+      "_all_scenarios": "web_api",
+      "_type_label": "CLI",
+      "_reason": "比对两份规范文件即退出",
+      "_gh_language": "Java",
+      "_default_branch": "master"
+    },
+    {
+      "id": "ossf-cve-bin-tool",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ossf/cve-bin-tool.git",
+        "ref": null
+      },
+      "_repo": "ossf/cve-bin-tool",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地扫描二进制比对 CVE，支持离线",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "owasp-noir-noir",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "crystal",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/owasp-noir/noir.git",
+        "ref": null
+      },
+      "_repo": "owasp-noir/noir",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地静态扫描即退出",
+      "_gh_language": "Crystal",
+      "_default_branch": "main"
+    },
+    {
+      "id": "pauljamescleary-scala-pet-store",
+      "scenario": "web_api",
+      "scenario_type": "service",
+      "language": "scala",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pauljamescleary/scala-pet-store.git",
+        "ref": null
+      },
+      "_repo": "pauljamescleary/scala-pet-store",
+      "_all_scenarios": "web_api",
+      "_type_label": "Service",
+      "_reason": "http4s REST服务配通用DB",
+      "_gh_language": "Scala",
+      "_default_branch": "master"
+    },
+    {
+      "id": "peggyjs-peggy",
+      "scenario": "serialization_format",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/peggyjs/peggy.git",
+        "ref": null
+      },
+      "_repo": "peggyjs/peggy",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "Pipeline",
+      "_reason": "语法文件生成解析器后退出",
+      "_gh_language": "JavaScript",
+      "_default_branch": "main"
+    },
+    {
+      "id": "phpcsstandards-php-codesniffer",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "php",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
+        "ref": null
+      },
+      "_repo": "PHPCSStandards/PHP_CodeSniffer",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "PHP 静态检查 CLI，输出退出",
+      "_gh_language": "PHP",
+      "_default_branch": "4.x"
+    },
+    {
+      "id": "playcanvas-splat-transform",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/playcanvas/splat-transform.git",
+        "ref": null
+      },
+      "_repo": "playcanvas/splat-transform",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "读取splat转换输出退出",
+      "_gh_language": "TypeScript",
+      "_default_branch": "main"
+    },
+    {
+      "id": "projectdiscovery-cdncheck",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/projectdiscovery/cdncheck.git",
+        "ref": null
+      },
+      "_repo": "projectdiscovery/cdncheck",
+      "_all_scenarios": "cli_tool、web_api",
+      "_type_label": "CLI",
+      "_reason": "本地检测IP的CDN输出退出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "projectdiscovery-dnsx",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/projectdiscovery/dnsx.git",
+        "ref": null
+      },
+      "_repo": "projectdiscovery/dnsx",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地非交互DNS批量查询CLI",
+      "_gh_language": "Go",
+      "_default_branch": "dev"
+    },
+    {
+      "id": "pydoit-doit",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pydoit/doit.git",
+        "ref": null
+      },
+      "_repo": "pydoit/doit",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地任务自动化运行器，执行即退出",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "quick-lint-quick-lint-js",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/quick-lint/quick-lint-js.git",
+        "ref": null
+      },
+      "_repo": "quick-lint/quick-lint-js",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "JS 快速 lint CLI，输出退出",
+      "_gh_language": "C++",
+      "_default_branch": "master"
+    },
+    {
+      "id": "redis-memtier-benchmark",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/redis/memtier_benchmark.git",
+        "ref": null
+      },
+      "_repo": "redis/memtier_benchmark",
+      "_all_scenarios": "database_storage",
+      "_type_label": "CLI",
+      "_reason": "压测缓存输出统计后退出",
+      "_gh_language": "C++",
+      "_default_branch": "master"
+    },
+    {
+      "id": "retypeapp-retype",
+      "scenario": "cli_tool",
+      "scenario_type": "pipeline",
+      "language": "css",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/retypeapp/retype.git",
+        "ref": null
+      },
+      "_repo": "retypeapp/retype",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "Pipeline",
+      "_reason": "Markdown生成静态站点即退出",
+      "_gh_language": "CSS",
+      "_default_branch": "main"
+    },
+    {
+      "id": "revanced-revanced-cli",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "kotlin",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ReVanced/revanced-cli.git",
+        "ref": null
+      },
+      "_repo": "ReVanced/revanced-cli",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地 APK+补丁打补丁后退出",
+      "_gh_language": "Kotlin",
+      "_default_branch": "main"
+    },
+    {
+      "id": "rokath-trice",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rokath/trice.git",
+        "ref": null
+      },
+      "_repo": "rokath/trice",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地插桩/解码C源的CLI",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "rslint-rslint",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rslint/rslint.git",
+        "ref": null
+      },
+      "_repo": "rslint/rslint",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "JS/TS代码检查命令行",
+      "_gh_language": "Rust",
+      "_default_branch": "master"
+    },
+    {
+      "id": "rubysec-bundler-audit",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "ruby",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rubysec/bundler-audit.git",
+        "ref": null
+      },
+      "_repo": "rubysec/bundler-audit",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地离线依赖审计CLI",
+      "_gh_language": "Ruby",
+      "_default_branch": "master"
+    },
+    {
+      "id": "ryanmjacobs-c",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "shell",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ryanmjacobs/c.git",
+        "ref": null
+      },
+      "_repo": "ryanmjacobs/c",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "编译并运行C脚本即退出",
+      "_gh_language": "Shell",
+      "_default_branch": "master"
+    },
+    {
+      "id": "salesforce-policy-sentry",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/salesforce/policy_sentry.git",
+        "ref": null
+      },
+      "_repo": "salesforce/policy_sentry",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地库生成 AWS IAM 策略，不调 AWS",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "samwho-spacer",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/samwho/spacer.git",
+        "ref": null
+      },
+      "_repo": "samwho/spacer",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "管道过滤标准流即退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "schemacrawler-schemacrawler",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "html",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/schemacrawler/SchemaCrawler.git",
+        "ref": null
+      },
+      "_repo": "schemacrawler/SchemaCrawler",
+      "_all_scenarios": "database_storage",
+      "_type_label": "CLI",
+      "_reason": "命令行连库导出 schema 文本后退出",
+      "_gh_language": "HTML",
+      "_default_branch": "main"
+    },
+    {
+      "id": "scony-godot-gdscript-toolkit",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Scony/godot-gdscript-toolkit.git",
+        "ref": null
+      },
+      "_repo": "Scony/godot-gdscript-toolkit",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "GDScript 格式化/lint CLI，退出",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "shuttle-hq-synth",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shuttle-hq/synth.git",
+        "ref": null
+      },
+      "_repo": "shuttle-hq/synth",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "读本地 schema 生成假数据，退出",
+      "_gh_language": "Rust",
+      "_default_branch": "master"
+    },
+    {
+      "id": "sibprogrammer-xq",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/sibprogrammer/xq.git",
+        "ref": null
+      },
+      "_repo": "sibprogrammer/xq",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "XML格式化标准流即退出",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "simonhaenisch-md-to-pdf",
+      "scenario": "cli_tool",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/simonhaenisch/md-to-pdf.git",
+        "ref": null
+      },
+      "_repo": "simonhaenisch/md-to-pdf",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "Pipeline",
+      "_reason": "md→pdf 本地转换，执行退出",
+      "_gh_language": "TypeScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "simonw-sqlite-utils",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/simonw/sqlite-utils.git",
+        "ref": null
+      },
+      "_repo": "simonw/sqlite-utils",
+      "_all_scenarios": "cli_tool、database_storage",
+      "_type_label": "CLI",
+      "_reason": "操作 SQLite 的本地 CLI/管线",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "solidiquis-erdtree",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/solidiquis/erdtree.git",
+        "ref": null
+      },
+      "_repo": "solidiquis/erdtree",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "文件树+磁盘占用（类 du/tree）",
+      "_gh_language": "Rust",
+      "_default_branch": "master"
+    },
+    {
+      "id": "splx-ai-agentic-radar",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/splx-ai/agentic-radar.git",
+        "ref": null
+      },
+      "_repo": "splx-ai/agentic-radar",
+      "_all_scenarios": "cli_tool、cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "本地静态扫描出报告即退出",
+      "_gh_language": "Python",
+      "_default_branch": "main"
+    },
+    {
+      "id": "square-certigo",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/square/certigo.git",
+        "ref": null
+      },
+      "_repo": "square/certigo",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "本地检查校验证书的CLI",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "stepchowfun-typical",
+      "scenario": "serialization_format",
+      "scenario_type": "pipeline",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stepchowfun/typical.git",
+        "ref": null
+      },
+      "_repo": "stepchowfun/typical",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "Pipeline",
+      "_reason": "schema生成序列化代码本地退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "stoplightio-spectral",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stoplightio/spectral.git",
+        "ref": null
+      },
+      "_repo": "stoplightio/spectral",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "OpenAPI文件lint执行即退出",
+      "_gh_language": "TypeScript",
+      "_default_branch": "develop"
+    },
+    {
+      "id": "supabase-postgres-meta",
+      "scenario": "database_storage",
+      "scenario_type": "service",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/supabase/postgres-meta.git",
+        "ref": null
+      },
+      "_repo": "supabase/postgres-meta",
+      "_all_scenarios": "database_storage",
+      "_type_label": "Service",
+      "_reason": "管理Postgres的REST API",
+      "_gh_language": "TypeScript",
+      "_default_branch": "master"
+    },
+    {
+      "id": "tach-org-tach",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tach-org/tach.git",
+        "ref": null
+      },
+      "_repo": "tach-org/tach",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "检查依赖边界报告后退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "tatuylonen-wiktextract",
+      "scenario": "serialization_format",
+      "scenario_type": "pipeline",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tatuylonen/wiktextract.git",
+        "ref": null
+      },
+      "_repo": "tatuylonen/wiktextract",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "Pipeline",
+      "_reason": "词典转储解析输出JSON退出",
+      "_gh_language": "Python",
+      "_default_branch": "master"
+    },
+    {
+      "id": "tavianator-bfs",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "c",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tavianator/bfs.git",
+        "ref": null
+      },
+      "_repo": "tavianator/bfs",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "广度优先find命令本地非交互",
+      "_gh_language": "C",
+      "_default_branch": "main"
+    },
+    {
+      "id": "tclahr-uac",
+      "scenario": "cryptography_security",
+      "scenario_type": "cli",
+      "language": "shell",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tclahr/uac.git",
+        "ref": null
+      },
+      "_repo": "tclahr/uac",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "CLI",
+      "_reason": "取证脚本采集产出归档后退出",
+      "_gh_language": "Shell",
+      "_default_branch": "main"
+    },
+    {
+      "id": "tombi-toml-tombi",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tombi-toml/tombi.git",
+        "ref": null
+      },
+      "_repo": "tombi-toml/tombi",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "TOML格式化即退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "tuna-f1sh-cyme",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tuna-f1sh/cyme.git",
+        "ref": null
+      },
+      "_repo": "tuna-f1sh/cyme",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "lsusb式列出USB后退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "uber-mockolo",
+      "scenario": "cli_tool",
+      "scenario_type": "pipeline",
+      "language": "swift",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/uber/mockolo.git",
+        "ref": null
+      },
+      "_repo": "uber/mockolo",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "Pipeline",
+      "_reason": "Swift源生成mock文件即退出",
+      "_gh_language": "Swift",
+      "_default_branch": "master"
+    },
+    {
+      "id": "variety-variety",
+      "scenario": "cli_tool",
+      "scenario_type": "pipeline",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/variety/variety.git",
+        "ref": null
+      },
+      "_repo": "variety/variety",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "Pipeline",
+      "_reason": "分析 MongoDB 集合模式输出表，退出",
+      "_gh_language": "JavaScript",
+      "_default_branch": "main"
+    },
+    {
+      "id": "vdjagilev-nmap-formatter",
+      "scenario": "serialization_format",
+      "scenario_type": "pipeline",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vdjagilev/nmap-formatter.git",
+        "ref": null
+      },
+      "_repo": "vdjagilev/nmap-formatter",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "Pipeline",
+      "_reason": "nmap XML转多格式输入到输出",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "xmirrorsecurity-opensca-cli",
+      "scenario": "cryptography_security",
+      "scenario_type": "pipeline",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/XmirrorSecurity/OpenSCA-cli.git",
+        "ref": null
+      },
+      "_repo": "XmirrorSecurity/OpenSCA-cli",
+      "_all_scenarios": "cryptography_security",
+      "_type_label": "Pipeline",
+      "_reason": "扫依赖文件出报告支持本地库",
+      "_gh_language": "Go",
+      "_default_branch": "master"
+    },
+    {
+      "id": "yakitrak-notesmd-cli",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Yakitrak/notesmd-cli.git",
+        "ref": null
+      },
+      "_repo": "Yakitrak/notesmd-cli",
+      "_all_scenarios": "cli_tool",
+      "_type_label": "CLI",
+      "_reason": "纯本地非交互笔记命令行",
+      "_gh_language": "Go",
+      "_default_branch": "main"
+    },
+    {
+      "id": "yamafaktory-jql",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yamafaktory/jql.git",
+        "ref": null
+      },
+      "_repo": "yamafaktory/jql",
+      "_all_scenarios": "cli_tool、serialization_format",
+      "_type_label": "CLI",
+      "_reason": "JSON 查询 CLI（类 jq），输出退出",
+      "_gh_language": "Rust",
+      "_default_branch": "main"
+    },
+    {
+      "id": "yamlresume-yamlresume",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "node",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yamlresume/yamlresume.git",
+        "ref": null
+      },
+      "_repo": "yamlresume/yamlresume",
+      "_all_scenarios": "serialization_format",
+      "_type_label": "CLI",
+      "_reason": "YAML 简历→PDF 本地编译，退出",
+      "_gh_language": "TypeScript",
+      "_default_branch": "main"
+    }
+  ]
+}

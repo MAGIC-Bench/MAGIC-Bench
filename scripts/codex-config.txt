@@ -1,0 +1,79 @@
+[projects."/tmp/tmp.6ImZqLT3W2"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/groncx"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/benhoyt-goawk"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/benhoyt-goawk"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/achno-gowall"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/alexhallam-tv"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/alexpovel-srgn"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/afnanenayet-diffsitter"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/alexpovel-srgn"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/homeport-dyff"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/homeport-dyff"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/graphql-hive-graphql-inspector"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/afuh-rick-and-morty-api"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/afuh-rick-and-morty-api"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/anvilco-spectaql"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/neilotoole-sq"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/eralchemy-eralchemy"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/supabase-postgres-meta"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/eralchemy-eralchemy"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/supabase-postgres-meta"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/neilotoole-sq"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/activecm-rita-legacy"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/bee-san-name-that-hash"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/bee-san-name-that-hash"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/repos/betterleaks-betterleaks"]
+trust_level = "trusted"
+
+[projects."/mnt/d/code-bench/out/betterleaks-betterleaks"]
+trust_level = "trusted"
+--- codex defaults (codex --help model/reasoning) ---
+codex-cli 0.141.0

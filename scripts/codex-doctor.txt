@@ -1,0 +1,136 @@
+Codex Doctor v0.141.0 · linux-x86_64
+
+Notes
+   ✗ auth         no Codex credentials were found - Run codex login or provide an API key through a supported auth env var.
+   ⚠ websocket    Responses WebSocket failed; HTTPS fallback may still work - Check proxy, VPN, firewall, DNS, custom CA, and WebSocket policy support.
+   ✗ reachability one or more required provider endpoints are unreachable over HTTP - Check proxy, VPN, firewall, DNS, and custom CA configuration.
+─────────────────────────────────────────────────────────────
+
+Environment
+  ✓ system       C
+      os                       Ubuntu 26.4.0 (resolute) [64-bit]
+      OS language              C
+      LANG                     C.UTF-8
+      VISUAL                   not set
+      EDITOR                   not set
+  ✓ runtime      npm (package /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl, bin /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin, resources /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources, path /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path)
+      version                  0.141.0
+      install method           npm (package /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl, bin /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin, resources /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources, path /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path)
+      commit                   unknown
+      executable               ~/.local/lib/node_module…wn-linux-musl/bin/codex
+  ✓ install      consistent
+      context                  npm (package /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl, bin /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin, resources /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources, path /home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path)
+      managed by               npm: yes · bun: no · package root /home/kiwi/.local/lib/node_modules/@openai/codex
+      PATH entries (2)         ~/.local/bin/codex
+                               ~/.local/bin/codex
+      npm update target        ~/.local/lib/node_modules/@openai/codex
+  ✓ search       file exists (bundled, `/home/kiwi/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path/rg`)
+      search command           ~/.local/lib/node_module…inux-musl/codex-path/rg
+      search provider          bundled
+      search command readiness file exists
+  ✓ git          git version 2.53.0
+      selected git             /usr/bin/git
+      version                  git version 2.53.0
+      exec path                /usr/lib/git-core
+      repo detected            false
+      PATH entries (2)         /usr/bin/git
+                               /bin/git
+  ✓ terminal     unknown · TERM=xterm-256color
+      terminal                 unknown
+      TERM                     xterm-256color
+      stdin is terminal        false
+      stdout is terminal       false
+      stderr is terminal       false
+      terminal size            120x30
+      color output             disabled (stdout is not a terminal)
+      effective locale         C.UTF-8
+      WSL_DISTRO_NAME          present
+      WSL_INTEROP              present
+      WAYLAND_DISPLAY          present
+      DISPLAY                  present
+  ✓ title        default · project c
+      title source             default
+      title items              activity, project-name
+      activity item            true
+      project source           cwd
+      project value            c
+  ✓ state        state paths and databases are inspectable
+      CODEX_HOME               ~/.codex (dir)
+      log dir                  ~/.codex/log (missing)
+      sqlite home              ~/.codex (dir)
+      state DB                 ~/.codex/state_5.sqlite (missing) · integrity skipped (missing)
+      log DB                   ~/.codex/logs_2.sqlite (missing) · integrity skipped (missing)
+      goals DB                 ~/.codex/goals_1.sqlite (missing) · integrity skipped (missing)
+      memories DB              ~/.codex/memories_1.sqlite (missing) · integrity skipped (missing)
+      active rollouts          0 files · 0 B (avg 0 B)
+      archived rollouts        0 files · 0 B (avg 0 B)
+  ✓ threads      no rollout/state DB inventory to compare
+      default model provider   openai
+      rollout DB active files  0
+      rollout DB archived files 0
+      rollout DB scan errors   0
+      rollout DB malformed file names 0
+      rollout DB scan cap reached false
+      rollout DB rows          skipped (state DB missing)
+
+Configuration
+  ✓ config       loaded
+      model                    <default> · openai
+      cwd                      /mnt/c
+      config.toml              ~/.codex/config.toml
+      MCP servers              0
+      feature flags            29 enabled · 0 overridden (full list with --all)
+  ✗ auth         no Codex credentials were found — Run codex login or provide an API key through a supported auth env var.
+      auth storage mode        File
+      auth file                ~/.codex/auth.json
+  ✓ mcp          no MCP servers configured
+  ✓ sandbox      restricted fs + restricted network · approval OnRequest
+      approval policy          OnRequest
+      filesystem sandbox       restricted
+      network sandbox          restricted
+      linux helper             ~/.codex/tmp/arg0/codex-…o6j/codex-linux-sandbox
+      execve wrapper helper    ~/.codex/tmp/arg0/codex-…6j/codex-execve-wrapper
+
+Updates
+  ✓ updates      update configuration is locally consistent
+      startup update check     true
+      update action            npm install -g @openai/codex
+      version cache            ~/.codex/version.json
+      version cache            missing
+      npm update target        ~/.local/lib/node_modules/@openai/codex
+      latest version           0.141.0
+      latest version status    current version is not older
+
+Connectivity
+  ✓ network      no proxy env vars
+      proxy env vars           none
+  ⚠ websocket    Responses WebSocket failed; HTTPS fallback may still work — Check proxy, VPN, firewall, DNS, custom CA, and WebSocket policy support.
+      model provider           openai
+      provider name            OpenAI
+      wire API                 responses
+      supports websockets      true
+      proxy env vars           none
+      connect timeout          15000 ms
+      auth mode                none
+      endpoint                 wss://api.openai.com/v1/<redacted>
+      DNS                      2 IPv4, 0 IPv6, first IPv4
+      handshake transport error network error: Connection reset by peer (os error 104)
+  ✗ reachability one or more required provider endpoints are unreachable over HTTP — Check proxy, VPN, firewall, DNS, and custom CA configuration.
+      reachability mode        ChatGPT auth
+      ChatGPT base URL         https://chatgpt.com/backend-api/ connect failed (required)
+
+Background Server
+  ○ app-server   not running (ephemeral mode)
+      daemon state dir         ~/.codex/app-server-daemon
+      settings                 ~/.codex/app-server-daemon/settings.json (missing)
+      pid file                 ~/.codex/app-server-daemon/app-server.pid (missing)
+      update-loop pid file     ~/.codex/app-server-daem…/app-server-updater.pid (missing)
+      control socket           ~/.codex/app-server-cont…app-server-control.sock
+      status                   not running
+      mode                     ephemeral
+
+─────────────────────────────────────────────────────────────
+14 ok · 1 idle · 3 notes · 1 warn · 2 fail failed
+
+--summary compact output           --all expand truncated lists
+--json redacted report

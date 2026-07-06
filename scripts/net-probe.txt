@@ -1,0 +1,12 @@
+default route: default via 172.23.192.1 dev eth0 proto kernel 
+win gateway IP: 172.23.192.1
+--- localhost proxy ports ---
+  127.0.0.1:7890 closed
+  127.0.0.1:7897 closed
+  127.0.0.1:10809 closed
+  127.0.0.1:1080 closed
+  127.0.0.1:8080 closed
+--- windows gateway proxy ports ---
+  172.23.192.1:7890 closed
+  172.23.192.1:7897 closed
+HTTPS_PROXY=  HTTP_PROXY=

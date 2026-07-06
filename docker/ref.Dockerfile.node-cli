@@ -1,0 +1,17 @@
+# ref-image for a Node.js CLI repo. Two-phase network: BUILD on, RUN off.
+FROM node:20@sha256:REPLACE_WITH_DIGEST AS build
+ENV NPM_CONFIG_REGISTRY=https://registry.npmmirror.com
+WORKDIR /src
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build --if-present
+
+FROM node:20-slim@sha256:REPLACE_WITH_DIGEST
+COPY --from=build /src /src
+WORKDIR /src
+ENV TZ=UTC NO_COLOR=1
+ENTRYPOINT ["node", "cli.js"]
+
+# coverage (lcov): run under `c8 --reporter=lcov --reports-dir=/cover` so it writes /cover/lcov.info
+# grade (hermetic): docker run --rm --network none -v <cov>:/cover ref-image  <argv>

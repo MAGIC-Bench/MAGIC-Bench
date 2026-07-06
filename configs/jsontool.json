@@ -1,0 +1,7 @@
+{
+  "repo_id": "jsontool",
+  "launch": ["python", "-m", "json.tool"],
+  "drafts": "D:/code-bench/out/jsontool/drafts.json",
+  "out_dir": "D:/code-bench/out/jsontool",
+  "coverage": "none"
+}

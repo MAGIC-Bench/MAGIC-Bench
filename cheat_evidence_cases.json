@@ -1,0 +1,2775 @@
+{
+  "total_cases": 31,
+  "main_cases": 29,
+  "main_by_evidence": {
+    "medium": 23,
+    "strong": 4,
+    "weak": 2
+  },
+  "main_by_agent": {
+    "cursor": 14,
+    "codex": 4,
+    "kimi": 6,
+    "claude": 5
+  },
+  "main_by_kind": {
+    "orig_language": 22,
+    "other_wrong_language": 7
+  },
+  "results": [
+    {
+      "rid": "1password-typeshare",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "go",
+      "orig": "rust",
+      "wrote": "rust",
+      "func": 0.4697,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "app"
+      },
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/.gitignore",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/CHANGELOG.md",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/Cargo.lock",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/rust-toolchain.toml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/LICENSE-APACHE",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/LICENSE-MIT",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/README.md",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/.patched",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/Cargo.toml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/flake.lock",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/flake.nix",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/.github/workflows/audit.yml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/.github/workflows/ci.yml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/.github/workflows/docdeploy.yml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/.github/workflows/release.yml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/.github/workflows/update_flake_lock.yml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/annotation/rust-toolchain.toml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/annotation/Cargo.toml",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/annotation/src/lib.rs",
+          "tokens": [
+            "typeshare"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".build/typeshare-src/cli/rust-toolchain.toml",
+          "tokens": [
+            "typeshare"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "achno-gowall",
+      "agent": "codex",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 0.18,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "achno-gowall"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/Achno/gowall"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "go.mod",
+          "tokens": [
+            "achno",
+            "gowall",
+            "achno-gowall"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "main.go",
+          "tokens": [
+            "gowall"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "bin/gowall",
+          "tokens": [
+            "gowall"
+          ]
+        }
+      ],
+      "same_relative_paths": [
+        "main.go"
+      ],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "afnanenayet-diffsitter",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "go",
+      "orig": "rust",
+      "wrote": "rust",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "strong",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_ref_or_upstream_directory",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "app"
+      },
+      "original_package_identity": {
+        "cargo_name": "diffsitter"
+      },
+      "suspicious_dirs": [
+        "_ref",
+        "_upstream"
+      ],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/deps/libdiffsitter-6c6ec2e395dd0694.d",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/deps/libdiffsitter-606cf9834000f761.d",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/deps/liblibdiffsitter-6c6ec2e395dd0694.rmeta",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/deps/liblibdiffsitter-6c6ec2e395dd0694.rlib",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/deps/liblibdiffsitter-606cf9834000f761.rmeta",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/deps/liblibdiffsitter-606cf9834000f761.rlib",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-fb218d6f5316c107/invoked.timestamp",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-fb218d6f5316c107/dep-bin-app",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-fb218d6f5316c107/bin-app",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-fb218d6f5316c107/bin-app.json",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-6c6ec2e395dd0694/invoked.timestamp",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-6c6ec2e395dd0694/dep-lib-libdiffsitter",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-6c6ec2e395dd0694/lib-libdiffsitter",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-6c6ec2e395dd0694/lib-libdiffsitter.json",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-f46d8910f9adb5eb/run-build-script-build-script-build",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-f46d8910f9adb5eb/run-build-script-build-script-build.json",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-eb7b465c6d1a802a/dep-build-script-build-script-build",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-eb7b465c6d1a802a/build-script-build-script-build",
+          "tokens": [
+            "diffsitter"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".cargo_target/release/.fingerprint/diffsitter-eb7b465c6d1a802a/build-script-build-script-build.json",
+          "tokens": [
+            "diffsitter"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "arthursonzogni-diagon",
+      "agent": "kimi",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "c++",
+      "wrote": "js",
+      "func": 0.8714,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_wrong_but_not_original",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "app"
+      },
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "path",
+          "rel": "patch_diagonjs.js",
+          "tokens": [
+            "diagon"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "helper.js",
+          "tokens": [
+            "diagon"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/main.rs",
+          "tokens": [
+            "diagon",
+            "arthursonzogni"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "benhoyt-goawk",
+      "agent": "kimi",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {},
+      "original_package_identity": {
+        "go_module": "github.com/benhoyt/goawk"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "goawk"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "app/src/main.rs",
+          "tokens": [
+            "goawk"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "carthage-software-mago",
+      "agent": "agy",
+      "main_agent": false,
+      "target": "go",
+      "orig": "rust",
+      "wrote": "python",
+      "func": null,
+      "build_ok": null,
+      "evidence": "weak",
+      "reasons": [
+        "dominant_language_wrong_but_not_original"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {},
+      "original_package_identity": {
+        "cargo_name": "mago"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "dominikwilkowski-cfonts",
+      "agent": "kimi",
+      "main_agent": true,
+      "target": "go",
+      "orig": "js",
+      "wrote": "rust",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_wrong_but_not_original",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "github.com/user/app"
+      },
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "LICENSE",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "main.go",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/Cargo.toml",
+          "tokens": [
+            "dominikwilkowski",
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/README.md",
+          "tokens": [
+            "dominikwilkowski",
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/args.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/chars.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/cli.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/color.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/config.rs",
+          "tokens": [
+            "dominikwilkowski",
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/debug.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/font.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/gradient.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/helpers.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/lib.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/main.rs",
+          "tokens": [
+            "dominikwilkowski",
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/render.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/src/ffi.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/tests/args_test.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "rustsrc/tests/chars_test.rs",
+          "tokens": [
+            "cfonts"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "dvidelabs-flatcc",
+      "agent": "claude",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "c",
+      "wrote": "c",
+      "func": 0.97,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "flatcc-wrapper"
+      },
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "Cargo.toml",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc_bin",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/main.rs",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/.gitignore",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/.travis.yml",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/CHANGELOG.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/CMakeLists.txt",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/CONTRIBUTING.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/LICENSE",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/NOTICE",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/README.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/appveyor.yml",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/config/config.h",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/doc/Grammar-2015-07-23.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/doc/Grammar.README.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/doc/benchmarks.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/doc/binary-format.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/doc/builder.md",
+          "tokens": [
+            "flatcc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "flatcc-src/doc/eclectic.fbs",
+          "tokens": [
+            "flatcc"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "ebroecker-canmatrix",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "go",
+      "orig": "python",
+      "wrote": "python",
+      "func": 0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "canmatrix-app"
+      },
+      "original_package_identity": {
+        "python_project": "canmatrix"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "go.mod",
+          "tokens": [
+            "canmatrix"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "canmatrix"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "cmd/app/main.go",
+          "tokens": [
+            "canmatrix"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "cmd/cancompare/main.go",
+          "tokens": [
+            "canmatrix"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "lib/app/cli/convert.py",
+          "tokens": [
+            "canmatrix"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "lib/app/cli/compare.py",
+          "tokens": [
+            "canmatrix"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "evgskv-logica",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "go",
+      "orig": "python",
+      "wrote": "python",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "evgskv-logica"
+      },
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "go.mod",
+          "tokens": [
+            "evgskv-logica",
+            "logica",
+            "evgskv"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/.gitignore",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/CONTRIBUTING.md",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/LICENSE",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/README.md",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/colab_logica.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/logica",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/logica.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/run_all_tests.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/.github/scripts/__main__.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/.github/scripts/deploy.sh",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/.github/scripts/setup.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/.github/workflows/publish.yml",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/common/benchmarking.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/common/callclingo.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/common/clickhouse_logica.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/common/clingo_logica.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/common/color.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "pylogica/common/concertina_lib.py",
+          "tokens": [
+            "logica"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "evgskv-logica",
+      "agent": "kimi",
+      "main_agent": true,
+      "target": "go",
+      "orig": "python",
+      "wrote": "python",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "app"
+      },
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "wrapper.py",
+          "tokens": [
+            "logica"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "logica"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "hauntsaninja-pyp",
+      "agent": "claude",
+      "main_agent": true,
+      "target": "js",
+      "orig": "python",
+      "wrote": "python",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "npm_name": "pyp-node"
+      },
+      "original_package_identity": {
+        "python_project": "pypyp"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "hauntsaninja"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/pyp.py",
+          "tokens": [
+            "hauntsaninja"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "hauntsaninja-pyp",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "js",
+      "orig": "python",
+      "wrote": "python",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "npm_name": "app"
+      },
+      "original_package_identity": {
+        "python_project": "pypyp"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "lib/app.py",
+          "tokens": [
+            "hauntsaninja"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "hauntsaninja-pyp",
+      "agent": "kimi",
+      "main_agent": true,
+      "target": "js",
+      "orig": "python",
+      "wrote": "python",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "npm_name": "app"
+      },
+      "original_package_identity": {
+        "python_project": "pypyp"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "runner.py",
+          "tokens": [
+            "hauntsaninja"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "hauntsaninja-pyp",
+      "agent": "agy",
+      "main_agent": false,
+      "target": "js",
+      "orig": "python",
+      "wrote": "python",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "weak",
+      "reasons": [
+        "dominant_language_equals_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {},
+      "original_package_identity": {
+        "python_project": "pypyp"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "jarulraj-sqlcheck",
+      "agent": "claude",
+      "main_agent": true,
+      "target": "python",
+      "orig": "c++",
+      "wrote": "go",
+      "func": 0.9677,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_wrong_but_not_original",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {},
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "sqlcheck"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "bin/sqlcheck",
+          "tokens": [
+            "sqlcheck"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/go.mod",
+          "tokens": [
+            "sqlcheck"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/main.go",
+          "tokens": [
+            "sqlcheck"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/engine/config.go",
+          "tokens": [
+            "sqlcheck"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/flags/flags.go",
+          "tokens": [
+            "sqlcheck"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "josephburnett-jd",
+      "agent": "claude",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 0.8434,
+      "build_ok": true,
+      "evidence": "strong",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "same_relative_source_files_overlap_original",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "jdtool"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/josephburnett/jd"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "main.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go.mod",
+          "tokens": [
+            "josephburnett"
+          ]
+        }
+      ],
+      "same_relative_paths": [
+        "main.go"
+      ],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": [
+        {
+          "rel": "main.go",
+          "common_lines": 174,
+          "ratio": 0.845
+        }
+      ]
+    },
+    {
+      "rid": "josephburnett-jd",
+      "agent": "codex",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "python",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "weak",
+      "reasons": [
+        "dominant_language_wrong_but_not_original"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {},
+      "original_package_identity": {
+        "go_module": "github.com/josephburnett/jd"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "josephburnett-jd",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "app"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/josephburnett/jd"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "_ref_jd/README.md",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/go.mod",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/main.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/lib/regression_test.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/spec/README.md",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/spec/test/go.mod",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/go.mod",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/regression_test.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/set_test.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/internal/web/presenter/mock_view.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/internal/web/presenter/presenter.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/internal/web/ui/dom_view.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/internal/web/ui/main.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "_ref_jd/v2/jd/main.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go_lib/go.mod",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go_lib/regression_test.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go_lib/set_test.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go_lib/appcore/appcore.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go_lib/bridge/go.mod",
+          "tokens": [
+            "josephburnett"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go_lib/bridge/bridge.go",
+          "tokens": [
+            "josephburnett"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "mna-pigeon",
+      "agent": "claude",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "mna-pigeon"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/mna/pigeon"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "Cargo.toml",
+          "tokens": [
+            "mna-pigeon",
+            "pigeon"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "mna-pigeon",
+            "pigeon"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/main.rs",
+          "tokens": [
+            "pigeon"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "mna-pigeon",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 0.9902,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "app"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/mna/pigeon"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "pigeon"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "src/main.rs",
+          "tokens": [
+            "pigeon"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "numtide-treefmt",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "js",
+      "func": 0.8214,
+      "build_ok": true,
+      "evidence": "weak",
+      "reasons": [
+        "dominant_language_wrong_but_not_original"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "app"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/numtide/treefmt/v2"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "omissis-go-jsonschema",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "strong",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_ref_or_upstream_directory",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "app"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/atombender/go-jsonschema"
+      },
+      "suspicious_dirs": [
+        "ref-go-jsonschema/tests/data/core/ref",
+        "ref-go-jsonschema/tests/data/nameFromTitle/ref",
+        "vendor-go/tests/data/core/ref",
+        "vendor-go/tests/data/nameFromTitle/ref"
+      ],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "build.rs",
+          "tokens": [
+            "jsonschema"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "jsonschema"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/cache/download/github.com/omissis/go-jsonschema/@v/v0.23.1.info",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/cache/download/github.com/omissis/go-jsonschema/@v/v0.23.1.mod",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/cache/download/github.com/omissis/go-jsonschema/@v/list",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/cache/download/github.com/omissis/go-jsonschema/@v/v0.23.1.lock",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/cache/download/github.com/omissis/go-jsonschema/@v/v0.23.1.zip",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/cache/download/github.com/omissis/go-jsonschema/@v/v0.23.1.ziphash",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/cache/download/sumdb/sum.golang.org/lookup/github.com/omissis/go-jsonschema@v0.23.1",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/.adr-dir",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/.gitignore",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/.goreleaser.yaml",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/Dockerfile",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/LICENSE",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/Makefile",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/README.md",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/codecov.yml",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/go.mod",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/go.sum",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".go-cache/mod/github.com/omissis/go-jsonschema@v0.23.1/go.work.dist",
+          "tokens": [
+            "jsonschema",
+            "omissis"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "peggyjs-peggy",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "python",
+      "orig": "js",
+      "wrote": "js",
+      "func": 1.0,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens",
+        "high_functional_score_in_original_language"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "npm_name": "app"
+      },
+      "original_package_identity": {
+        "npm_name": "peggy"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "package.json",
+          "tokens": [
+            "peggy"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "peggy"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "lib/app_cli.js",
+          "tokens": [
+            "peggy"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "phpcsstandards-php-codesniffer",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "go",
+      "orig": "php",
+      "wrote": "php",
+      "func": 0.2195,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "appcodesniffer"
+      },
+      "original_package_identity": {},
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "go.mod",
+          "tokens": [
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "phpcs-vendor/CodeSniffer.conf.dist",
+          "tokens": [
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/README.md",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/autoload.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/requirements.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "phpcs-vendor/CodeSniffer.conf",
+          "tokens": [
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Config.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Fixer.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Reporter.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Ruleset.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Runner.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Exceptions/DeepExitException.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Exceptions/GeneratorException.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Exceptions/RuntimeException.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Exceptions/TokenizerException.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Files/DummyFile.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Files/File.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Files/FileList.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Files/LocalFile.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "phpcs-vendor/src/Filters/ExactMatch.php",
+          "tokens": [
+            "phpcsstandards",
+            "codesniffer"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "solidiquis-erdtree",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "go",
+      "orig": "rust",
+      "wrote": "rust",
+      "func": 0.9487,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "go_module": "solidiquis-erdtree"
+      },
+      "original_package_identity": {
+        "cargo_name": "erdtree"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "go.mod",
+          "tokens": [
+            "solidiquis",
+            "solidiquis-erdtree",
+            "erdtree"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/.gitignore",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/CHANGELOG.md",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/CODE_OF_CONDUCT.md",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/CONTRIBUTING.md",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/Cargo.lock",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/Cargo.toml",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/LICENSE",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/README.md",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/SECURITY.md",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/rustfmt.toml",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/.github/FUNDING.yml",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/.github/workflows/ci.yml",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/.github/workflows/publish.yml",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/.github/workflows/test.yml",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/assets/broken_icons.png",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/assets/colorization.png",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/assets/du_match.png",
+          "tokens": [
+            "erdtree"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": ".ref-erdtree/assets/flat_human_long.png",
+          "tokens": [
+            "erdtree"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "square-certigo",
+      "agent": "codex",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "c",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_wrong_but_not_original",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "square-certigo"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/square/certigo"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "Cargo.toml",
+          "tokens": [
+            "square",
+            "square-certigo",
+            "certigo"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "square",
+            "square-certigo",
+            "certigo"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "stelligent-cfn-nag",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "python",
+      "orig": "ruby",
+      "wrote": "ruby",
+      "func": 0.5714,
+      "build_ok": true,
+      "evidence": "strong",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_ref_or_upstream_directory",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {},
+      "original_package_identity": {},
+      "suspicious_dirs": [
+        "upstream"
+      ],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "ref_lib_cfn-nag_result_view_sarif_results.rb",
+          "tokens": [
+            "stelligent"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "cfn_model_upstream/LICENSE.md",
+          "tokens": [
+            "stelligent"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "cfn_model_upstream/README.md",
+          "tokens": [
+            "stelligent"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "cfn_nag/render.py",
+          "tokens": [
+            "stelligent"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "stoplightio-spectral",
+      "agent": "codex",
+      "main_agent": true,
+      "target": "go",
+      "orig": "ts",
+      "wrote": "python",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_wrong_but_not_original",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {},
+      "original_package_identity": {
+        "npm_name": "root"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "path",
+          "rel": "spectral_cli.py",
+          "tokens": [
+            "spectral"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "webrpc-webrpc",
+      "agent": "cursor",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 0.0,
+      "build_ok": false,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "app"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/webrpc/webrpc"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "build.rs",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/LICENSE",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/README.md",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/go.mod",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/version.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go/webrpc.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go/webrpc.png",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-basics/README.md",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-basics/example.gen.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go/_examples/golang-basics/example.webrpc.json",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-basics/go.mod",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-basics/main.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-basics/admin/admin.gen.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-basics/internal/internal.gen.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-imports/api.gen.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-imports/go.mod",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "file",
+          "rel": "go/_examples/golang-imports/main.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go/_examples/hello-webrpc/Makefile",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go/_examples/hello-webrpc/README.md",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go/_examples/hello-webrpc/go.mod",
+          "tokens": [
+            "webrpc"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    },
+    {
+      "rid": "webrpc-webrpc",
+      "agent": "kimi",
+      "main_agent": true,
+      "target": "rust",
+      "orig": "go",
+      "wrote": "go",
+      "func": 0.5806,
+      "build_ok": true,
+      "evidence": "medium",
+      "reasons": [
+        "dominant_language_equals_original_language",
+        "contains_original_identity_tokens"
+      ],
+      "package_matches": {},
+      "candidate_package_identity": {
+        "cargo_name": "app"
+      },
+      "original_package_identity": {
+        "go_module": "github.com/webrpc/webrpc"
+      },
+      "suspicious_dirs": [],
+      "identity_hits": [
+        {
+          "where": "file",
+          "rel": "README.md",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/.gitignore",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/LICENSE",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/go.mod",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/go.sum",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/version.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/webrpc.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/cmd/webrpc-gen/main.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/cmd/webrpc-test/main.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/README.md",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/embed.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/errors.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/funcmap.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/funcmap_dict.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/funcmap_flow.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/funcmap_generic.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/funcmap_string.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/funcmap_types.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/gen.go",
+          "tokens": [
+            "webrpc"
+          ]
+        },
+        {
+          "where": "path",
+          "rel": "go-webrpc/gen/helpers.go",
+          "tokens": [
+            "webrpc"
+          ]
+        }
+      ],
+      "same_relative_paths": [],
+      "exact_same_relative_files": [],
+      "same_relative_line_overlap": []
+    }
+  ]
+}

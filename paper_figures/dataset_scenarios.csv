@@ -1,0 +1,6 @@
+kind,label,count,rate
+scenario,CLI tools,35,0.43209876543209874
+scenario,Serialization / format,25,0.30864197530864196
+scenario,Security / crypto,10,0.12345679012345678
+scenario,Database / storage,6,0.07407407407407407
+scenario,Web API,5,0.06172839506172839

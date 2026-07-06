@@ -1,0 +1,17 @@
+kind,label,count,rate
+source_language,Rust,25,0.30864197530864196
+source_language,Go,14,0.1728395061728395
+source_language,Python,11,0.13580246913580246
+source_language,JavaScript,7,0.08641975308641975
+source_language,C++,5,0.06172839506172839
+source_language,Ruby,3,0.037037037037037035
+source_language,TypeScript,3,0.037037037037037035
+source_language,C,3,0.037037037037037035
+source_language,Java,2,0.024691358024691357
+source_language,C#,2,0.024691358024691357
+source_language,Elixir,1,0.012345679012345678
+source_language,Shell,1,0.012345679012345678
+source_language,PHP,1,0.012345679012345678
+source_language,Swift,1,0.012345679012345678
+source_language,Perl,1,0.012345679012345678
+source_language,Kotlin,1,0.012345679012345678

@@ -1,0 +1,444 @@
+{
+  "dataset": "pilot-10",
+  "defaults": {
+    "quota": 20,
+    "runtime_mode": "local"
+  },
+  "repos": [
+    {
+      "id": "dosisod-refurb",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "python",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dosisod/refurb.git",
+        "ref": null
+      },
+      "_repo": "dosisod/refurb",
+      "_lang": "Python",
+      "_stars": 2536,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Go",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        }
+      ],
+      "_desc": "A tool for refurbishing and modernizing Python codebases",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "josephburnett-jd",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/josephburnett/jd.git",
+        "ref": null
+      },
+      "_repo": "josephburnett/jd",
+      "_lang": "Go",
+      "_stars": 2277,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "JSON diff and patch",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "neilotoole-sq",
+      "scenario": "database_storage",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/neilotoole/sq.git",
+        "ref": null
+      },
+      "_repo": "neilotoole/sq",
+      "_lang": "Go",
+      "_stars": 2520,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "数据库/存储",
+      "_all_scen": [
+        "数据库/存储",
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "sq data wrangler",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "achno-gowall",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "go",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Achno/gowall.git",
+        "ref": null
+      },
+      "_repo": "Achno/gowall",
+      "_lang": "Go",
+      "_stars": 2258,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C++",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "TypeScript",
+          "score": 2
+        }
+      ],
+      "_desc": "A CLI tool that converts/themes images and wallpapers to match a color scheme",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "solidiquis-erdtree",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/solidiquis/erdtree.git",
+        "ref": null
+      },
+      "_repo": "solidiquis/erdtree",
+      "_lang": "Rust",
+      "_stars": 2585,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "C",
+          "score": 3
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "A multi-threaded file-tree visualizer and disk usage analyzer",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "carthage-software-mago",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/carthage-software/mago.git",
+        "ref": null
+      },
+      "_repo": "carthage-software/mago",
+      "_lang": "Rust",
+      "_stars": 3245,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 3
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Rust PHP toolchain CLI: linting, formatting, static analysis for PHP code",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "1password-typeshare",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "rust",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/1Password/typeshare.git",
+        "ref": null
+      },
+      "_repo": "1Password/typeshare",
+      "_lang": "Rust",
+      "_stars": 2958,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Go",
+          "score": 5
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C++",
+          "score": 2
+        }
+      ],
+      "_desc": "Shared types for Rust and other languages via code generation CLI",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "arthursonzogni-diagon",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ArthurSonzogni/Diagon.git",
+        "ref": null
+      },
+      "_repo": "ArthurSonzogni/Diagon",
+      "_lang": "C++",
+      "_stars": 2211,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 4
+        },
+        {
+          "lang": "TypeScript",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        }
+      ],
+      "_desc": "Interactive ASCII art diagram generators",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "jarulraj-sqlcheck",
+      "scenario": "cli_tool",
+      "scenario_type": "cli",
+      "language": "cpp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jarulraj/sqlcheck.git",
+        "ref": null
+      },
+      "_repo": "jarulraj/sqlcheck",
+      "_lang": "C++",
+      "_stars": 2520,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "CLI 工具",
+      "_all_scen": [
+        "CLI 工具"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        }
+      ],
+      "_desc": "Automatically identify anti-patterns in SQL queries",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    },
+    {
+      "id": "stoplightio-spectral",
+      "scenario": "serialization_format",
+      "scenario_type": "cli",
+      "language": "typescript",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stoplightio/spectral.git",
+        "ref": null
+      },
+      "_repo": "stoplightio/spectral",
+      "_lang": "TypeScript",
+      "_stars": 3133,
+      "_tier": 1,
+      "_golden": "cli_tool",
+      "_scen_label": "序列化/格式",
+      "_all_scen": [
+        "序列化/格式"
+      ],
+      "_rewrite": [
+        {
+          "lang": "Rust",
+          "score": 5
+        },
+        {
+          "lang": "Go",
+          "score": 4
+        },
+        {
+          "lang": "Python",
+          "score": 3
+        },
+        {
+          "lang": "Java",
+          "score": 2
+        },
+        {
+          "lang": "C#",
+          "score": 2
+        }
+      ],
+      "_desc": "A flexible JSON/YAML linter and OpenAPI/AsyncAPI spec validator CLI",
+      "_friction": [],
+      "_src": "screening-2026-06-24"
+    }
+  ]
+}

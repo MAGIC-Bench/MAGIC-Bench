@@ -1,0 +1,46 @@
+########## achno-gowall ##########
+eb.debian.org/debian|https://mirrors.tuna.tsinghua.edu.cn/debian|g; s|http://security.debian.org/debian-security|https://mirrors.tuna.tsinghua.edu.cn/debian-security|g' {} +;     fi;     apt-get update;     apt-get install -y --no-install-recommends       ca-certificates       pngquant       tesseract-ocr       tesseract-ocr-eng;     rm -rf /var/lib/apt/lists/*;     mkdir -p /root/.config/gowall /tmp/gowall;     printf '%s\n'       'EnableImagePreviewing: false'       'InlineImagePreview: false'       'OutputFolder: /tmp/gowall'       'OnnxRuntimeFolderPath: /tmp/gowall/onnx'       'OnnxModelFolderPath: /tmp/gowall/onnx'       > /root/.config/gowall/config.yml' returned a non-zero code: 100
+
+
+########## activecm-rita-legacy ##########
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c go build -trimpath -buildvcs=false     -ldflags="-s -w -X github.com/activecm/rita-legacy/config.Version=${VERSION} -X github.com/activecm/rita-legacy/config.ExactVersion=${EXACT_VERSION}"     -o /out/rita .' returned a non-zero code: 2
+
+
+########## afnanenayet-diffsitter ##########
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c git submodule update --init --recursive --depth 1     && cargo build --locked --profile production --bin diffsitter' returned a non-zero code: 101
+
+
+########## alexhallam-tv ##########
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c cargo build --locked --release --package tidy-viewer --bin tidy-viewer     && strip target/release/tidy-viewer' returned a non-zero code: 101
+
+
+########## anvilco-spectaql ##########
+ will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c npm config set registry https://registry.npmmirror.com   && npm config set @anvilco:registry https://registry.npmmirror.com   && printf '%s\n'     'registry=https://registry.npmmirror.com'     '@anvilco:registry=https://registry.npmmirror.com'     > .npmrc   && npm install -g yarn@1.22.22 --registry=https://registry.npmmirror.com   && yarn config set registry https://registry.npmmirror.com   && yarn install --frozen-lockfile --non-interactive --registry=https://registry.npmmirror.com' returned a non-zero code: 1
+
+
+########## graphql-hive-graphql-inspector ##########
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+The command '/bin/sh -c pnpm build' returned a non-zero code: 1
+
+
+########## neilotoole-sq stage5 ##########
+PermissionError: [Errno 13] Permission denied: '/tmp/codebench_run_hh7dr9o3/export.yml'

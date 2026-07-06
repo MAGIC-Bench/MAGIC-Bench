@@ -1,0 +1,59 @@
+{
+  "agents": {
+    "claude": {
+      "projects": 81,
+      "avg_requirement_coverage": 0.23906908672703878,
+      "module_weighted_requirement_coverage": 0.2474820143884892,
+      "covered_modules": 172,
+      "total_modules": 695,
+      "test_passed": 3443,
+      "test_total": 6637,
+      "test_pass_rate": 0.5187584752147054,
+      "perfect_projects": 5,
+      "rerun_gate_failed_after_original_ok": 0
+    },
+    "codex": {
+      "projects": 81,
+      "avg_requirement_coverage": 0.17439446295655447,
+      "module_weighted_requirement_coverage": 0.18129496402877698,
+      "covered_modules": 126,
+      "total_modules": 695,
+      "test_passed": 2867,
+      "test_total": 6637,
+      "test_pass_rate": 0.431972276631008,
+      "perfect_projects": 3,
+      "rerun_gate_failed_after_original_ok": 1
+    },
+    "cursor": {
+      "projects": 81,
+      "avg_requirement_coverage": 0.27003044764482664,
+      "module_weighted_requirement_coverage": 0.26187050359712233,
+      "covered_modules": 182,
+      "total_modules": 695,
+      "test_passed": 3232,
+      "test_total": 6637,
+      "test_pass_rate": 0.48696700316408015,
+      "perfect_projects": 10,
+      "rerun_gate_failed_after_original_ok": 2
+    },
+    "kimi": {
+      "projects": 81,
+      "avg_requirement_coverage": 0.21853505467339884,
+      "module_weighted_requirement_coverage": 0.22877697841726619,
+      "covered_modules": 159,
+      "total_modules": 695,
+      "test_passed": 3028,
+      "test_total": 6637,
+      "test_pass_rate": 0.4562302244990206,
+      "perfect_projects": 6,
+      "rerun_gate_failed_after_original_ok": 5
+    }
+  },
+  "overall": {
+    "projects": 324,
+    "test_passed": 12570,
+    "test_total": 26548,
+    "test_pass_rate": 0.47348199487720355,
+    "perfect_projects": 24
+  }
+}

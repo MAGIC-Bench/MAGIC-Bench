@@ -1,0 +1,12 @@
+chars: 73896   lines: 39
+=== headings (h1-h4) ===
+  h1 '🧪 评测标的终版 · 语言分布 + 严格复筛'
+  h2 '语言分布（216 个最终标的）'
+  h2 '五场景分布'
+  h2 '分场景终版清单（点标题折叠）'
+  h2 '本轮严格复筛 · 淘汰明细（20）'
+=== table headers (th) ===
+  ['#', '仓库', '形态', '语言', '构建', '来源', '#', '仓库', '形态', '语言', '构建', '来源', '#', '仓库', '形态', '语言', '构建', '来源', '#', '仓库', '形态', '语言', '构建', '来源', '#', '仓库', '形态', '语言', '构建', '来源']
+=== sample window around first github url ===
+'e 闭源下载）、纯库（lune 运行时、moltar 基准集）、脚手架（ryanmjacobs/c、Interlace 包装器）。明细见文末。</div>\n\n<h2>分场景终版清单（点标题折叠）</h2>\n<details class="dom" open><summary><span class="dn">CLI Tool · 命令行</span><span class="ds">101 个 · CLI 92 · Pipeline 9</span></summary><table><thead><tr><th>#</th><th>仓库</th><th>形态</th><th>语言</th><th>构建</th><th>来源</th></tr></thead><tbody><tr><td class="num">1</td><td><a class="repo" href="https://github.com/facebook/zstd" target="_blank" rel="noopener">facebook/zstd</a></td><td><span class="form f-cli">CLI</span></td><td>C</td><td><code>make</c'
+=== js data vars ===

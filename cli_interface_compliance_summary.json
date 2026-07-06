@@ -1,0 +1,72 @@
+{
+  "agents": {
+    "claude": {
+      "projects": 81,
+      "build_ok_projects": 61,
+      "build_failed_projects": 20,
+      "probe_passed": 1592,
+      "probe_total": 3693,
+      "interface_compliance_all": 0.43108583807202816,
+      "probe_passed_build_ok_only": 1592,
+      "probe_total_build_ok_only": 2777,
+      "interface_compliance_build_ok_only": 0.5732805185451927,
+      "avg_project_compliance_all": 0.4815237288209446,
+      "avg_project_compliance_build_ok_only": 0.6394003612212542,
+      "fully_compliant_projects": 20
+    },
+    "codex": {
+      "projects": 81,
+      "build_ok_projects": 59,
+      "build_failed_projects": 22,
+      "probe_passed": 1612,
+      "probe_total": 3693,
+      "interface_compliance_all": 0.43650148930408883,
+      "probe_passed_build_ok_only": 1612,
+      "probe_total_build_ok_only": 2577,
+      "interface_compliance_build_ok_only": 0.6255335661622041,
+      "avg_project_compliance_all": 0.5199876490520545,
+      "avg_project_compliance_build_ok_only": 0.7138813486985833,
+      "fully_compliant_projects": 23
+    },
+    "cursor": {
+      "projects": 81,
+      "build_ok_projects": 57,
+      "build_failed_projects": 24,
+      "probe_passed": 1449,
+      "probe_total": 3693,
+      "interface_compliance_all": 0.3923639317627945,
+      "probe_passed_build_ok_only": 1449,
+      "probe_total_build_ok_only": 2724,
+      "interface_compliance_build_ok_only": 0.5319383259911894,
+      "avg_project_compliance_all": 0.461215987076291,
+      "avg_project_compliance_build_ok_only": 0.6554121921610452,
+      "fully_compliant_projects": 14
+    },
+    "kimi": {
+      "projects": 81,
+      "build_ok_projects": 57,
+      "build_failed_projects": 24,
+      "probe_passed": 1437,
+      "probe_total": 3693,
+      "interface_compliance_all": 0.3891145410235581,
+      "probe_passed_build_ok_only": 1437,
+      "probe_total_build_ok_only": 2577,
+      "interface_compliance_build_ok_only": 0.5576251455180442,
+      "avg_project_compliance_all": 0.44382023245249075,
+      "avg_project_compliance_build_ok_only": 0.6306919092745921,
+      "fully_compliant_projects": 16
+    }
+  },
+  "overall": {
+    "projects": 324,
+    "build_ok_projects": 234,
+    "build_failed_projects": 90,
+    "probe_passed": 6090,
+    "probe_total": 14772,
+    "interface_compliance_all": 0.4122664500406174,
+    "probe_passed_build_ok_only": 6090,
+    "probe_total_build_ok_only": 10655,
+    "interface_compliance_build_ok_only": 0.5715626466447677,
+    "fully_compliant_projects": 73
+  }
+}

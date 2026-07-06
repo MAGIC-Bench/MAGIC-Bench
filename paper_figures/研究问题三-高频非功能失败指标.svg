@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="470" viewBox="0 0 1320 470">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="470.0" y1="36" x2="470.0" y2="415" stroke="#D7DCE2" stroke-width="1"/>
+<text x="470.0" y="443.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">0</text>
+<line x1="665.0" y1="36" x2="665.0" y2="415" stroke="#D7DCE2" stroke-width="1"/>
+<text x="665.0" y="443.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">25</text>
+<line x1="860.0" y1="36" x2="860.0" y2="415" stroke="#D7DCE2" stroke-width="1"/>
+<text x="860.0" y="443.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">50</text>
+<line x1="1055.0" y1="36" x2="1055.0" y2="415" stroke="#D7DCE2" stroke-width="1"/>
+<text x="1055.0" y="443.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">75</text>
+<line x1="1250.0" y1="36" x2="1250.0" y2="415" stroke="#D7DCE2" stroke-width="1"/>
+<text x="1250.0" y="443.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#555555">100</text>
+<text x="860.0" y="466.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">Failure rate (%)</text>
+<text x="40.0" y="67.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">PTB2: No hard-coded paths</text>
+<rect x="470.0" y="55.0" width="769.8" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="1247.8" y="67.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">98.7%</text>
+<text x="40.0" y="104.1" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">CMP1: Shared-environment startup</text>
+<rect x="470.0" y="92.1" width="745.9" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="1223.9" y="104.1" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">95.6%</text>
+<text x="40.0" y="141.2" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">MTN4: Cognitive complexity within threshold</text>
+<rect x="470.0" y="129.2" width="579.0" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="1057.0" y="141.2" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">74.2%</text>
+<text x="40.0" y="178.4" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">RLY1: Long/repeated execution without failure</text>
+<rect x="470.0" y="166.4" width="566.7" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="1044.7" y="178.4" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">72.6%</text>
+<text x="40.0" y="215.5" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">PTB4: Explicit text encoding</text>
+<rect x="470.0" y="203.5" width="572.2" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="1050.2" y="215.5" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">73.4%</text>
+<text x="40.0" y="252.6" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">CLI: Complete CLI contract compliance</text>
+<rect x="470.0" y="240.6" width="536.7" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="1014.7" y="252.6" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">68.8%</text>
+<text x="40.0" y="289.7" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">MTN1: No oversized single file</text>
+<rect x="470.0" y="277.7" width="449.6" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="927.6" y="289.7" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">57.6%</text>
+<text x="40.0" y="326.8" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">PERF4: Timed correct pass</text>
+<rect x="470.0" y="314.8" width="413.3" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="891.3" y="326.8" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">53.0%</text>
+<text x="40.0" y="363.9" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">PTB6: No platform-specific binding</text>
+<rect x="470.0" y="351.9" width="340.6" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="818.6" y="363.9" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">43.7%</text>
+<text x="40.0" y="401.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#222222">PTB3: No logs/cache in source tree</text>
+<rect x="470.0" y="389.0" width="221.4" height="15.0" rx="0" fill="#2F5D8C" stroke="#2F5D8C" stroke-width="1"/>
+<text x="699.4" y="401.0" font-family="Times New Roman, Arial, Noto Sans SC, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222">28.4%</text>
+</svg>

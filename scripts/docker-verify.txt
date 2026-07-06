@@ -1,0 +1,9 @@
+groups: kiwi adm cdrom sudo dip plugdev users docker
+in docker group: YES
+--- docker info ---
+Server=29.1.3 | containers=0 | images=7
+--- docker ps ---
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+--- python3 in WSL? (A段 pipeline 要用) ---
+/usr/bin/python3
+Python 3.14.4

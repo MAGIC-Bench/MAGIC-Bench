@@ -1,0 +1,17 @@
+# ref-image for a Go CLI repo. Two-phase network: BUILD on (goproxy.cn), RUN off.
+# Pin base images to a digest for a reproducible, frozen oracle.
+FROM golang:1.24@sha256:REPLACE_WITH_DIGEST AS build
+ENV GOPROXY=https://goproxy.cn,direct GOFLAGS=-mod=mod
+WORKDIR /src
+COPY . .
+RUN go test ./...                              # Stage 0 baseline gate
+RUN go build -cover -o /out/app .              # instrumented for black-box coverage
+
+FROM gcr.io/distroless/static-debian12@sha256:REPLACE_WITH_DIGEST
+COPY --from=build /out/app /app
+ENV GOCOVERDIR=/cover TZ=UTC NO_COLOR=1
+ENTRYPOINT ["/app"]
+
+# capture golden / grade (run phase is hermetic):
+#   docker run --rm --network none --cpus 1 --memory 512m \
+#       -e GOCOVERDIR=/cover -v <cov_dir>:/cover  ref-image@sha256:<digest>  <argv>

@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Top NFR failure signals in RQ3. Only build-success submissions are included.}
+\label{tab:rq3-top-nfr-failures}
+\begin{tabular}{rlllrr}
+\toprule
+Rank & Dimension & Metric & Failure signal & Failed / applicable & Failure rate \\
+\midrule
+1 & PTB & PTB.PTB2 & No hard-coded paths & 226/229 & 98.69\% \\
+2 & CMP & CMP.CMP1 & Shared-environment startup & 219/229 & 95.63\% \\
+3 & MTN & MTN.MTN4 & Cognitive complexity within threshold & 170/229 & 74.24\% \\
+4 & RLY & RLY.RLY1 & Long/repeated execution without failure & 170/234 & 72.65\% \\
+5 & PTB & PTB.PTB4 & Explicit text encoding & 168/229 & 73.36\% \\
+6 & CMP & CMP.CLI & Complete CLI contract compliance & 161/234 & 68.80\% \\
+7 & MTN & MTN.MTN1 & No oversized single file & 132/229 & 57.64\% \\
+8 & PERF & PERF.PERF4 & Timed correct pass & 124/234 & 52.99\% \\
+9 & PTB & PTB.PTB6 & No platform-specific binding & 100/229 & 43.67\% \\
+10 & PTB & PTB.PTB3 & No logs/cache in source tree & 65/229 & 28.38\% \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,233 @@
+{
+ "dataset": "codegen-bench-pilot-v2",
+ "defaults": {
+  "quota": 20,
+  "runtime_mode": "docker"
+ },
+ "repos": [
+  {
+   "id": "adrienverge-yamllint",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/adrienverge/yamllint.git",
+    "ref": null
+   },
+   "_repo": "adrienverge/yamllint",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "carapace-sh-carapace-bin",
+   "scenario": "cli_tool",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/carapace-sh/carapace-bin.git",
+    "ref": null
+   },
+   "_repo": "carapace-sh/carapace-bin",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "kellyjonbrazil-jc",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/kellyjonbrazil/jc.git",
+    "ref": null
+   },
+   "_repo": "kellyjonbrazil/jc",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "01mf02-jaq",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/01mf02/jaq.git",
+    "ref": null
+   },
+   "_repo": "01mf02/jaq",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "新CLI池"
+  },
+  {
+   "id": "cue-lang-cue",
+   "scenario": "serialization_format",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/cue-lang/cue.git",
+    "ref": null
+   },
+   "_repo": "cue-lang/cue",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "cisco-ai-defense-skill-scanner",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/cisco-ai-defense/skill-scanner.git",
+    "ref": null
+   },
+   "_repo": "cisco-ai-defense/skill-scanner",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "blst-security-cherrybomb",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "rust",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/blst-security/cherrybomb.git",
+    "ref": null
+   },
+   "_repo": "blst-security/cherrybomb",
+   "_form": "cli",
+   "_build": "cargo",
+   "_lang": "Rust",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "anchore-grype",
+   "scenario": "cryptography_security",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/anchore/grype.git",
+    "ref": null
+   },
+   "_repo": "anchore/grype",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "projectdiscovery-cdncheck",
+   "scenario": "web_api",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/projectdiscovery/cdncheck.git",
+    "ref": null
+   },
+   "_repo": "projectdiscovery/cdncheck",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "openapitools-openapi-diff",
+   "scenario": "web_api",
+   "scenario_type": "cli",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/OpenAPITools/openapi-diff.git",
+    "ref": null
+   },
+   "_repo": "OpenAPITools/openapi-diff",
+   "_form": "cli",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "mitmproxy-pdoc",
+   "scenario": "web_api",
+   "scenario_type": "pipeline",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/mitmproxy/pdoc.git",
+    "ref": null
+   },
+   "_repo": "mitmproxy/pdoc",
+   "_form": "pipe",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "evgskv-logica",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "python",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/EvgSkv/logica.git",
+    "ref": null
+   },
+   "_repo": "EvgSkv/logica",
+   "_form": "cli",
+   "_build": "pip",
+   "_lang": "Python",
+   "_src": "上轮复筛保留"
+  },
+  {
+   "id": "dinedal-textql",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "go",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/dinedal/textql.git",
+    "ref": null
+   },
+   "_repo": "dinedal/textql",
+   "_form": "cli",
+   "_build": "go",
+   "_lang": "Go",
+   "_src": "均衡补充"
+  },
+  {
+   "id": "schemacrawler-schemacrawler",
+   "scenario": "database_storage",
+   "scenario_type": "cli",
+   "language": "java",
+   "source": {
+    "kind": "git",
+    "url": "https://github.com/schemacrawler/SchemaCrawler.git",
+    "ref": null
+   },
+   "_repo": "schemacrawler/SchemaCrawler",
+   "_form": "cli",
+   "_build": "maven",
+   "_lang": "Java",
+   "_src": "上轮复筛保留"
+  }
+ ]
+}

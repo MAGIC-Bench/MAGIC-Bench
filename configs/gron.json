@@ -1,0 +1,9 @@
+{
+  "repo_id": "gron",
+  "scenario_type": "cli",
+  "src": "D:/code-bench/repos/gron",
+  "launch": ["D:/code-bench/bin/gron_cov.exe"],
+  "coverage": "go",
+  "quota": 20,
+  "drafts": "D:/code-bench/out/gron/05_input-drafts.json"
+}

@@ -1,0 +1,21 @@
+TOTAL scenarios: 5   repos: 216
+
+## CLI Tool · 命令行  (101 个 · CLI 92 · Pipeline 9) -> 101 rows
+   forms: {'cli': 92, 'pipe': 9}
+   langs: {'Rust': 28, 'Go': 22, 'Python': 20, 'C': 10, 'JavaScript': 8, 'C++': 4, 'Kotlin': 3, 'TypeScript': 3, 'Java': 1, 'PHP': 1, 'Ruby': 1}
+
+## Serialization / Format · 序列化/格式  (54 个 · CLI 36 · Pipeline 18) -> 54 rows
+   forms: {'cli': 36, 'pipe': 18}
+   langs: {'Go': 17, 'Rust': 13, 'Python': 7, 'C++': 5, 'Java': 3, 'JavaScript': 3, 'TypeScript': 3, 'C': 2, 'Ruby': 1}
+
+## Cryptography / Security · 密码学/安全  (37 个 · CLI 36 · Pipeline 1) -> 37 rows
+   forms: {'cli': 36, 'pipe': 1}
+   langs: {'Go': 18, 'Rust': 7, 'Python': 6, 'C': 2, 'Ruby': 2, 'C++': 1, 'Shell': 1}
+
+## Web API · 接口服务  (14 个 · Service 8 · CLI 3 · Pipeline 3) -> 14 rows
+   forms: {'cli': 3, 'pipe': 3, 'svc': 8}
+   langs: {'Go': 3, 'Java': 2, 'JavaScript': 2, 'Python': 2, 'Ruby': 2, 'TypeScript': 1, 'C#': 1, 'PHP': 1}
+
+## Database / Storage · 数据库/存储  (10 个 · Service 2 · CLI 7 · Pipeline 1) -> 10 rows
+   forms: {'cli': 7, 'pipe': 1, 'svc': 2}
+   langs: {'Python': 5, 'Go': 2, 'Java': 1, 'C#': 1, 'TypeScript': 1}
